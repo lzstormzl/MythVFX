@@ -15,11 +15,11 @@ D:/GithubProject/MythVFX
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57463
+65367
 Successfully changed project path to: D:/GithubProject/MythVFX
 D:/GithubProject/MythVFX
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 106.37 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 105.53 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path D:/UnityVersion/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,42 +35,441 @@ Initialize mono
 Mono path[0] = 'D:/UnityVersion/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'D:/UnityVersion/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/UnityVersion/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UnityVersion/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.024007 seconds.
+Registered in 0.000807 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 104.59 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 97.62 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.731 seconds
+- Completed reload, in  0.587 seconds
 Domain Reload Profiling:
-	ReloadAssembly (731ms)
-		BeginReloadAssembly (47ms)
+	ReloadAssembly (587ms)
+		BeginReloadAssembly (49ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (595ms)
-			LoadAssemblies (47ms)
+		EndReloadAssembly (476ms)
+			LoadAssemblies (48ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (155ms)
+			SetupTypeCache (144ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (254ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (217ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (105ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (81ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.214359 seconds.
+Registered in 0.003390 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 100.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.217 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1218ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1037ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (358ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (376ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4582 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 342.4 MB.
+System memory in use after: 342.6 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 5133.
+Total: 3.643900 ms (FindLiveObjects: 0.379400 ms CreateObjectMapping: 0.285300 ms MarkObjects: 2.817800 ms  DeleteObjects: 0.160500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/VFXPatreon/PhoenixWall/GabrielAguiarProductions/Shaders/WallShader01_Unlit.shadergraph
+  artifactKey: Guid(f78e30ec7ef93c84093c64d8a118d64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFXPatreon/PhoenixWall/GabrielAguiarProductions/Shaders/WallShader01_Unlit.shadergraph using Guid(f78e30ec7ef93c84093c64d8a118d64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473ddcd3580184ab5dbbaf5e3d450940') in 0.033744 seconds 
+  Import took 0.082736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.395433 seconds.
+  path: Assets/VFXPatreon/PhoenixWall/GabrielAguiarProductions/Shaders/WallShader01_Unlit.shadergraph
+  artifactKey: Guid(f78e30ec7ef93c84093c64d8a118d64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFXPatreon/PhoenixWall/GabrielAguiarProductions/Shaders/WallShader01_Unlit.shadergraph using Guid(f78e30ec7ef93c84093c64d8a118d64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b03a2bf2f8dcf8968e566808c7aa55') in 0.001745 seconds 
+  Import took 0.067722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 383.145186 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Hades/Skill4FlameOfUnderWorld
+  artifactKey: Guid(1627f13c08c811e4dbb8c678627869d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Hades/Skill4FlameOfUnderWorld using Guid(1627f13c08c811e4dbb8c678627869d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3ec05527f457bc62e5013f63a7b7c3') in 0.000997 seconds 
+  Import took 0.026264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.237405 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Hades/HadesFlameOfUnderworldSource
+  artifactKey: Guid(e4c37f6702c484549b86530bf068491b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Hades/HadesFlameOfUnderworldSource using Guid(e4c37f6702c484549b86530bf068491b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3b6e618b6e071b650d24e2547e54bb') in 0.000894 seconds 
+  Import took 0.029989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.985363 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Hades/Skill4FlameOfUnderWorld/Demo
+  artifactKey: Guid(30aeac43caef2744e80af393b2a69e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Hades/Skill4FlameOfUnderWorld/Demo using Guid(30aeac43caef2744e80af393b2a69e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825afc294b794cdddf729318169ed7cd') in 0.000872 seconds 
+  Import took 0.020577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.487036 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Hades/Skill4FlameOfUnderWorld/Demo/HadesSkill4_FlameOfUnderworld.controller
+  artifactKey: Guid(df3511f03f4786f46bc3dc88d8a4ec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Hades/Skill4FlameOfUnderWorld/Demo/HadesSkill4_FlameOfUnderworld.controller using Guid(df3511f03f4786f46bc3dc88d8a4ec9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123541562f5f99235ede42cb8f19f2aa') in 0.003232 seconds 
+  Import took 0.097466 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003561 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.179 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1179ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1007ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (384ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (316ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 303.3 MB.
+System memory in use after: 303.6 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 5135.
+Total: 3.811200 ms (FindLiveObjects: 0.414800 ms CreateObjectMapping: 0.310300 ms MarkObjects: 3.064300 ms  DeleteObjects: 0.020700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 671.723202 seconds.
+  path: Assets/VFXPatreon/PhoenixWall/GabrielAguiarProductions/Shaders/WallShader01_Unlit.shadergraph
+  artifactKey: Guid(f78e30ec7ef93c84093c64d8a118d64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFXPatreon/PhoenixWall/GabrielAguiarProductions/Shaders/WallShader01_Unlit.shadergraph using Guid(f78e30ec7ef93c84093c64d8a118d64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976a5b0baf243e06edac299704b1c30a') in 0.082858 seconds 
+  Import took 0.114429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.621186 seconds.
+  path: Assets/VFXPatreon/PhoenixWall/GabrielAguiarProductions/Shaders/WallShader01_Unlit 1.shadergraph
+  artifactKey: Guid(8a31ff7f82ae7c34b81ad48721c0789f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFXPatreon/PhoenixWall/GabrielAguiarProductions/Shaders/WallShader01_Unlit 1.shadergraph using Guid(8a31ff7f82ae7c34b81ad48721c0789f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef979b848cc115e0299e274f6d6ed181') in 0.004102 seconds 
+  Import took 0.010887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.686344 seconds.
+  path: Assets/VFXPatreon/PhoenixWall/GabrielAguiarProductions/Shaders/WallShader01_UnlitAlpha.shadergraph
+  artifactKey: Guid(5f820f6819bf52f4ab432cc87a3234df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFXPatreon/PhoenixWall/GabrielAguiarProductions/Shaders/WallShader01_UnlitAlpha.shadergraph using Guid(5f820f6819bf52f4ab432cc87a3234df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11dd9a3d5234e4d547b78992aa91214') in 0.001307 seconds 
+  Import took 0.023244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.407712 seconds.
+  path: Assets/VFXPatreon/PhoenixWall/GabrielAguiarProductions/Shaders
+  artifactKey: Guid(0c96ba80b053fd04697b23d9a08075e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFXPatreon/PhoenixWall/GabrielAguiarProductions/Shaders using Guid(0c96ba80b053fd04697b23d9a08075e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755431364247ee3f74cb0fa51536cefa') in 0.000993 seconds 
+  Import took 0.031797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.115043 seconds.
+  path: Assets/VFXPatreon/PhoenixWall/GabrielAguiarProductions/Shaders/HadesFlameOfUnderworld.shadergraph
+  artifactKey: Guid(8a31ff7f82ae7c34b81ad48721c0789f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFXPatreon/PhoenixWall/GabrielAguiarProductions/Shaders/HadesFlameOfUnderworld.shadergraph using Guid(8a31ff7f82ae7c34b81ad48721c0789f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b9a1e345f4413a182ad553e4a23977') in 0.002367 seconds 
+  Import took 0.027208 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003387 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.227 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1228ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1047ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (404ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (318ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 303.4 MB.
+System memory in use after: 303.7 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 5137.
+Total: 4.035000 ms (FindLiveObjects: 0.451900 ms CreateObjectMapping: 0.396400 ms MarkObjects: 3.162000 ms  DeleteObjects: 0.023500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 285.457226 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Hades/Skill4FlameOfUnderWorld/Demo/HadesSkill4Full.controller
+  artifactKey: Guid(f5746f7bd75bec541b6c464fcd126082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Hades/Skill4FlameOfUnderWorld/Demo/HadesSkill4Full.controller using Guid(f5746f7bd75bec541b6c464fcd126082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1864c002fb634bb370d0c9a89ca1b22a') in 0.080170 seconds 
+  Import took 0.101511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1307.981048 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Hades/HadesFlameOfUnderworldSource/FlameOfUnderwoldTest.fbx
+  artifactKey: Guid(6f696f408fe582f4ea484202d71f593e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Hades/HadesFlameOfUnderworldSource/FlameOfUnderwoldTest.fbx using Guid(6f696f408fe582f4ea484202d71f593e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0626e320f5ab497c9b7d14880d5383') in 0.362528 seconds 
+  Import took 0.390450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.607651 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Hades/HadesFlameOfUnderworldSource/abc.fbx
+  artifactKey: Guid(cd21fe95ff5595941b7788440c19436d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Hades/HadesFlameOfUnderworldSource/abc.fbx using Guid(cd21fe95ff5595941b7788440c19436d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c94f9883eb237d812330626c33ca5d') in 0.026847 seconds 
+  Import took 0.062924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 187.280910 seconds.
+  path: Assets/VFXPatreon/PhoenixWall/GabrielAguiarProductions/Shaders/HadesFlameOfUnderworld.shadergraph
+  artifactKey: Guid(8a31ff7f82ae7c34b81ad48721c0789f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFXPatreon/PhoenixWall/GabrielAguiarProductions/Shaders/HadesFlameOfUnderworld.shadergraph using Guid(8a31ff7f82ae7c34b81ad48721c0789f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e05b0966e7030005e470f2df0c5553') in 0.006080 seconds 
+  Import took 0.038766 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003507 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.145 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1145ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (955ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (356ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 309.3 MB.
+System memory in use after: 309.5 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 5221.
+Total: 3.499300 ms (FindLiveObjects: 0.385800 ms CreateObjectMapping: 0.297500 ms MarkObjects: 2.792000 ms  DeleteObjects: 0.023000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.232024 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.360 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4363ms)
+		BeginReloadAssembly (728ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (140ms)
+		EndReloadAssembly (3352ms)
+			LoadAssemblies (1544ms)
+			RebuildTransferFunctionScriptingTraits (18ms)
+			SetupTypeCache (726ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (809ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (61ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (219ms)
+				ProcessInitializeOnLoadAttributes (427ms)
+				ProcessInitializeOnLoadMethodAttributes (87ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4163 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 309.3 MB.
+System memory in use after: 309.5 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 5223.
+Total: 37.493100 ms (FindLiveObjects: 0.376200 ms CreateObjectMapping: 0.275700 ms MarkObjects: 36.816500 ms  DeleteObjects: 0.023900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
