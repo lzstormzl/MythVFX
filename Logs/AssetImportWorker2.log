@@ -1,0 +1,715 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Enterprise' Language: 'en' Physical Memory: 16300 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\UnityVersion\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/GithubProject/MythVFX
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49957
+Successfully changed project path to: D:/GithubProject/MythVFX
+D:/GithubProject/MythVFX
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 94.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path D:/UnityVersion/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GithubProject/MythVFX/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   30.0.15.1259
+Initialize mono
+Mono path[0] = 'D:/UnityVersion/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityVersion/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/UnityVersion/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityVersion/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000790 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 95.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.556 seconds
+Domain Reload Profiling:
+	ReloadAssembly (556ms)
+		BeginReloadAssembly (42ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (456ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (132ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (75ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004458 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 102.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.457 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2457ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (2287ms)
+			LoadAssemblies (1340ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (331ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (439ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3828 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.9 MB.
+System memory in use after: 240.1 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4269.
+Total: 3.306800 ms (FindLiveObjects: 0.297000 ms CreateObjectMapping: 0.184800 ms MarkObjects: 2.735000 ms  DeleteObjects: 0.089000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures
+  artifactKey: Guid(5725f8b4fa142f14dae28fa51d70bec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures using Guid(5725f8b4fa142f14dae28fa51d70bec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41efe874f60cc19f624f717bc27e10a') in 0.004582 seconds 
+  Import took 0.009851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 762.572209 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite
+  artifactKey: Guid(60163ebf909d6624e963db5119ac28bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite using Guid(60163ebf909d6624e963db5119ac28bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd7de32ece82580a2fbc3c6d68b8660') in 0.001117 seconds 
+  Import took 0.054037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.569005 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Source
+  artifactKey: Guid(1107dd23441b6864c90092d2802109a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Source using Guid(1107dd23441b6864c90092d2802109a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7e49116cef5100a6ba3ddb972ec0b3') in 0.000964 seconds 
+  Import took 0.038432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016064 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartExplosion 1.prefab
+  artifactKey: Guid(3a3d7a1c5d770464480a9f240f5fc51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartExplosion 1.prefab using Guid(3a3d7a1c5d770464480a9f240f5fc51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f535e59c57daebb37ef17e7107e757') in 0.715397 seconds 
+  Import took 0.748201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartPoof 1.prefab
+  artifactKey: Guid(160fd029fa559c14591426196b5398b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartPoof 1.prefab using Guid(160fd029fa559c14591426196b5398b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993de9a9dfb09a155ff986811e8ebf1e') in 0.038714 seconds 
+  Import took 0.060653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartStream 1.prefab
+  artifactKey: Guid(a1717cc8356cd6041be7e62be8b8dc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartStream 1.prefab using Guid(a1717cc8356cd6041be7e62be8b8dc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b76bedeb295cf1627f4f60f1f9c10fd') in 0.007225 seconds 
+  Import took 0.053083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.576478 seconds.
+  path: Assets/Epic Toon FX/Materials/Basics/cloud_2x2_default_AB.mat
+  artifactKey: Guid(d386c5d9fb941e845b73fe6da5491ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Basics/cloud_2x2_default_AB.mat using Guid(d386c5d9fb941e845b73fe6da5491ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ad3bc02e94ada94548ba6c43a4a3a0') in 0.433525 seconds 
+  Import took 0.468343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.449171 seconds.
+  path: Assets/Epic Toon FX/Materials/Misc/Hearts/heart_AB.mat
+  artifactKey: Guid(db608f6f11761e6409b8ea41aaa6adda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Misc/Hearts/heart_AB.mat using Guid(db608f6f11761e6409b8ea41aaa6adda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345cca9e82dee2df0eae9be63208a83d') in 0.007376 seconds 
+  Import took 0.033213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.122424 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartPoof 1.prefab
+  artifactKey: Guid(160fd029fa559c14591426196b5398b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartPoof 1.prefab using Guid(160fd029fa559c14591426196b5398b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa16318727fc9832a1ab352e58f5246d') in 0.008840 seconds 
+  Import took 0.050045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.159031 seconds.
+  path: Assets/Epic Toon FX/Materials/Misc/Hearts/heart2_AB.mat
+  artifactKey: Guid(4e47fdfe66dd2a046986da0de1ef7495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Misc/Hearts/heart2_AB.mat using Guid(4e47fdfe66dd2a046986da0de1ef7495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93f8fc14e40a148fec111dc109b209f') in 0.007194 seconds 
+  Import took 0.023056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.387832 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartExplosion 1.prefab
+  artifactKey: Guid(3a3d7a1c5d770464480a9f240f5fc51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartExplosion 1.prefab using Guid(3a3d7a1c5d770464480a9f240f5fc51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f55d91b06341305775a5cf930a9e908') in 0.010669 seconds 
+  Import took 0.076734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.551432 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartExplosion 1.prefab
+  artifactKey: Guid(3a3d7a1c5d770464480a9f240f5fc51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartExplosion 1.prefab using Guid(3a3d7a1c5d770464480a9f240f5fc51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8536bbc021ac26fdefeae92237daf27c') in 0.011236 seconds 
+  Import took 0.041058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.471495 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartExplosion 1.prefab
+  artifactKey: Guid(3a3d7a1c5d770464480a9f240f5fc51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartExplosion 1.prefab using Guid(3a3d7a1c5d770464480a9f240f5fc51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0041a2677f1dc9754035528b9e8e5c9c') in 0.009713 seconds 
+  Import took 0.035042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.547591 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartExplosion 1.prefab
+  artifactKey: Guid(3a3d7a1c5d770464480a9f240f5fc51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartExplosion 1.prefab using Guid(3a3d7a1c5d770464480a9f240f5fc51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4ecc6fd8f8151cedaddbeddaed34b9') in 0.009681 seconds 
+  Import took 0.046733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.582981 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/Heart.png
+  artifactKey: Guid(bd5134d4708a7aa458dbd9f96fd6f3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/Heart.png using Guid(bd5134d4708a7aa458dbd9f96fd6f3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980a2d3afdc1db1e8fa60cfb3ab02d40') in 0.065501 seconds 
+  Import took 0.090105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/Lips.png
+  artifactKey: Guid(853612fd5d67fa14aa8e423149d69be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/Lips.png using Guid(853612fd5d67fa14aa8e423149d69be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d56111a4018a9b7ce230693e049c9f') in 0.027132 seconds 
+  Import took 0.050469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/HeartTexturesSheet.png
+  artifactKey: Guid(ae5590ae4e2e3e8459395f3bf8cbf192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/HeartTexturesSheet.png using Guid(ae5590ae4e2e3e8459395f3bf8cbf192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564f0f523a910f96707b351ff3020791') in 0.032230 seconds 
+  Import took 0.066439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.908816 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/Heart.png
+  artifactKey: Guid(bd5134d4708a7aa458dbd9f96fd6f3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/Heart.png using Guid(bd5134d4708a7aa458dbd9f96fd6f3c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b687337da6df1bdeb365c5078d7be8') in 0.006677 seconds 
+  Import took 0.043000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/Lips.png
+  artifactKey: Guid(853612fd5d67fa14aa8e423149d69be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/Lips.png using Guid(853612fd5d67fa14aa8e423149d69be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537c918880762d5e23c8abbbcb43e5c4') in 0.014712 seconds 
+  Import took 0.040950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/HeartTexturesSheet.png
+  artifactKey: Guid(ae5590ae4e2e3e8459395f3bf8cbf192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/HeartTexturesSheet.png using Guid(ae5590ae4e2e3e8459395f3bf8cbf192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6fbeb94884f410c6941f54227448ac') in 0.007877 seconds 
+  Import took 0.024425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.804103 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/M_AphroditeHeart.mat
+  artifactKey: Guid(613353fe882304e44bae149a3819313e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/M_AphroditeHeart.mat using Guid(613353fe882304e44bae149a3819313e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c833e6b07334b29644168a72cefe14b') in 0.107276 seconds 
+  Import took 0.126593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.264409 seconds.
+  path: Assets/Epic Toon FX/Materials/Basics/glow1_ADD.mat
+  artifactKey: Guid(e653836c30661fe419b8992e230ca189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Basics/glow1_ADD.mat using Guid(e653836c30661fe419b8992e230ca189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d109d3002adb8ed554c311b52f23331') in 0.007897 seconds 
+  Import took 0.043141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.895249 seconds.
+  path: Assets/Epic Toon FX/Materials/Basics/circlestretchy_AB.mat
+  artifactKey: Guid(c69a36694c3d44847ae1097a253e3d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Basics/circlestretchy_AB.mat using Guid(c69a36694c3d44847ae1097a253e3d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d1c7bda9f8d13dd9cb48d68798ee7a') in 0.008115 seconds 
+  Import took 0.014424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.821664 seconds.
+  path: Assets/Epic Toon FX/Materials/Misc/Hearts/heart2_AB.mat
+  artifactKey: Guid(4e47fdfe66dd2a046986da0de1ef7495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Misc/Hearts/heart2_AB.mat using Guid(4e47fdfe66dd2a046986da0de1ef7495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ee5f903225e00d9c6693f93a60019c') in 0.008235 seconds 
+  Import took 0.022927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.194126 seconds.
+  path: Assets/Epic Toon FX/Materials/Misc/Hearts/heart_AB.mat
+  artifactKey: Guid(db608f6f11761e6409b8ea41aaa6adda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Misc/Hearts/heart_AB.mat using Guid(db608f6f11761e6409b8ea41aaa6adda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5932a2e35e8910fad49855b4b760ee') in 0.008611 seconds 
+  Import took 0.046226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.309107 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/M_AphroditeHeart 1.mat
+  artifactKey: Guid(95674694847cc524c855b2ff70b2137a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/M_AphroditeHeart 1.mat using Guid(95674694847cc524c855b2ff70b2137a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a0e63191e96b0bbe60562755365973') in 0.007867 seconds 
+  Import took 0.018829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/M_AphroditeHeart.mat
+  artifactKey: Guid(613353fe882304e44bae149a3819313e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/M_AphroditeHeart.mat using Guid(613353fe882304e44bae149a3819313e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7992a03aabfb376b9522fe44f15ea98d') in 0.008097 seconds 
+  Import took 0.014619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.505076 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/M_AphroditeBrokenHeart.mat
+  artifactKey: Guid(95674694847cc524c855b2ff70b2137a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/M_AphroditeBrokenHeart.mat using Guid(95674694847cc524c855b2ff70b2137a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0d232c8c7b7d8362f552a91bd76fde8') in 0.007448 seconds 
+  Import took 0.042259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.908761 seconds.
+  path: Assets/Epic Toon FX/Materials/Misc/Hearts/heart2_AB.mat
+  artifactKey: Guid(4e47fdfe66dd2a046986da0de1ef7495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Misc/Hearts/heart2_AB.mat using Guid(4e47fdfe66dd2a046986da0de1ef7495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a7e395ec107517051d207c212f82ce') in 0.010631 seconds 
+  Import took 0.034492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.831742 seconds.
+  path: Assets/Epic Toon FX/Materials/Basics/glow1_ADD.mat
+  artifactKey: Guid(e653836c30661fe419b8992e230ca189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Basics/glow1_ADD.mat using Guid(e653836c30661fe419b8992e230ca189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b84d02c74698c946d5a0d7fd5c1689d') in 0.008705 seconds 
+  Import took 0.039842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.915454 seconds.
+  path: Assets/Epic Toon FX/Materials/Basics/circlestretchy_AB.mat
+  artifactKey: Guid(c69a36694c3d44847ae1097a253e3d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Basics/circlestretchy_AB.mat using Guid(c69a36694c3d44847ae1097a253e3d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b3530728aa9f1cf1bd26af579c2c68') in 0.007034 seconds 
+  Import took 0.039164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.380330 seconds.
+  path: Assets/Epic Toon FX/Materials/Misc/Hearts/heart_AB.mat
+  artifactKey: Guid(db608f6f11761e6409b8ea41aaa6adda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Misc/Hearts/heart_AB.mat using Guid(db608f6f11761e6409b8ea41aaa6adda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7da7ff0e010995301b95b025045b37') in 0.010238 seconds 
+  Import took 0.016190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.763810 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartExplosion 1.prefab
+  artifactKey: Guid(3a3d7a1c5d770464480a9f240f5fc51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartExplosion 1.prefab using Guid(3a3d7a1c5d770464480a9f240f5fc51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e3395b4cd3b89a79c54465c6527c95') in 0.009739 seconds 
+  Import took 0.016032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.856224 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartExplosion 2.prefab
+  artifactKey: Guid(743d30aa27645b044a52dce0a2241ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartExplosion 2.prefab using Guid(743d30aa27645b044a52dce0a2241ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c2c401851cb729da2726cf9a4f365c') in 0.011080 seconds 
+  Import took 0.042827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.027279 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/AphroditeHeart.prefab
+  artifactKey: Guid(743d30aa27645b044a52dce0a2241ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/AphroditeHeart.prefab using Guid(743d30aa27645b044a52dce0a2241ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b89db95ee3598d7ac0ddf4eec6dc71a') in 0.021886 seconds 
+  Import took 0.053999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.615222 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartExplosion 1.prefab
+  artifactKey: Guid(3a3d7a1c5d770464480a9f240f5fc51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartExplosion 1.prefab using Guid(3a3d7a1c5d770464480a9f240f5fc51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d37a52aba286035b5795f6eb9c848f') in 0.008861 seconds 
+  Import took 0.034416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.765184 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/M_AphroditeBrokenHeart.mat
+  artifactKey: Guid(95674694847cc524c855b2ff70b2137a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/M_AphroditeBrokenHeart.mat using Guid(95674694847cc524c855b2ff70b2137a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f198d42a650522ea7082606b1bd33391') in 0.008964 seconds 
+  Import took 0.038668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.707837 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/AphroditeHeart.prefab
+  artifactKey: Guid(743d30aa27645b044a52dce0a2241ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/AphroditeHeart.prefab using Guid(743d30aa27645b044a52dce0a2241ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4d9b69792625b157d2a7de299b84bc') in 0.023890 seconds 
+  Import took 0.030772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.050191 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/AphroditeHeart.prefab
+  artifactKey: Guid(743d30aa27645b044a52dce0a2241ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/AphroditeHeart.prefab using Guid(743d30aa27645b044a52dce0a2241ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6899c99ca35a3ca6d67279937f6200f8') in 0.009960 seconds 
+  Import took 0.043698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.368996 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/AphroditeHeart.prefab
+  artifactKey: Guid(743d30aa27645b044a52dce0a2241ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/AphroditeHeart.prefab using Guid(743d30aa27645b044a52dce0a2241ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbab6b57b46a0cc689266c7092a78c9e') in 0.009880 seconds 
+  Import took 0.031934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1659.694803 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/HeartTexturesSheet.png
+  artifactKey: Guid(ae5590ae4e2e3e8459395f3bf8cbf192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/HeartTexturesSheet.png using Guid(ae5590ae4e2e3e8459395f3bf8cbf192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99bbfe6da190a0a15552fbe80e1d52b') in 0.025740 seconds 
+  Import took 0.072007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/HeartTexturesSheet2.png
+  artifactKey: Guid(1b4170c7c3a980f43a761f88cd77a0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/HeartTexturesSheet2.png using Guid(1b4170c7c3a980f43a761f88cd77a0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ba5ab5d606b41ff520228ef884b168') in 0.007414 seconds 
+  Import took 0.035195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.326080 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/HeartTexturesSheet2.png
+  artifactKey: Guid(1b4170c7c3a980f43a761f88cd77a0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/HeartTexturesSheet2.png using Guid(1b4170c7c3a980f43a761f88cd77a0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8964fce60f0db6665902cabceb97d5e') in 0.005756 seconds 
+  Import took 0.042607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 337.508469 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/M_AphroditeBrokenHeart 1.mat
+  artifactKey: Guid(6bd40c3e001c4744cb0542e89a06ea19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/M_AphroditeBrokenHeart 1.mat using Guid(6bd40c3e001c4744cb0542e89a06ea19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b1fb23dad427d4e34def7a7a37450f') in 0.009721 seconds 
+  Import took 0.039738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/M_AphroditeBrokenHeart.mat
+  artifactKey: Guid(95674694847cc524c855b2ff70b2137a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/M_AphroditeBrokenHeart.mat using Guid(95674694847cc524c855b2ff70b2137a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69ed6bb940c9b51cfbdc20b7a92c5e5') in 0.007735 seconds 
+  Import took 0.024262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.821724 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/M_AphroditeBrokenHeart2.mat
+  artifactKey: Guid(6bd40c3e001c4744cb0542e89a06ea19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/M_AphroditeBrokenHeart2.mat using Guid(6bd40c3e001c4744cb0542e89a06ea19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfed59f6959829c2fd82ae7bc98e7743') in 0.007390 seconds 
+  Import took 0.015303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 752.005999 seconds.
+  path: Assets/Epic Toon FX/Materials/Basics/glow1_ADD.mat
+  artifactKey: Guid(e653836c30661fe419b8992e230ca189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Materials/Basics/glow1_ADD.mat using Guid(e653836c30661fe419b8992e230ca189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a6de1a7d951542a31977800fd9f464') in 0.035545 seconds 
+  Import took 0.056038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.314322 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartPoof 2.prefab
+  artifactKey: Guid(c05432281f5b42e489f1ffc94cacdb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/HeartPoof 2.prefab using Guid(c05432281f5b42e489f1ffc94cacdb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6b3eb417f52bf3709e0d284dac8dac') in 0.117958 seconds 
+  Import took 0.189820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.013563 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/Lips.prefab
+  artifactKey: Guid(c05432281f5b42e489f1ffc94cacdb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/Lips.prefab using Guid(c05432281f5b42e489f1ffc94cacdb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c95fcd0acb1b59de6b79c3af6fe1c62') in 0.010787 seconds 
+  Import took 0.036202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.499138 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/LipsAphrodite.prefab
+  artifactKey: Guid(c05432281f5b42e489f1ffc94cacdb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Source/LipsAphrodite.prefab using Guid(c05432281f5b42e489f1ffc94cacdb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88b6baaa9fb144ae273a06f9f4c92a3') in 0.020002 seconds 
+  Import took 0.049791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.544796 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Aphrodite_Lips.prefab
+  artifactKey: Guid(c05432281f5b42e489f1ffc94cacdb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Aphrodite_Lips.prefab using Guid(c05432281f5b42e489f1ffc94cacdb86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6285463bf6445d954b049aa4847ad9') in 0.011199 seconds 
+  Import took 0.056830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.749007 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/M_AphroditeHeart 1.mat
+  artifactKey: Guid(5ba955d12d05b3047aa199c52d69f92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/M_AphroditeHeart 1.mat using Guid(5ba955d12d05b3047aa199c52d69f92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f181a2a41df98e9c4a105803c99cfe') in 0.027403 seconds 
+  Import took 0.044205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.176550 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/M_AphroditeLips.mat
+  artifactKey: Guid(5ba955d12d05b3047aa199c52d69f92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/M_AphroditeLips.mat using Guid(5ba955d12d05b3047aa199c52d69f92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404f79028bab908a70710e1d3e585101') in 0.033404 seconds 
+  Import took 0.063612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 474.778232 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill2
+  artifactKey: Guid(e8651ec07a9869b4cae0186069f7f171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill2 using Guid(e8651ec07a9869b4cae0186069f7f171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc3f77885638cb8af0e83cbc9beb629') in 0.018754 seconds 
+  Import took 0.056163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.452605 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill2/Demo
+  artifactKey: Guid(4049dcf99a614d14789a0e81bebad2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill2/Demo using Guid(4049dcf99a614d14789a0e81bebad2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394e8db65a3d9b218925636049e312cb') in 0.000892 seconds 
+  Import took 0.010883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.365783 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill2/Demo/Aphrodite_Skill2.controller
+  artifactKey: Guid(eca038a5d668a344097db302a7e68fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill2/Demo/Aphrodite_Skill2.controller using Guid(eca038a5d668a344097db302a7e68fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffee47b75e9cb254adf8f6fbb26d1647') in 0.010072 seconds 
+  Import took 0.040714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.996338 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill2/Demo/Aphrodite_Pro.anim
+  artifactKey: Guid(46d1bf952f18a2c4eacc45fa8f1bb7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill2/Demo/Aphrodite_Pro.anim using Guid(46d1bf952f18a2c4eacc45fa8f1bb7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250dfcc59423b75f80e784f5bf4c1845') in 0.006113 seconds 
+  Import took 0.049727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.646728 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill2/Demo/Aphrodite_Skill2Anim.anim
+  artifactKey: Guid(46d1bf952f18a2c4eacc45fa8f1bb7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill2/Demo/Aphrodite_Skill2Anim.anim using Guid(46d1bf952f18a2c4eacc45fa8f1bb7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33dde4d58a36bfeb3176d93e3eb83263') in 0.002068 seconds 
+  Import took 0.014010 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.053086 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.243 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1245ms)
+		BeginReloadAssembly (213ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (105ms)
+		EndReloadAssembly (980ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (366ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4365 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 282.5 MB.
+System memory in use after: 271.9 MB.
+
+Unloading 235 unused Assets to reduce memory usage. Loaded Objects now: 4815.
+Total: 6.631400 ms (FindLiveObjects: 0.354600 ms CreateObjectMapping: 0.262400 ms MarkObjects: 2.665300 ms  DeleteObjects: 3.348100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 514.019103 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/M_AphroditeLips.mat
+  artifactKey: Guid(5ba955d12d05b3047aa199c52d69f92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Textures/M_AphroditeLips.mat using Guid(5ba955d12d05b3047aa199c52d69f92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea81320c98639ff992d3692c3d9c902a') in 0.241299 seconds 
+  Import took 0.248134 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004698 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.090 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1090ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (934ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (346ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (283ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4365 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 282.7 MB.
+System memory in use after: 272.1 MB.
+
+Unloading 235 unused Assets to reduce memory usage. Loaded Objects now: 4853.
+Total: 7.576000 ms (FindLiveObjects: 0.614500 ms CreateObjectMapping: 0.351700 ms MarkObjects: 2.903600 ms  DeleteObjects: 3.705000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
