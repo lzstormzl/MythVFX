@@ -1,0 +1,891 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Enterprise' Language: 'en' Physical Memory: 16300 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\UnityVersion\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/GithubProject/MythVFX
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61108
+Successfully changed project path to: D:/GithubProject/MythVFX
+D:/GithubProject/MythVFX
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 98.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path D:/UnityVersion/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GithubProject/MythVFX/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   30.0.15.1259
+Initialize mono
+Mono path[0] = 'D:/UnityVersion/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityVersion/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/UnityVersion/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityVersion/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000820 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 103.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.594 seconds
+Domain Reload Profiling:
+	ReloadAssembly (594ms)
+		BeginReloadAssembly (44ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (486ms)
+			LoadAssemblies (43ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (140ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (228ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004603 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 116.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.287 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1288ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1102ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (371ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (421ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4501 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 292.5 MB.
+System memory in use after: 292.7 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4942.
+Total: 3.423900 ms (FindLiveObjects: 0.365700 ms CreateObjectMapping: 0.282200 ms MarkObjects: 2.655900 ms  DeleteObjects: 0.119200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Material/M_Rope.mat
+  artifactKey: Guid(1c1d8a3d81010bf4d81f902a689938f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Material/M_Rope.mat using Guid(1c1d8a3d81010bf4d81f902a689938f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a04b7f149387d8db43ccb11b5556cc') in 0.206011 seconds 
+  Import took 0.239561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.752467 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Material/Aphodite_Rope.shadergraph
+  artifactKey: Guid(b2ad1b6775bf86c4f9f31f3ab2f30435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Material/Aphodite_Rope.shadergraph using Guid(b2ad1b6775bf86c4f9f31f3ab2f30435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7119686f1c7121ced1fcae1c0a85f46') in 0.002809 seconds 
+  Import took 0.039970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 143.825105 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Material/Aphodite_Rope.shadergraph
+  artifactKey: Guid(b2ad1b6775bf86c4f9f31f3ab2f30435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Material/Aphodite_Rope.shadergraph using Guid(b2ad1b6775bf86c4f9f31f3ab2f30435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800d9e8c17501d370d97fbd61ca7f031') in 0.001829 seconds 
+  Import took 0.033457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 219.487907 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Material/Aphodite_Rope.shadergraph
+  artifactKey: Guid(b2ad1b6775bf86c4f9f31f3ab2f30435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Material/Aphodite_Rope.shadergraph using Guid(b2ad1b6775bf86c4f9f31f3ab2f30435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26be8c61acd91d9ad749a339bbf44390') in 0.001801 seconds 
+  Import took 0.036344 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004567 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.164 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1164ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1003ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (392ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4160 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 268.0 MB.
+System memory in use after: 268.2 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 5023.
+Total: 3.890600 ms (FindLiveObjects: 0.404600 ms CreateObjectMapping: 0.339400 ms MarkObjects: 3.113700 ms  DeleteObjects: 0.031700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 64.933480 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Material/Aphodite_Rope.shadergraph
+  artifactKey: Guid(b2ad1b6775bf86c4f9f31f3ab2f30435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Material/Aphodite_Rope.shadergraph using Guid(b2ad1b6775bf86c4f9f31f3ab2f30435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9238ed5e9c4c809c891fa84dab5f11e8') in 0.040905 seconds 
+  Import took 0.072228 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005500 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.081 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1081ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (936ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (343ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (286ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4160 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 268.1 MB.
+System memory in use after: 268.3 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 5025.
+Total: 3.206600 ms (FindLiveObjects: 0.343800 ms CreateObjectMapping: 0.259300 ms MarkObjects: 2.583300 ms  DeleteObjects: 0.019300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004521 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.065 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1066ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (910ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (342ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4160 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 268.1 MB.
+System memory in use after: 268.3 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 5027.
+Total: 3.258200 ms (FindLiveObjects: 0.352100 ms CreateObjectMapping: 0.262200 ms MarkObjects: 2.623800 ms  DeleteObjects: 0.019400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 399.785841 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/AphroditeRope.fbx
+  artifactKey: Guid(c238ef10a835d1e4ab9c301767dbd11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/AphroditeRope.fbx using Guid(c238ef10a835d1e4ab9c301767dbd11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00483d809d9beb1f64e8bbd6f5fcb764') in 0.287321 seconds 
+  Import took 0.314963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.608710 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/Aphrodite_Skill1Rope.controller
+  artifactKey: Guid(86c0c611d1813ad43925d58102399007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/Aphrodite_Skill1Rope.controller using Guid(86c0c611d1813ad43925d58102399007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02a27a622a36c399c90b2452302f427e') in 0.004007 seconds 
+  Import took 0.067706 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004532 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.085 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1085ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (920ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (334ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4160 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 282.0 MB.
+System memory in use after: 282.3 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 5069.
+Total: 3.640400 ms (FindLiveObjects: 0.346500 ms CreateObjectMapping: 0.395800 ms MarkObjects: 2.864400 ms  DeleteObjects: 0.032900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 69.056477 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/AphroditeRope.fbx
+  artifactKey: Guid(c238ef10a835d1e4ab9c301767dbd11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/AphroditeRope.fbx using Guid(c238ef10a835d1e4ab9c301767dbd11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6597b4aa1493d3d40939f06ed2f66c') in 0.241625 seconds 
+  Import took 0.269629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.507866 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/AphroditeClew_Static.fbx
+  artifactKey: Guid(b75ef0b88b1f3d5418b0db3888ba6797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/AphroditeClew_Static.fbx using Guid(b75ef0b88b1f3d5418b0db3888ba6797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f66a805a2fd872e95f2b79afed58b75') in 0.056931 seconds 
+  Import took 0.081159 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004407 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.097 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1097ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (934ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4160 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 282.2 MB.
+System memory in use after: 282.4 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 5107.
+Total: 3.346900 ms (FindLiveObjects: 0.364300 ms CreateObjectMapping: 0.227000 ms MarkObjects: 2.736900 ms  DeleteObjects: 0.017600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005145 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.084 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1084ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (927ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (354ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (278ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4160 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 282.2 MB.
+System memory in use after: 282.4 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 5109.
+Total: 3.504400 ms (FindLiveObjects: 0.359700 ms CreateObjectMapping: 0.268300 ms MarkObjects: 2.856200 ms  DeleteObjects: 0.019500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2286.347279 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/AphroditeClew.fbx
+  artifactKey: Guid(6534609a6fd689546b13c84350640995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/AphroditeClew.fbx using Guid(6534609a6fd689546b13c84350640995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d738ef04410a7c493c3dba28761df8d') in 0.314701 seconds 
+  Import took 0.334084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.947599 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/AphroditeClew.fbx
+  artifactKey: Guid(6534609a6fd689546b13c84350640995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/AphroditeClew.fbx using Guid(6534609a6fd689546b13c84350640995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778a9e4f4d88d3139d18fc3a9f3c22c2') in 0.022709 seconds 
+  Import took 0.045749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.885212 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/Aphrodite_Skill1Rope.controller
+  artifactKey: Guid(86c0c611d1813ad43925d58102399007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/Aphrodite_Skill1Rope.controller using Guid(86c0c611d1813ad43925d58102399007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb7c78134c790d43f9c0726869ba17d') in 0.003511 seconds 
+  Import took 0.037722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.647650 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/Aphrodite_Skill1Rope 1.controller
+  artifactKey: Guid(2fb3219e65b58064b978efb34f0e69a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/Aphrodite_Skill1Rope 1.controller using Guid(2fb3219e65b58064b978efb34f0e69a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b0888bc2a6125cc3bcccdb7a03866f') in 0.002407 seconds 
+  Import took 0.017957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.535474 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/Aphrodite_Skill1Clew.controller
+  artifactKey: Guid(2fb3219e65b58064b978efb34f0e69a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/Aphrodite_Skill1Clew.controller using Guid(2fb3219e65b58064b978efb34f0e69a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c855204fb3ab5a85ac1a16d5c63f3976') in 0.002390 seconds 
+  Import took 0.019786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.054295 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/AphroditeClew.fbx
+  artifactKey: Guid(6534609a6fd689546b13c84350640995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/AphroditeClew.fbx using Guid(6534609a6fd689546b13c84350640995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1d9cde600a2a3760b92ed1200ea984') in 0.022686 seconds 
+  Import took 0.047596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.936973 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/AphroditeClew.fbx
+  artifactKey: Guid(f8b88112f5f58f64bbe07c3ee5ca7da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/AphroditeClew.fbx using Guid(f8b88112f5f58f64bbe07c3ee5ca7da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457cecb20476bbd7ff31de7877954ed4') in 0.030968 seconds 
+  Import took 0.056524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 249.591938 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/AphroditeClew.fbx
+  artifactKey: Guid(6534609a6fd689546b13c84350640995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/AphroditeClew.fbx using Guid(6534609a6fd689546b13c84350640995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75bb339071d8356c726d327bdfce9de') in 0.028777 seconds 
+  Import took 0.054416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 103.562237 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/AphroditeClew.fbx
+  artifactKey: Guid(6534609a6fd689546b13c84350640995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/AphroditeClew.fbx using Guid(6534609a6fd689546b13c84350640995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f850452c163dfa72a2f1f11be761c84') in 0.065481 seconds 
+  Import took 0.106276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.949412 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/AphroditeClew.fbx
+  artifactKey: Guid(6534609a6fd689546b13c84350640995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/AphroditeClew.fbx using Guid(6534609a6fd689546b13c84350640995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1fd62d8a81de19fcfc5f885e3f0ec92') in 0.032285 seconds 
+  Import took 0.055309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.025681 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/AphroditeClew.fbx
+  artifactKey: Guid(f8b88112f5f58f64bbe07c3ee5ca7da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/AphroditeClew.fbx using Guid(f8b88112f5f58f64bbe07c3ee5ca7da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3923a3f753585921cf3210b6286088ea') in 0.040234 seconds 
+  Import took 0.075362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 239.980240 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/AphroditeClew 1.fbx
+  artifactKey: Guid(5a6c927817bc5914985e1fa3c60c894b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/AphroditeClew 1.fbx using Guid(5a6c927817bc5914985e1fa3c60c894b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9d9f985e9aa7c174a6ada92211b516') in 0.034134 seconds 
+  Import took 0.066556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 113.835674 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/AphroditeClew.fbx
+  artifactKey: Guid(f8b88112f5f58f64bbe07c3ee5ca7da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/AphroditeClew.fbx using Guid(f8b88112f5f58f64bbe07c3ee5ca7da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf205249e21036ebbe9ceb263fa3a5dd') in 0.049791 seconds 
+  Import took 0.082189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 226.342200 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/AphroditeClew.fbx
+  artifactKey: Guid(d467c3dde878fc643acb88510e7f1036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/AphroditeClew.fbx using Guid(d467c3dde878fc643acb88510e7f1036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d196e220bf28386e101d95a4bb93e7b') in 0.050918 seconds 
+  Import took 0.081966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.148397 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/AphroditeClew2.fbx
+  artifactKey: Guid(07759e6ec4b3f7f4687ea692bbdfa775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/AphroditeClew2.fbx using Guid(07759e6ec4b3f7f4687ea692bbdfa775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18885ad0bd97e9ddd5cf9c74518ae322') in 0.038749 seconds 
+  Import took 0.067058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 366.408692 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/AphroditeClew 1.fbx
+  artifactKey: Guid(5a6c927817bc5914985e1fa3c60c894b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/AphroditeClew 1.fbx using Guid(5a6c927817bc5914985e1fa3c60c894b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8026bf0379f2c71b94ad6ab2b388b75d') in 0.042092 seconds 
+  Import took 0.050663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.231830 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/AphroditeClew.fbx
+  artifactKey: Guid(d467c3dde878fc643acb88510e7f1036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/AphroditeClew.fbx using Guid(d467c3dde878fc643acb88510e7f1036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec837dbb8ba888f9f21a5e11f3800f2') in 0.035599 seconds 
+  Import took 0.061697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.288470 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/Aphrodite_Skill1Clew.controller
+  artifactKey: Guid(2fb3219e65b58064b978efb34f0e69a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/Aphrodite_Skill1Clew.controller using Guid(2fb3219e65b58064b978efb34f0e69a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3334c97e6edf5e54cc218dee2c0fb2') in 0.001693 seconds 
+  Import took 0.020996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.471813 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/AphroditeClew.fbx
+  artifactKey: Guid(d467c3dde878fc643acb88510e7f1036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/AphroditeClew.fbx using Guid(d467c3dde878fc643acb88510e7f1036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc08a7a87ee294a041b0d102d38677fd') in 0.032205 seconds 
+  Import took 0.060770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.362333 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Material/M_Rope.mat
+  artifactKey: Guid(1c1d8a3d81010bf4d81f902a689938f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Material/M_Rope.mat using Guid(1c1d8a3d81010bf4d81f902a689938f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09709cf6665cc33150a850b272ce189') in 0.007296 seconds 
+  Import took 0.036754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.495196 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/AphroditeClew.fbx
+  artifactKey: Guid(d467c3dde878fc643acb88510e7f1036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/AphroditeClew.fbx using Guid(d467c3dde878fc643acb88510e7f1036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff624debda89407664c112a8fb660424') in 0.024066 seconds 
+  Import took 0.054716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 235.472440 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/AphroditeSkill_1.controller
+  artifactKey: Guid(0696ba2651ee97348a40f733a7bdb819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Aphrodite/Skill1/Anim/AphroditeSkill_1.controller using Guid(0696ba2651ee97348a40f733a7bdb819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b62e0a0b4710d2b6dc9dd69d8037e88') in 0.002111 seconds 
+  Import took 0.015765 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004867 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.316 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1318ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (111ms)
+		EndReloadAssembly (1046ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (386ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4160 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 282.4 MB.
+System memory in use after: 282.7 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 5147.
+Total: 4.256700 ms (FindLiveObjects: 0.483400 ms CreateObjectMapping: 0.339100 ms MarkObjects: 3.397200 ms  DeleteObjects: 0.036000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005079 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.141 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1141ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (984ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (359ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (300ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4160 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 282.4 MB.
+System memory in use after: 282.7 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 5149.
+Total: 3.950400 ms (FindLiveObjects: 0.473700 ms CreateObjectMapping: 0.366100 ms MarkObjects: 3.087300 ms  DeleteObjects: 0.022500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1045.203648 seconds.
+  path: Assets/VFXPatreon/LootBox/GabrielAguiarProductions/Materials/BeamVertical01_AddScroll.mat
+  artifactKey: Guid(00d77857088b9a84091599bec34ab7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFXPatreon/LootBox/GabrielAguiarProductions/Materials/BeamVertical01_AddScroll.mat using Guid(00d77857088b9a84091599bec34ab7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0c94c798f49dc65465bae02ba16053') in 0.395407 seconds 
+  Import took 0.413913 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005137 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.344 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1344ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1161ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (471ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (333ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4160 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 282.5 MB.
+System memory in use after: 282.8 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 5187.
+Total: 3.748500 ms (FindLiveObjects: 0.411700 ms CreateObjectMapping: 0.300100 ms MarkObjects: 3.013100 ms  DeleteObjects: 0.022900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
