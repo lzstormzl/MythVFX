@@ -9,6 +9,18 @@ ModelImporter:
   - first:
       74: 6661452981621708758
     second: GodActiveSkill_Idle
+  - first:
+      74: -8406452336859952018
+    second: GodActiveSkill_ActiveAble
+  - first:
+      74: 3204792530186066986
+    second: GodActiveSkill_Activating
+  - first:
+      74: -7376860517214491662
+    second: GodActiveSkill_Unlock
+  - first:
+      74: -2641744161408670291
+    second: GodActiveSkill_Lock
   externalObjects: {}
   materials:
     materialImportMode: 2
@@ -38,8 +50,8 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: GodActiveSkill_ActivatingSkill
-      takeName: GodActiveSkill_ActivatingSkill
+      name: GodActiveSkill_ActiveAble
+      takeName: GodActiveSkill_ActiveAble
       internalID: 0
       firstFrame: 0
       lastFrame: 90
@@ -49,7 +61,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -67,8 +79,8 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: GodActiveSkill_Idle
-      takeName: GodActiveSkill_Idle
+      name: GodActiveSkill_Activating
+      takeName: GodActiveSkill_Activating
       internalID: 0
       firstFrame: 95
       lastFrame: 185
@@ -78,7 +90,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -94,7 +106,65 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 95
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GodActiveSkill_Unlock
+      takeName: GodActiveSkill_Unlock
+      internalID: 0
+      firstFrame: 190
+      lastFrame: 210
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GodActiveSkill_Lock
+      takeName: GodActiveSkill_Lock
+      internalID: 0
+      firstFrame: 216
+      lastFrame: 241
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
