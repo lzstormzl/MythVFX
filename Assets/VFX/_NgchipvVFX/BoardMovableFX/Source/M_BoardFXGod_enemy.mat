@@ -21,19 +21,26 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_BoardFXGod_enemy
-  m_Shader: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: e626e1c1137014741bb98cdc999076c9, type: 3}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
-  stringTagMap:
-    RenderType: Transparent
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses:
   - SHADOWCASTER
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_13f145d7f8fc4c50b21e934403d3fd97:
+        m_Texture: {fileID: 2800000, guid: fcb027caad6963b4a80539bbce0d10e9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_a14fd733142641bb8680b2a3f0387fcb:
+        m_Texture: {fileID: 2800000, guid: 0a5561f959b3b2845a16fceefba32dd5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: 0a5561f959b3b2845a16fceefba32dd5, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -91,6 +98,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_05d4dff573fb497c9ddc614ced1bf3c5: 0.2
+    - Vector1_1f3773c7f1c34f7eb8c99712fd68bd1d: 1
     - _AlphaClip: 0
     - _Blend: 0
     - _BlendOp: 0
@@ -133,6 +142,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 0
     m_Colors:
+    - Color_b6eb9fbf22e340819b3de8f856cb922a: {r: 14.754423, g: 2.935435, b: 2.935435, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
