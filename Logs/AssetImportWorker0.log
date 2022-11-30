@@ -15,11 +15,11 @@ D:/GithubProject/MythVFX
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64263
+64467
 Successfully changed project path to: D:/GithubProject/MythVFX
 D:/GithubProject/MythVFX
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 90.98 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 488.08 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path D:/UnityVersion/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,289 +35,42 @@ Initialize mono
 Mono path[0] = 'D:/UnityVersion/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'D:/UnityVersion/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/UnityVersion/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UnityVersion/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000816 seconds.
+Registered in 0.076498 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 89.00 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 89.30 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.555 seconds
+- Completed reload, in  0.726 seconds
 Domain Reload Profiling:
-	ReloadAssembly (555ms)
-		BeginReloadAssembly (42ms)
+	ReloadAssembly (726ms)
+		BeginReloadAssembly (52ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (456ms)
-			LoadAssemblies (41ms)
+		EndReloadAssembly (517ms)
+			LoadAssemblies (50ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (135ms)
+			SetupTypeCache (138ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (207ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (213ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (89ms)
 				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (77ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004484 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 99.42 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.146 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1147ms)
-		BeginReloadAssembly (123ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (975ms)
-			LoadAssemblies (79ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (330ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (76ms)
-			SetupLoadedEditorAssemblies (380ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (99ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3862 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 163.5 MB.
-System memory in use after: 163.7 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4294.
-Total: 3.237300 ms (FindLiveObjects: 0.296700 ms CreateObjectMapping: 0.223400 ms MarkObjects: 2.581200 ms  DeleteObjects: 0.135000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus
-  artifactKey: Guid(2423e82459dbfe94cacfbc207990cd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus using Guid(2423e82459dbfe94cacfbc207990cd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb8b529b0425caa7707712187e4d769') in 0.005122 seconds 
-  Import took 0.010243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.133030 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/FlipCardVFX
-  artifactKey: Guid(02095ebfe85cce64eae814450d487d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/FlipCardVFX using Guid(02095ebfe85cce64eae814450d487d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1b907e4ff2dd5043d421cc338790ee') in 0.000860 seconds 
-  Import took 0.006213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.876844 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/FlipCardVFX/Prefab
-  artifactKey: Guid(7f2e0352da581694e8e8d32ce285d870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/FlipCardVFX/Prefab using Guid(7f2e0352da581694e8e8d32ce285d870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065f798b9bf20496b9b0892d11a07374') in 0.000859 seconds 
-  Import took 0.006085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.837849 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/FlipCardVFX/Prefab/FlipCard.prefab
-  artifactKey: Guid(6fb822f7cf0b17b4c88ff3eec152302e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/FlipCardVFX/Prefab/FlipCard.prefab using Guid(6fb822f7cf0b17b4c88ff3eec152302e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8729ca311819b54f757f5a7b8cc55369') in 0.662392 seconds 
-  Import took 0.668861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.641073 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/FlipCardVFX/Source/M_Star.mat
-  artifactKey: Guid(8194c9bc941a89943a88581f95e705e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/FlipCardVFX/Source/M_Star.mat using Guid(8194c9bc941a89943a88581f95e705e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9ab451333e9481aeac0102a6d03855') in 0.020667 seconds 
-  Import took 0.026320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.890052 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/New Folder
-  artifactKey: Guid(e8880b2f523bf1a499f49c247082a320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/New Folder using Guid(e8880b2f523bf1a499f49c247082a320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808347c2f27d4da4ce57e6ee7cc367c3') in 0.000879 seconds 
-  Import took 0.006574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.459314 seconds.
-  path: Assets/VFX/_NgchipvVFX
-  artifactKey: Guid(9b35d05df15afc0428f94bde72493cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX using Guid(9b35d05df15afc0428f94bde72493cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d7f0bd10c748eef3a1fd1b52ed701e') in 0.000847 seconds 
-  Import took 0.006512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.496014 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBasic
-  artifactKey: Guid(a5d811128ffccc44a887a83c8d319414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBasic using Guid(a5d811128ffccc44a887a83c8d319414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5937069b6f8b7b85e850208b0c88281') in 0.000908 seconds 
-  Import took 0.006738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.849721 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk
-  artifactKey: Guid(1fcf881056c6cc54b8f6c2973fde8958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk using Guid(1fcf881056c6cc54b8f6c2973fde8958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5945f2ac7b2bfd16db6bc17bf76e0f') in 0.000838 seconds 
-  Import took 0.006323 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.456784 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk/Star.prefab
-  artifactKey: Guid(5d816c612f60a4a4ba44e79cd545f1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk/Star.prefab using Guid(5d816c612f60a4a4ba44e79cd545f1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f467e842733cad90f3bd898531c11e2') in 0.007943 seconds 
-  Import took 0.013796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.515954 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk/Source
-  artifactKey: Guid(c87119a3e92411047ae7bfe1516d9799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk/Source using Guid(c87119a3e92411047ae7bfe1516d9799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829399524e4300b863624ecd77278864') in 0.000907 seconds 
-  Import took 0.006661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.014345 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/FlipCardVFX/Source/M_Glow.mat
-  artifactKey: Guid(f5b8775953249d842a939a470d4e0ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/FlipCardVFX/Source/M_Glow.mat using Guid(f5b8775953249d842a939a470d4e0ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafd8b1d4e8d4de00f0dd7285035024e') in 0.008174 seconds 
-  Import took 0.013973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.336587 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk/Source/M_GlowGreen.mat
-  artifactKey: Guid(9ac2d38be1fdbf945aaa9f877452c250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk/Source/M_GlowGreen.mat using Guid(9ac2d38be1fdbf945aaa9f877452c250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f26ce7e10a256acb8a1d555f8313e0e') in 0.007220 seconds 
-  Import took 0.013205 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.734716 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk/Star.prefab
-  artifactKey: Guid(5d816c612f60a4a4ba44e79cd545f1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk/Star.prefab using Guid(5d816c612f60a4a4ba44e79cd545f1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c166f42d36b4f31b1da08e2e21fa0f') in 0.007864 seconds 
-  Import took 0.013571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000896 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk/Source/M_StarGreen.mat
-  artifactKey: Guid(60cc52f80c813a744b1e51415230f982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk/Source/M_StarGreen.mat using Guid(60cc52f80c813a744b1e51415230f982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197e07437c97c6be78fe6496f475a386') in 0.007731 seconds 
-  Import took 0.013188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.478272 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk/Star_Green.prefab
-  artifactKey: Guid(5d816c612f60a4a4ba44e79cd545f1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk/Star_Green.prefab using Guid(5d816c612f60a4a4ba44e79cd545f1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37193902f08914f731b75f70dc46615') in 0.008475 seconds 
-  Import took 0.014445 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.556331 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk/Star_Green 1.prefab
-  artifactKey: Guid(0d724593dfd945c48a8880c483faf3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk/Star_Green 1.prefab using Guid(0d724593dfd945c48a8880c483faf3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6dd14bcaf5248b3043b92eef058b10') in 0.008762 seconds 
-  Import took 0.014429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.471895 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk/Star_White.prefab
-  artifactKey: Guid(0d724593dfd945c48a8880c483faf3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk/Star_White.prefab using Guid(0d724593dfd945c48a8880c483faf3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090a8274d117c13fcbc5c80a09695c2f') in 0.008247 seconds 
-  Import took 0.013897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.981857 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk/Source/M_StarWhite.mat
-  artifactKey: Guid(b189108c0c43d9f4da43d355b9f66914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk/Source/M_StarWhite.mat using Guid(b189108c0c43d9f4da43d355b9f66914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21caed1de7dbae06c02cbe3c36764fca') in 0.007619 seconds 
-  Import took 0.014080 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.565707 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
-  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d3bac30e0c3da08768836858914317') in 0.007602 seconds 
-  Import took 0.013364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.819273 seconds.
-  path: Assets/Hit & Slashes Vol.3/Sprites/glow-white.png
-  artifactKey: Guid(d78e19e75a518a94391f11029f33e70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hit & Slashes Vol.3/Sprites/glow-white.png using Guid(d78e19e75a518a94391f11029f33e70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdc6614040b6973d5ab8a1ef81fb52d') in 0.051928 seconds 
-  Import took 0.058358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003169 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk/Source/M_GlowWhite.mat
-  artifactKey: Guid(01887a253293ab44f9f708054f2f373f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk/Source/M_GlowWhite.mat using Guid(01887a253293ab44f9f708054f2f373f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8bb374ea325a8f08883e80b5d76e8a') in 0.007141 seconds 
-  Import took 0.012274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001406 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk/Star_White.prefab
-  artifactKey: Guid(0d724593dfd945c48a8880c483faf3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBasic/CustomDesk/Star_White.prefab using Guid(0d724593dfd945c48a8880c483faf3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b223e13296205ad9b6d9ae6e0278e6') in 0.008061 seconds 
-  Import took 0.013208 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002123 seconds.
-  path: Assets/VFX/Nokdef_VFXPack/Textures/Flare_Cross.png
-  artifactKey: Guid(edb851611bbcd0b45985df4cd3206f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Nokdef_VFXPack/Textures/Flare_Cross.png using Guid(edb851611bbcd0b45985df4cd3206f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771c2705bf98acfcda74847efd0b41ac') in 0.005733 seconds 
-  Import took 0.010813 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+Registered in 0.284959 seconds.
