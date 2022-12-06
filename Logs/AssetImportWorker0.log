@@ -15,11 +15,11 @@ D:/GithubProject/MythVFX
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57337
+58555
 Successfully changed project path to: D:/GithubProject/MythVFX
 D:/GithubProject/MythVFX
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 90.99 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3420.55 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path D:/UnityVersion/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,353 +35,42 @@ Initialize mono
 Mono path[0] = 'D:/UnityVersion/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'D:/UnityVersion/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/UnityVersion/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UnityVersion/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000819 seconds.
+Registered in 0.050827 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 89.58 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 174.04 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.551 seconds
+- Completed reload, in  4.300 seconds
 Domain Reload Profiling:
-	ReloadAssembly (552ms)
-		BeginReloadAssembly (42ms)
+	ReloadAssembly (4300ms)
+		BeginReloadAssembly (994ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (450ms)
-			LoadAssemblies (42ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (134ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (2162ms)
+			LoadAssemblies (935ms)
+			RebuildTransferFunctionScriptingTraits (36ms)
+			SetupTypeCache (513ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (203ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (841ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (69ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (90ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (72ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				RefreshPlugins (174ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (363ms)
+				ProcessInitializeOnLoadMethodAttributes (116ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (26ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004387 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 107.28 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.190 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1190ms)
-		BeginReloadAssembly (123ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1016ms)
-			LoadAssemblies (84ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (346ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (392ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (107ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (178ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.33 seconds
-Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3871 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 167.2 MB.
-System memory in use after: 167.4 MB.
-
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4303.
-Total: 3.415700 ms (FindLiveObjects: 0.315900 ms CreateObjectMapping: 0.228800 ms MarkObjects: 2.760900 ms  DeleteObjects: 0.109300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/VFX/_NgchipvGodVFX/SonTinh/Source/GlowCard.png
-  artifactKey: Guid(6b2e407347354634796ccd3e9746c92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/SonTinh/Source/GlowCard.png using Guid(6b2e407347354634796ccd3e9746c92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3ec8918416be7296a9e2b97dab4063') in 0.261561 seconds 
-  Import took 0.267789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 632.962825 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/SonTinh/Source/M_SonTinhGlowCard.mat
-  artifactKey: Guid(bb699f38aac547c43974cd40f98e8ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/SonTinh/Source/M_SonTinhGlowCard.mat using Guid(bb699f38aac547c43974cd40f98e8ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b713ce3e4694ab4ea456381494fadcb7') in 0.149203 seconds 
-  Import took 0.155889 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004753 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.037 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1037ms)
-		BeginReloadAssembly (115ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (866ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (320ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (278ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (176ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3730 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.3 MB.
-System memory in use after: 162.5 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4386.
-Total: 3.323200 ms (FindLiveObjects: 0.300300 ms CreateObjectMapping: 0.183200 ms MarkObjects: 2.816800 ms  DeleteObjects: 0.022200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1971.644472 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/TowerTakingDamaged
-  artifactKey: Guid(913776e3d4b7a4a458944f149b2adb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/TowerTakingDamaged using Guid(913776e3d4b7a4a458944f149b2adb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a497715bed15cf6df8d1a32a057a4e23') in 0.006909 seconds 
-  Import took 0.013810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.100163 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/TowerTakingDamaged/TowerTakingDamaged.prefab
-  artifactKey: Guid(9e9e36e5d0596a74bb54b17fe37b5e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/TowerTakingDamaged/TowerTakingDamaged.prefab using Guid(9e9e36e5d0596a74bb54b17fe37b5e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acd5b31d4ade16c5a1523190f162c5e') in 0.234117 seconds 
-  Import took 0.240145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Hovl Studio/Black mage spells/Materials/Glow1bcg.mat
-  artifactKey: Guid(45de8f4006edc6948b033431b5a29e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Black mage spells/Materials/Glow1bcg.mat using Guid(45de8f4006edc6948b033431b5a29e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69cced24981d4be46beb8a28ad99002') in 0.015520 seconds 
-  Import took 0.020475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.281058 seconds.
-  path: Assets/Hovl Studio/Black mage spells/Materials/Crater32bcg.mat
-  artifactKey: Guid(de7d76c424d7be647a0aeb9c2109cd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Black mage spells/Materials/Crater32bcg.mat using Guid(de7d76c424d7be647a0aeb9c2109cd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361fb93b6ad179886c45491ec0aa58aa') in 0.007860 seconds 
-  Import took 0.013523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.197855 seconds.
-  path: Assets/Hovl Studio/Black mage spells/Materials/Stone3bcg.mat
-  artifactKey: Guid(2687a30d68920d9418667b64d76a5fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Black mage spells/Materials/Stone3bcg.mat using Guid(2687a30d68920d9418667b64d76a5fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85661764f81c5d25c09aac98a8c461e4') in 0.007101 seconds 
-  Import took 0.012790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.138022 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/SonTinh/Source/M_SonTinhCrack.mat
-  artifactKey: Guid(71615b3b914eae24190916e49134009c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/SonTinh/Source/M_SonTinhCrack.mat using Guid(71615b3b914eae24190916e49134009c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7cc4018ca2714fd7f5fab4d2c90d955') in 0.008019 seconds 
-  Import took 0.013770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 471.255560 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/SonTinh/Source/M_SonTinhAuraSmoke.mat
-  artifactKey: Guid(271b0de3507942743b7a138023a40f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/SonTinh/Source/M_SonTinhAuraSmoke.mat using Guid(271b0de3507942743b7a138023a40f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c143ac44b7d13a31ef85346bab34c5') in 0.009139 seconds 
-  Import took 0.015741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.708313 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/SonTinh/Source/M_SonTinhAura.mat
-  artifactKey: Guid(45d78280ed63ddd48a4a9f22ea23aaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/SonTinh/Source/M_SonTinhAura.mat using Guid(45d78280ed63ddd48a4a9f22ea23aaa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe3eba2118fd03cc3226114546d01cf') in 0.006684 seconds 
-  Import took 0.012839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 407.897750 seconds.
-  path: Assets/Hovl Studio/Black mage spells/Materials/Smoke24bcg.mat
-  artifactKey: Guid(4b963661ff30bb44cb43409db4141e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Black mage spells/Materials/Smoke24bcg.mat using Guid(4b963661ff30bb44cb43409db4141e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e93571796f4b104dbf1b51ef31d7367') in 0.010296 seconds 
-  Import took 0.017898 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 221.878805 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/SonTinh/Source/M_SonTinhAuraFlare.mat
-  artifactKey: Guid(49c7db4da31e5ff448848f207a77b0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/SonTinh/Source/M_SonTinhAuraFlare.mat using Guid(49c7db4da31e5ff448848f207a77b0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9c79ebafb73063a8825ed90c6f3796') in 0.008971 seconds 
-  Import took 0.015198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 236.384979 seconds.
-  path: Assets/Hovl Studio/Black mage spells/Materials/Glow1cg.mat
-  artifactKey: Guid(12fb1d84a82a2de4f8b3e8b1f2747b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/Black mage spells/Materials/Glow1cg.mat using Guid(12fb1d84a82a2de4f8b3e8b1f2747b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79029349f1af9b199807d716a7539e6') in 0.008905 seconds 
-  Import took 0.015235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.330701 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/SonTinh/Source/M_SonTinhSpark.mat
-  artifactKey: Guid(dd081fbfbb47cf748b7a9b24a882cef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/SonTinh/Source/M_SonTinhSpark.mat using Guid(dd081fbfbb47cf748b7a9b24a882cef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '373900dea6eedde331f3ad09035a2676') in 0.006998 seconds 
-  Import took 0.012732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.512067 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/SonTinh/Source/T_SonTinhCrack.png
-  artifactKey: Guid(2d06ebedf97f4404ca95a3edd990b7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/SonTinh/Source/T_SonTinhCrack.png using Guid(2d06ebedf97f4404ca95a3edd990b7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652ad8d4a27615ed244a1ec5cddf9162') in 0.028678 seconds 
-  Import took 0.034655 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/SonTinh/Source/T_SonTinhSign.png
-  artifactKey: Guid(3457089b786264f4b8516d25f780331d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/SonTinh/Source/T_SonTinhSign.png using Guid(3457089b786264f4b8516d25f780331d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44802f8fbd4088c25825bc74f1694ec0') in 0.010783 seconds 
-  Import took 0.016511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/SonTinh/Source/T_SonTinhFlare.png
-  artifactKey: Guid(c017297c67120db47a8d3e22be6a106d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/SonTinh/Source/T_SonTinhFlare.png using Guid(c017297c67120db47a8d3e22be6a106d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f377f32914c496245aea86164bac67b') in 0.008591 seconds 
-  Import took 0.014113 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/SonTinh/Source/T_SonTinhSmoke.png
-  artifactKey: Guid(1e1e5da1d28c4984985e6b8d7cd0650c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/SonTinh/Source/T_SonTinhSmoke.png using Guid(1e1e5da1d28c4984985e6b8d7cd0650c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f89fc99f86af9c80d8555ef451ae036') in 0.010662 seconds 
-  Import took 0.016075 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006110 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.162 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1162ms)
-		BeginReloadAssembly (177ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (92ms)
-		EndReloadAssembly (929ms)
-			LoadAssemblies (98ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (346ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (289ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (178ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3730 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.5 MB.
-System memory in use after: 162.8 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4424.
-Total: 3.184900 ms (FindLiveObjects: 0.308400 ms CreateObjectMapping: 0.193800 ms MarkObjects: 2.661700 ms  DeleteObjects: 0.020000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+Registered in 0.703759 seconds.
