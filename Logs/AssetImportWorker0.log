@@ -15,11 +15,11 @@ D:/GithubProject/MythVFX
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50732
+59069
 Successfully changed project path to: D:/GithubProject/MythVFX
 D:/GithubProject/MythVFX
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 91.81 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 236.76 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path D:/UnityVersion/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -36,90 +36,90 @@ Initialize mono
 Mono path[0] = 'D:/UnityVersion/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'D:/UnityVersion/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/UnityVersion/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UnityVersion/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000842 seconds.
+Registered in 0.023385 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 91.52 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 91.88 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.596 seconds
+- Completed reload, in  0.794 seconds
 Domain Reload Profiling:
-	ReloadAssembly (596ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (795ms)
+		BeginReloadAssembly (42ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (485ms)
-			LoadAssemblies (47ms)
+		EndReloadAssembly (601ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (145ms)
+			SetupTypeCache (132ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (219ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (297ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (92ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (82ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004601 seconds.
+Registered in 0.633045 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 115.20 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 107.95 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.348 seconds
+- Completed reload, in  2.618 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1348ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (2619ms)
+		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1147ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (2447ms)
+			LoadAssemblies (1441ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (418ms)
+			SetupTypeCache (345ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (86ms)
-			SetupLoadedEditorAssemblies (431ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (465ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (115ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (196ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.74 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 3.05 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3871 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 166.7 MB.
-System memory in use after: 166.9 MB.
+System memory in use before: 166.9 MB.
+System memory in use after: 167.1 MB.
 
 Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4304.
-Total: 3.407000 ms (FindLiveObjects: 0.315800 ms CreateObjectMapping: 0.229500 ms MarkObjects: 2.749900 ms  DeleteObjects: 0.110700 ms)
+Total: 5.020500 ms (FindLiveObjects: 0.355700 ms CreateObjectMapping: 0.297100 ms MarkObjects: 4.205800 ms  DeleteObjects: 0.160500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,478 +133,1081 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/VFX/Ngchipv_VFXUI/Tutorial/Source/HighlightMana.fbx
-  artifactKey: Guid(077f6204dc80c8f4d8a3da763d831681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Ngchipv_VFXUI/Tutorial/Source/HighlightMana.fbx using Guid(077f6204dc80c8f4d8a3da763d831681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d425a78d744d04c9a72e8a53221bb59') in 0.287810 seconds 
-  Import took 0.293741 seconds .
+  path: Assets/VFX/_NgchipvGodVFX/Bathala
+  artifactKey: Guid(66220229abbf014408f4f6e7882a9e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Bathala using Guid(66220229abbf014408f4f6e7882a9e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835b03abde1b8d7fd9ca815f6db39335') in 0.005836 seconds 
+  Import took 0.011334 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.446636 seconds.
-  path: Assets/VFX/Ngchipv_VFXUI/Tutorial/Source/HighlightMana.fbx
-  artifactKey: Guid(077f6204dc80c8f4d8a3da763d831681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Ngchipv_VFXUI/Tutorial/Source/HighlightMana.fbx using Guid(077f6204dc80c8f4d8a3da763d831681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff19fc6f4a966673e505a902fa3f9d3c') in 0.012686 seconds 
-  Import took 0.019288 seconds .
+  Time since last request: 18.811414 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Bathala/T_BathalaWaterSWave.png
+  artifactKey: Guid(bdbec14dc0f73d04f985879bc0f5a865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Bathala/T_BathalaWaterSWave.png using Guid(bdbec14dc0f73d04f985879bc0f5a865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4625c5bac24880ec00b1f2a8ce422fa5') in 0.138358 seconds 
+  Import took 0.143636 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2450.210243 seconds.
-  path: Assets/VFX/Ngchipv_VFXUI/Tutorial/Source/HighlightSmallCircle.fbx
-  artifactKey: Guid(2b5516ae8f781714592c131e97c9c9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Ngchipv_VFXUI/Tutorial/Source/HighlightSmallCircle.fbx using Guid(2b5516ae8f781714592c131e97c9c9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661cae3de0f0d8679827ed1cae1f611e') in 0.231694 seconds 
-  Import took 0.357448 seconds .
+  Time since last request: 0.186970 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Bathala/T_BathalaCrown.png
+  artifactKey: Guid(5b202835a37afd343a0c36666f79bafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Bathala/T_BathalaCrown.png using Guid(5b202835a37afd343a0c36666f79bafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c874fab95a7a436e916062c6a7dd7384') in 0.005894 seconds 
+  Import took 0.012369 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2403.681832 seconds.
-  path: Assets/VFX/Ngchipv_VFXUI/Tutorial/Source/HighlightTower.fbx
-  artifactKey: Guid(7e7a4ea0bf4b7204ab42152fd7f80c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Ngchipv_VFXUI/Tutorial/Source/HighlightTower.fbx using Guid(7e7a4ea0bf4b7204ab42152fd7f80c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994e20e6e841f17d9b73ae852bfe7649') in 0.443288 seconds 
-  Import took 0.453190 seconds .
+  Time since last request: 3.586338 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Bathala/T_BathalaCrown.png
+  artifactKey: Guid(5b202835a37afd343a0c36666f79bafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Bathala/T_BathalaCrown.png using Guid(5b202835a37afd343a0c36666f79bafb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac377af91bf5d1b17b4dde4e0a4843b') in 0.109431 seconds 
+  Import took 0.115164 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.541650 seconds.
-  path: Assets/VFX/Ngchipv_VFXUI/Tutorial/Textures_Highlight
-  artifactKey: Guid(3175f34443e2086489cac6a2c074f72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Ngchipv_VFXUI/Tutorial/Textures_Highlight using Guid(3175f34443e2086489cac6a2c074f72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685a0c22115d89b38d4bd1377313eba0') in 0.000998 seconds 
-  Import took 0.006696 seconds .
+  Time since last request: 357.564686 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Bathala/T_BathalaRock.png
+  artifactKey: Guid(cbd1413254522a54cbbfeeb407942e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Bathala/T_BathalaRock.png using Guid(cbd1413254522a54cbbfeeb407942e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df49812d81f3fbf4f39245924d65556c') in 0.033707 seconds 
+  Import took 0.040427 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.997228 seconds.
-  path: Assets/VFX/Ngchipv_VFXUI/Tutorial/Textures_Highlight/Tower
-  artifactKey: Guid(a668ffd9d3bde6142846bc6438f80ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Ngchipv_VFXUI/Tutorial/Textures_Highlight/Tower using Guid(a668ffd9d3bde6142846bc6438f80ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fa86f3539264347c1c0e5dbcf76f8e') in 0.000832 seconds 
-  Import took 0.006375 seconds .
+  Time since last request: 13.778747 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Ares/Source/AresImpact.prefab
+  artifactKey: Guid(82ad997ec24d997459ed68b32142f3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Ares/Source/AresImpact.prefab using Guid(82ad997ec24d997459ed68b32142f3f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c68792a2127144450dbf54ec9b7248f') in 0.873326 seconds 
+  Import took 0.882292 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.439984 seconds.
-  path: Assets/VFX/Ngchipv_VFXUI/Tutorial/Source/HighlightTower.fbx
-  artifactKey: Guid(7e7a4ea0bf4b7204ab42152fd7f80c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Ngchipv_VFXUI/Tutorial/Source/HighlightTower.fbx using Guid(7e7a4ea0bf4b7204ab42152fd7f80c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e2e55253e2243940d7342ba648c7a4') in 0.028874 seconds 
-  Import took 0.034343 seconds .
+  Time since last request: 0.676805 seconds.
+  path: Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Materials/ImpactCenterGlow.mat
+  artifactKey: Guid(f71e93c209785aa44b4c2ac1b1c5c1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Materials/ImpactCenterGlow.mat using Guid(f71e93c209785aa44b4c2ac1b1c5c1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafa2669041b4ebfded8bbbbd22ae132') in 0.072305 seconds 
+  Import took 0.078209 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.527114 seconds.
-  path: Assets/VFX/Ngchipv_VFXUI/Tutorial/Source/HighlightTower.fbx
-  artifactKey: Guid(7e7a4ea0bf4b7204ab42152fd7f80c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Ngchipv_VFXUI/Tutorial/Source/HighlightTower.fbx using Guid(7e7a4ea0bf4b7204ab42152fd7f80c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce7d289b39da63089c12dda19df6a38') in 0.011448 seconds 
-  Import took 0.017394 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.028505 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.118 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1119ms)
-		BeginReloadAssembly (187ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (76ms)
-		EndReloadAssembly (882ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (338ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (273ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (171ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3730 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.0 MB.
-System memory in use after: 162.2 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4388.
-Total: 3.226200 ms (FindLiveObjects: 0.303100 ms CreateObjectMapping: 0.172800 ms MarkObjects: 2.729400 ms  DeleteObjects: 0.020000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004501 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.016 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1016ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (865ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (317ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (275ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (171ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3730 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.0 MB.
-System memory in use after: 162.3 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4390.
-Total: 3.502900 ms (FindLiveObjects: 0.340800 ms CreateObjectMapping: 0.253100 ms MarkObjects: 2.875800 ms  DeleteObjects: 0.032200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005089 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.062 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1062ms)
-		BeginReloadAssembly (103ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (910ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (336ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (291ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (182ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3730 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.1 MB.
-System memory in use after: 162.3 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4392.
-Total: 3.149500 ms (FindLiveObjects: 0.328100 ms CreateObjectMapping: 0.234400 ms MarkObjects: 2.562500 ms  DeleteObjects: 0.023700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004555 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.120 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1120ms)
-		BeginReloadAssembly (117ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (943ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (373ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (289ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (187ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3730 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.1 MB.
-System memory in use after: 162.3 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4394.
-Total: 3.252700 ms (FindLiveObjects: 0.353000 ms CreateObjectMapping: 0.266500 ms MarkObjects: 2.609500 ms  DeleteObjects: 0.022900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 4559.608949 seconds.
-  path: Assets/VFX/Ngchipv_VFXUI/Tutorial/Animation/HighlightTower.anim
-  artifactKey: Guid(82858c85e8ed4a943b470db6db243ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Ngchipv_VFXUI/Tutorial/Animation/HighlightTower.anim using Guid(82858c85e8ed4a943b470db6db243ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13653917ec1c97abab191d23cc3bb8a') in 0.216724 seconds 
-  Import took 0.333056 seconds .
+  Time since last request: 29.710551 seconds.
+  path: Assets/VFX/_NgchipvVFX/KeyWord/OverRun/OverRunTowerImpact/OverRunTowerImpact.prefab
+  artifactKey: Guid(b98a6b740e6cfca48b746ae1a19a9e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/KeyWord/OverRun/OverRunTowerImpact/OverRunTowerImpact.prefab using Guid(b98a6b740e6cfca48b746ae1a19a9e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d98d89b033b7ac412decc9ca801ccb6') in 0.626980 seconds 
+  Import took 0.633496 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 954.267039 seconds.
-  path: Assets/VFX/Ngchipv_VFXUI/Tutorial/Source/HighlightTower.fbx
-  artifactKey: Guid(7e7a4ea0bf4b7204ab42152fd7f80c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Ngchipv_VFXUI/Tutorial/Source/HighlightTower.fbx using Guid(7e7a4ea0bf4b7204ab42152fd7f80c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440b33a1397b1ddf93dd235680b7435d') in 0.728597 seconds 
-  Import took 0.768236 seconds .
+  Time since last request: 0.000183 seconds.
+  path: Assets/Hovl Studio/Black mage spells/Materials/Glow1cg.mat
+  artifactKey: Guid(12fb1d84a82a2de4f8b3e8b1f2747b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Black mage spells/Materials/Glow1cg.mat using Guid(12fb1d84a82a2de4f8b3e8b1f2747b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79029349f1af9b199807d716a7539e6') in 0.007389 seconds 
+  Import took 0.012908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.181735 seconds.
+  path: Assets/Hovl Studio/Black mage spells/Materials/Glow1bcg.mat
+  artifactKey: Guid(45de8f4006edc6948b033431b5a29e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Black mage spells/Materials/Glow1bcg.mat using Guid(45de8f4006edc6948b033431b5a29e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69cced24981d4be46beb8a28ad99002') in 0.048385 seconds 
+  Import took 0.054019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.368426 seconds.
+  path: Assets/Hovl Studio/Black mage spells/Materials/Crack18dn.mat
+  artifactKey: Guid(f7f7d6109317c9e47a5ecdd9d5efa813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Black mage spells/Materials/Crack18dn.mat using Guid(f7f7d6109317c9e47a5ecdd9d5efa813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331515e373fd57cefc3151894bb8e21a') in 0.007850 seconds 
+  Import took 0.013473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.009370 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
+  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d3bac30e0c3da08768836858914317') in 0.061498 seconds 
+  Import took 0.067138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.902446 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Bathala/Textures
+  artifactKey: Guid(f006a9639f305e44b9023161185f295b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Bathala/Textures using Guid(f006a9639f305e44b9023161185f295b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c8be675c900ada7576b9dd828086b0') in 0.000900 seconds 
+  Import took 0.007044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.163942 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Bathala/T_BathalaWaterSWave.png
+  artifactKey: Guid(bdbec14dc0f73d04f985879bc0f5a865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Bathala/T_BathalaWaterSWave.png using Guid(bdbec14dc0f73d04f985879bc0f5a865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2683e267cfd5128285fb6e306adbf62') in 0.009787 seconds 
+  Import took 0.015344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.241703 seconds.
+  path: Assets/Hovl Studio/Black mage spells/Textures/Glow1.png
+  artifactKey: Guid(7605196420d204945843c4c794c58361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Black mage spells/Textures/Glow1.png using Guid(7605196420d204945843c4c794c58361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bc0b47076f134564aec77bc44e0d71') in 0.031710 seconds 
+  Import took 0.037826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.466594 seconds.
+  path: Assets/Hovl Studio/Black mage spells/Materials/Crater32bcg.mat
+  artifactKey: Guid(de7d76c424d7be647a0aeb9c2109cd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Black mage spells/Materials/Crater32bcg.mat using Guid(de7d76c424d7be647a0aeb9c2109cd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361fb93b6ad179886c45491ec0aa58aa') in 0.010587 seconds 
+  Import took 0.017126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.447349 seconds.
+  path: Assets/Hovl Studio/Black mage spells/Materials/Flare21bcg.mat
+  artifactKey: Guid(0847e1137284fba48a169ca162e08038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Black mage spells/Materials/Flare21bcg.mat using Guid(0847e1137284fba48a169ca162e08038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0ce494983c87568381333103f79c32') in 0.007968 seconds 
+  Import took 0.013721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.305737 seconds.
+  path: Assets/Hovl Studio/Black mage spells/Models/QuadToCircle.fbx
+  artifactKey: Guid(c9b3eaae0aa575c4db6feb3ae6fea5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Black mage spells/Models/QuadToCircle.fbx using Guid(c9b3eaae0aa575c4db6feb3ae6fea5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd665183ddcd819eb288eeac5283b7b5') in 0.251583 seconds 
+  Import took 0.257310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.963971 seconds.
+  path: Assets/Hovl Studio/Black mage spells/Materials/Smoke24bcg.mat
+  artifactKey: Guid(4b963661ff30bb44cb43409db4141e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Black mage spells/Materials/Smoke24bcg.mat using Guid(4b963661ff30bb44cb43409db4141e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e93571796f4b104dbf1b51ef31d7367') in 0.008892 seconds 
+  Import took 0.014635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.530398 seconds.
+  path: Assets/Hovl Studio/Black mage spells/Materials/Stone3bcg.mat
+  artifactKey: Guid(2687a30d68920d9418667b64d76a5fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Black mage spells/Materials/Stone3bcg.mat using Guid(2687a30d68920d9418667b64d76a5fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85661764f81c5d25c09aac98a8c461e4') in 0.039539 seconds 
+  Import took 0.045973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 643.202080 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Bathala/Textures/M_BathalaRock.mat
+  artifactKey: Guid(b9421239e84772445bd8344da1e03f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Bathala/Textures/M_BathalaRock.mat using Guid(b9421239e84772445bd8344da1e03f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b06e13969392fbc08290f26a69e5ec') in 0.031321 seconds 
+  Import took 0.038137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 317.951815 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaShardStone.png
+  artifactKey: Guid(c30c98a35b6daeb4b955b4d5f2eabc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaShardStone.png using Guid(c30c98a35b6daeb4b955b4d5f2eabc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7dad81cb49001ed20fcde03d3761a2') in 0.028455 seconds 
+  Import took 0.035048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.695700 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaRock.png
+  artifactKey: Guid(cbd1413254522a54cbbfeeb407942e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaRock.png using Guid(cbd1413254522a54cbbfeeb407942e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d174d6c7c95dc57d1c54645d6af56b6') in 0.009536 seconds 
+  Import took 0.015131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.034804 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaRock.png
+  artifactKey: Guid(cbd1413254522a54cbbfeeb407942e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaRock.png using Guid(cbd1413254522a54cbbfeeb407942e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7d11071c8c418413b5250d2a716688') in 0.019680 seconds 
+  Import took 0.025439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 185.909268 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaRock.png
+  artifactKey: Guid(cbd1413254522a54cbbfeeb407942e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaRock.png using Guid(cbd1413254522a54cbbfeeb407942e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5aaf5ea1f0b59321e2eb12aff48104') in 0.008931 seconds 
+  Import took 0.014789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.925622 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaRock.png
+  artifactKey: Guid(cbd1413254522a54cbbfeeb407942e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaRock.png using Guid(cbd1413254522a54cbbfeeb407942e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d558800ea3f165ad0c0e13bdca1a7fe') in 0.005382 seconds 
+  Import took 0.011805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.546422 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaRock.png
+  artifactKey: Guid(cbd1413254522a54cbbfeeb407942e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaRock.png using Guid(cbd1413254522a54cbbfeeb407942e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f02cf83a5d8057e9430f19d7525a54') in 0.059337 seconds 
+  Import took 0.065502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.566869 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Bathala/Textures/M_BathalaShard.mat
+  artifactKey: Guid(6c92c075d0fe8cd49ba574424460cba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Bathala/Textures/M_BathalaShard.mat using Guid(6c92c075d0fe8cd49ba574424460cba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eab2e1ee185dc1e22e185bbbdffca85') in 0.007208 seconds 
+  Import took 0.013093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 395.685345 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Bathala/Textures/M_BathalaShardStone.mat
+  artifactKey: Guid(ce14a817c51702f40a3703e39d574a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Bathala/Textures/M_BathalaShardStone.mat using Guid(ce14a817c51702f40a3703e39d574a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4eec6ad024faf13bb764235114465df') in 0.008925 seconds 
+  Import took 0.016465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1061.288903 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Ares/Source/T_AresMask.png
+  artifactKey: Guid(e17f79a87a1612947aebca462c5c48b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Ares/Source/T_AresMask.png using Guid(e17f79a87a1612947aebca462c5c48b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5252f90e6499996d4f48a5686818f5') in 0.135690 seconds 
+  Import took 0.142188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/VFX/_NgchipvModel_Anim/HandCard/Textures/Pantheon/T_ChinaPantheon.png
+  artifactKey: Guid(71e13c68fdb70c94e8a617d0157c957c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvModel_Anim/HandCard/Textures/Pantheon/T_ChinaPantheon.png using Guid(71e13c68fdb70c94e8a617d0157c957c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73432c6a707dff694ecb9872a0876dbb') in 0.077171 seconds 
+  Import took 0.082648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaShard.png
+  artifactKey: Guid(bc17c92a81196594b8eaaf8619026675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaShard.png using Guid(bc17c92a81196594b8eaaf8619026675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342ac30fa1562c03c7b640e52f38d613') in 0.010938 seconds 
+  Import took 0.016458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBasic/Keyword/T_KeywordNewIcon/T_BreakerIconKW.png
+  artifactKey: Guid(327e405781ce44d4182ab9f7c75b0a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBasic/Keyword/T_KeywordNewIcon/T_BreakerIconKW.png using Guid(327e405781ce44d4182ab9f7c75b0a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718a2e85a1791df559f0da12856723db') in 0.082822 seconds 
+  Import took 0.088468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/VFX/_NgchipvVFX/BoardMovableFX/Source/T_BoardFXGod_Enemy.png
+  artifactKey: Guid(0a5561f959b3b2845a16fceefba32dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/BoardMovableFX/Source/T_BoardFXGod_Enemy.png using Guid(0a5561f959b3b2845a16fceefba32dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0903805affc862b7189c59a636fb0a4') in 0.081251 seconds 
+  Import took 0.086338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/T_BlueSecondWhite.png
+  artifactKey: Guid(dae57ad3faa6f1c46a4d71bb0f47d1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/T_BlueSecondWhite.png using Guid(dae57ad3faa6f1c46a4d71bb0f47d1d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26ea602a9de5c734c0d86ed1671d3f3') in 0.022987 seconds 
+  Import took 0.027946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/T_combat sword opt3.png
+  artifactKey: Guid(bb39ad8fae01b2547bd27446451c744f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/T_combat sword opt3.png using Guid(bb39ad8fae01b2547bd27446451c744f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57acf125477cf0b2b5d28af6a1c34e5d') in 0.056352 seconds 
+  Import took 0.061412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBasic/NewDieVFX/Source/M_T/T_Attack.png
+  artifactKey: Guid(23d15033fc2ca884f88a04037544833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBasic/NewDieVFX/Source/M_T/T_Attack.png using Guid(23d15033fc2ca884f88a04037544833d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bcf4e5b05de63b30bbb001662962814') in 0.071518 seconds 
+  Import took 0.076574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Athena/Source/T_AthenaShield.png
+  artifactKey: Guid(64a7030363d912949945003727a37c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Athena/Source/T_AthenaShield.png using Guid(64a7030363d912949945003727a37c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830df6f8e890c8608d4ce9ae1eebab2a') in 0.076835 seconds 
+  Import took 0.081858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Demeter/Source/T_ButterFlyPink.png
+  artifactKey: Guid(c13ed1ce078a0604a926e26605ce6224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Demeter/Source/T_ButterFlyPink.png using Guid(c13ed1ce078a0604a926e26605ce6224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af41ce7c390e456b1e8484b10e5617d6') in 0.064900 seconds 
+  Import took 0.069835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Demeter/Source/T_ButterFly.png
+  artifactKey: Guid(7f190a2e35437854a86370cab746afd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Demeter/Source/T_ButterFly.png using Guid(7f190a2e35437854a86370cab746afd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76dab80323ab7b60a6bf1979abf4f662') in 0.068016 seconds 
+  Import took 0.072951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Athena/Source/T_AthenaSpear.png
+  artifactKey: Guid(1b48fbee5da5d2241ad2668635a94f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Athena/Source/T_AthenaSpear.png using Guid(1b48fbee5da5d2241ad2668635a94f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b1d39c50ea27c24e5b6c07394acb2d') in 0.068810 seconds 
+  Import took 0.073709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/T_BlueFirstWhite.png
+  artifactKey: Guid(cda705981f3a69b4e8192c71c52b5030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/T_BlueFirstWhite.png using Guid(cda705981f3a69b4e8192c71c52b5030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e898eddd9ac6fbaadaef211b17fcc1a4') in 0.063994 seconds 
+  Import took 0.068834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/VFX/_NgchipvVFX/BoardMovableFX/Source/T_BoardFXMortal.png
+  artifactKey: Guid(a84de9477cdee9843a9233ee0adb8639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/BoardMovableFX/Source/T_BoardFXMortal.png using Guid(a84de9477cdee9843a9233ee0adb8639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6de8847c8cc7a6d83754341515f85e') in 0.050645 seconds 
+  Import took 0.055705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/VFX/_NgchipvVFX/BoardMovableFX/Source/T_BoardFXMortal_Enemy.png
+  artifactKey: Guid(93bd8a494467ae24aba73198c90923a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/BoardMovableFX/Source/T_BoardFXMortal_Enemy.png using Guid(93bd8a494467ae24aba73198c90923a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a909870c8e7818f1e35ca744d1604ff0') in 0.037928 seconds 
+  Import took 0.042835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/T_BlueSecond.png
+  artifactKey: Guid(23dd1ca4f06c750478e023e2131c94c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/T_BlueSecond.png using Guid(23dd1ca4f06c750478e023e2131c94c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c15bf53fdd9300aa1a18a4f50f0a69b') in 0.043312 seconds 
+  Import took 0.048340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBasic/NewDieVFX/Source/M_T/T_BurningPaper.png
+  artifactKey: Guid(b96e937d6d04ff6408463772a1962514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBasic/NewDieVFX/Source/M_T/T_BurningPaper.png using Guid(b96e937d6d04ff6408463772a1962514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '126ce218b407c874a9457409a9ee4115') in 0.032440 seconds 
+  Import took 0.037455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/T_BlueFirst.png
+  artifactKey: Guid(9a11c461775a56147b033a2bae43b1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/T_BlueFirst.png using Guid(9a11c461775a56147b033a2bae43b1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59fcbe9dec62b7d497b339e1c4c37cd') in 0.062795 seconds 
+  Import took 0.067871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBonus/FlipCardVFX/Source/T_BackCard.png
+  artifactKey: Guid(fd24228c518a1ac498ec5dcba4e69546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBonus/FlipCardVFX/Source/T_BackCard.png using Guid(fd24228c518a1ac498ec5dcba4e69546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4b107afa8067775709e9022dba0b08') in 0.088822 seconds 
+  Import took 0.093725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBasic/Keyword/T_KeywordNewIcon/T_CleaveIconKW.png
+  artifactKey: Guid(4260d449fface7d4fb5f54d77b85bd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBasic/Keyword/T_KeywordNewIcon/T_CleaveIconKW.png using Guid(4260d449fface7d4fb5f54d77b85bd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e0806d3fb41181b3648ce61899009e') in 0.092026 seconds 
+  Import took 0.096978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/VFX/_NgchipvVFX/BoardMovableFX/Source/T_BoardFXGod.png
+  artifactKey: Guid(06851a4587638d94fba0463cf68bf747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/BoardMovableFX/Source/T_BoardFXGod.png using Guid(06851a4587638d94fba0463cf68bf747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65797a44e28a7ddead7c61c6406a5abc') in 0.081237 seconds 
+  Import took 0.086230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.640762 seconds.
+  path: Assets/ARPG Effects/Textures/GlowCard.png
+  artifactKey: Guid(5aaf83169cfd8f5438f6f4ba1c7c6803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Textures/GlowCard.png using Guid(5aaf83169cfd8f5438f6f4ba1c7c6803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48f56573d6d102c6b9cb4b2960feafe') in 0.051778 seconds 
+  Import took 0.057269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Demeter/Source/T_GlowFlower.png
+  artifactKey: Guid(5a3946ff531cc144e9586f3eafea33de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Demeter/Source/T_GlowFlower.png using Guid(5a3946ff531cc144e9586f3eafea33de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72b1ba0eb1fa5db8d202803b0892663') in 0.034612 seconds 
+  Import took 0.039587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Models/onhand ver 23-5/mortalOutGlowmask.png
+  artifactKey: Guid(c95e8953cc6266b48bd1eb9c7ea2d02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/onhand ver 23-5/mortalOutGlowmask.png using Guid(c95e8953cc6266b48bd1eb9c7ea2d02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6efbc7b150fc840cfd3b689d1f7257') in 0.050519 seconds 
+  Import took 0.055651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBonus/ShadowBoardCard/T_MortalHigh_OuterGlow.png
+  artifactKey: Guid(a9c62dfb211c6c946a87dce786174a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBonus/ShadowBoardCard/T_MortalHigh_OuterGlow.png using Guid(a9c62dfb211c6c946a87dce786174a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291122eae80966108eab59d66379642d') in 0.073423 seconds 
+  Import took 0.078538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Demeter/Source/GlowCard 1.png
+  artifactKey: Guid(4a3d32a303a57e24aba83203cec86957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Demeter/Source/GlowCard 1.png using Guid(4a3d32a303a57e24aba83203cec86957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa50ff94d5c070efb26d0fe4af2a93f') in 0.028871 seconds 
+  Import took 0.034574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Ares/Source/T_AresGlowFX.png
+  artifactKey: Guid(d83c71c632005194c8c1760904a4080b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Ares/Source/T_AresGlowFX.png using Guid(d83c71c632005194c8c1760904a4080b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b849145e53832a91d2acf520dffe9182') in 0.061736 seconds 
+  Import took 0.067121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/ARPG Effects/Textures/iconglow.png
+  artifactKey: Guid(c037fd2378f1c4d4da44b86d14d3a422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Textures/iconglow.png using Guid(c037fd2378f1c4d4da44b86d14d3a422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4806e3b8d2c6dde497b638f9c821dfbb') in 0.112768 seconds 
+  Import took 0.117792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBonus/ShadowBoardCard/T_GodImmortal_OuterGlow.png
+  artifactKey: Guid(ce4c3f32c36d07c4abbc806ff2274a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBonus/ShadowBoardCard/T_GodImmortal_OuterGlow.png using Guid(ce4c3f32c36d07c4abbc806ff2274a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc9a1e3bd1fd9395bec21054ab7a00a') in 0.078526 seconds 
+  Import took 0.083781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBonus/ShadowBoardCard/T_GodLegend_OuterGlow.png
+  artifactKey: Guid(e3dd7a606a3f4c240889e656a6f279ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBonus/ShadowBoardCard/T_GodLegend_OuterGlow.png using Guid(e3dd7a606a3f4c240889e656a6f279ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63eb514280f2299c2ffe0b8c075c12d6') in 0.075740 seconds 
+  Import took 0.080952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/SonTinh/Source/GlowCard.png
+  artifactKey: Guid(6b2e407347354634796ccd3e9746c92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/SonTinh/Source/GlowCard.png using Guid(6b2e407347354634796ccd3e9746c92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3ec8918416be7296a9e2b97dab4063') in 0.063903 seconds 
+  Import took 0.068808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Models/onhand ver 23-5/spellOuterGlowmask.png
+  artifactKey: Guid(69eb02356d80c29498388552eec8654b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/onhand ver 23-5/spellOuterGlowmask.png using Guid(69eb02356d80c29498388552eec8654b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7440ef719d3b93ff6ee0e08d7416a59') in 0.077882 seconds 
+  Import took 0.082824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/VFX/_NgchipvVFX/SkillIConVFX/Textures/glow1 1.png
+  artifactKey: Guid(d38f59b921099e648a77c20c94200182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/SkillIConVFX/Textures/glow1 1.png using Guid(d38f59b921099e648a77c20c94200182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62637e9da1892ddfc5786ca6c6ac929f') in 0.074472 seconds 
+  Import took 0.079979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/AllIn1VfxToolkit/Demo & Assets/Textures/Shapes/Glow3.png
+  artifactKey: Guid(0cbe97237cc70cf47bd7cd10a1498398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllIn1VfxToolkit/Demo & Assets/Textures/Shapes/Glow3.png using Guid(0cbe97237cc70cf47bd7cd10a1498398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b2404119b5fba1f0e3756024d00fe7') in 0.076644 seconds 
+  Import took 0.081592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/AllIn1VfxToolkit/Demo & Assets/Textures/Shapes/Glow4.png
+  artifactKey: Guid(c644f12d7def3a543a6c3ec049bb87f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllIn1VfxToolkit/Demo & Assets/Textures/Shapes/Glow4.png using Guid(c644f12d7def3a543a6c3ec049bb87f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53c49318f423478ef597d64f388aaf2') in 0.084411 seconds 
+  Import took 0.089438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/AllIn1VfxToolkit/Demo & Assets/Textures/Shapes/Glow2.png
+  artifactKey: Guid(8e5851eb92490804d8e136e14462e9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllIn1VfxToolkit/Demo & Assets/Textures/Shapes/Glow2.png using Guid(8e5851eb92490804d8e136e14462e9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707e38f51f34361a4af344bec21125b3') in 0.005423 seconds 
+  Import took 0.010650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Demeter/Source/GlowCard 1-assets/GlowCard 1.png
+  artifactKey: Guid(908227f1c00bfb04ab09d2d45d2cd133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Demeter/Source/GlowCard 1-assets/GlowCard 1.png using Guid(908227f1c00bfb04ab09d2d45d2cd133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de72d89b256bd3af0636284958800ae') in 0.073246 seconds 
+  Import took 0.078870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/VFX/_NgchipvVFX/SkillIConVFX/Textures/SkillGlowPassive.png
+  artifactKey: Guid(e89211d1a545e074eba9a910e6760ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/SkillIConVFX/Textures/SkillGlowPassive.png using Guid(e89211d1a545e074eba9a910e6760ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06b20da1b7761166ef8b8c7d7f7d6ab') in 0.095484 seconds 
+  Import took 0.101032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Epic Toon FX/Textures/glow1.png
+  artifactKey: Guid(75c822b01a637d547abc69e6f1f590b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Epic Toon FX/Textures/glow1.png using Guid(75c822b01a637d547abc69e6f1f590b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0d0aa23a01f2f63b004a0b61cb8e1d') in 0.089971 seconds 
+  Import took 0.094879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Hit & Slashes Vol.3/Sprites/glow-white.png
+  artifactKey: Guid(d78e19e75a518a94391f11029f33e70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hit & Slashes Vol.3/Sprites/glow-white.png using Guid(d78e19e75a518a94391f11029f33e70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdc6614040b6973d5ab8a1ef81fb52d') in 0.070226 seconds 
+  Import took 0.075186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBonus/ShadowBoardCard/T_GodLow_OuterGlow.png
+  artifactKey: Guid(defcefae32845074a9585c8970a88658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBonus/ShadowBoardCard/T_GodLow_OuterGlow.png using Guid(defcefae32845074a9585c8970a88658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fc6d09636941c25605230d512e17f6') in 0.060195 seconds 
+  Import took 0.065926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/VFX/Ngchipv_VFXUI/29_DragCard/Source/DeskGlow.png
+  artifactKey: Guid(5f0f715b6c34ff848ad3ddf4ae80050d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Ngchipv_VFXUI/29_DragCard/Source/DeskGlow.png using Guid(5f0f715b6c34ff848ad3ddf4ae80050d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f7bb9cf34fc35e02e71c525803e39db') in 0.036327 seconds 
+  Import took 0.042241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBonus/ShadowBoardCard/T_MortalLow_OuterGlow.png
+  artifactKey: Guid(c205a790417ae71479c62bf3792273d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBonus/ShadowBoardCard/T_MortalLow_OuterGlow.png using Guid(c205a790417ae71479c62bf3792273d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e31765302db203aacf8597f417bbf7') in 0.050829 seconds 
+  Import took 0.056333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/ARPG Effects/Textures/beamglowTrail.png
+  artifactKey: Guid(32dd2debe389fe947a6dc73b4d36ff59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Textures/beamglowTrail.png using Guid(32dd2debe389fe947a6dc73b4d36ff59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a412fdd6f779f6eb97de3beda38440b') in 0.057717 seconds 
+  Import took 0.062853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/ARPG Effects/Textures/basicglow.png
+  artifactKey: Guid(ed380727edbaaa041b59db841ac6bb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Textures/basicglow.png using Guid(ed380727edbaaa041b59db841ac6bb5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977887481cabffb0d80b2a1396cebba8') in 0.027386 seconds 
+  Import took 0.032480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/ARPG Effects/Textures/beamglow.png
+  artifactKey: Guid(7337a1ffd4378fd42816aae18c955de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Textures/beamglow.png using Guid(7337a1ffd4378fd42816aae18c955de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030441b75cb7f1b0384e8481edbc6fbc') in 0.024049 seconds 
+  Import took 0.029672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/AllIn1VfxToolkit/Demo & Assets/Textures/Shapes/Glow.png
+  artifactKey: Guid(2f6642b43dc405d498acba7e288c068c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllIn1VfxToolkit/Demo & Assets/Textures/Shapes/Glow.png using Guid(2f6642b43dc405d498acba7e288c068c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de204be54eac4e64d9172a0acf3be4d5') in 0.005481 seconds 
+  Import took 0.011941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/VFX/Nokdef_VFXPack/Textures/Flare_Glowdot.png
+  artifactKey: Guid(c5a2c4ede3a972e46b11c62b98975f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Nokdef_VFXPack/Textures/Flare_Glowdot.png using Guid(c5a2c4ede3a972e46b11c62b98975f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f221c211a9bd26e67f1bef403846a3') in 0.045359 seconds 
+  Import took 0.051281 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000199 seconds.
-  path: Assets/VFX/Ngchipv_VFXUI/Tutorial/Source/HighlightWidePlane.fbx
-  artifactKey: Guid(5af78879e78738f4fbe62c8c2c48c779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Ngchipv_VFXUI/Tutorial/Source/HighlightWidePlane.fbx using Guid(5af78879e78738f4fbe62c8c2c48c779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23db6c17b4410c381ba94a5ff896a716') in 0.070163 seconds 
-  Import took 0.076734 seconds .
+  path: Assets/VFX/Ngchipv_VFXUI/29_DragCard/Source/CardGlow.png
+  artifactKey: Guid(b798e30e9130f4c4982fc9a0bd1ecbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Ngchipv_VFXUI/29_DragCard/Source/CardGlow.png using Guid(b798e30e9130f4c4982fc9a0bd1ecbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b3259d726de5b428bdadce1bf636d9') in 0.040516 seconds 
+  Import took 0.045898 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 870.687898 seconds.
-  path: Assets/VFX/Ngchipv_VFXUI/Tutorial/Source/HighlightCircle.fbx
-  artifactKey: Guid(6af2a067b03bf2c4bbc5134ff7e8e081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Ngchipv_VFXUI/Tutorial/Source/HighlightCircle.fbx using Guid(6af2a067b03bf2c4bbc5134ff7e8e081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fcc244579f1cdcd3442bd9ae13dd87d') in 0.341849 seconds 
-  Import took 0.388307 seconds .
+  Time since last request: 0.000222 seconds.
+  path: Assets/VFX/_NgchipvVFX/SkillIConVFX/Textures/GodSkillGlow.png
+  artifactKey: Guid(fc6c20c95a41854418c2e9af2ad5cd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/SkillIConVFX/Textures/GodSkillGlow.png using Guid(fc6c20c95a41854418c2e9af2ad5cd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f090a9f495f792d0f7e5e7c8c8b9d2fe') in 0.137245 seconds 
+  Import took 0.142172 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 337.286221 seconds.
-  path: Assets/VFX/Ngchipv_VFXUI/Tutorial/Animation/HighlightCircle.anim
-  artifactKey: Guid(9186407675b35e241b5d120d649e5ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Ngchipv_VFXUI/Tutorial/Animation/HighlightCircle.anim using Guid(9186407675b35e241b5d120d649e5ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e11df5774540d762d6126303f2c729') in 0.001656 seconds 
-  Import took 0.008790 seconds .
+  Time since last request: 0.000145 seconds.
+  path: Assets/VFX/Ngchipv_VFXUI/27_SelectDesk/Source/T_OuterGlow.png
+  artifactKey: Guid(3d347b6da1f31fa4c87bae8c907968ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Ngchipv_VFXUI/27_SelectDesk/Source/T_OuterGlow.png using Guid(3d347b6da1f31fa4c87bae8c907968ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e702ce5307df5c416d1fcb9749deeb7') in 0.093905 seconds 
+  Import took 0.099519 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 57.006911 seconds.
-  path: Assets/VFX/Ngchipv_VFXUI/Tutorial/Animation/ArrowTut6Animation.anim
-  artifactKey: Guid(548aa0631ab168b4d9eb7bc378f07977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Ngchipv_VFXUI/Tutorial/Animation/ArrowTut6Animation.anim using Guid(548aa0631ab168b4d9eb7bc378f07977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92c83d0eb107e5bcdfeec4d064e5f39') in 0.033712 seconds 
-  Import took 0.039485 seconds .
+  Time since last request: 0.000299 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/Source/outer-inner-Arrow_glow.png
+  artifactKey: Guid(2ebe350a7e9b376489a2d80f74af5f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/Source/outer-inner-Arrow_glow.png using Guid(2ebe350a7e9b376489a2d80f74af5f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80314c1523279ccdff593b50e01c67d5') in 0.062184 seconds 
+  Import took 0.067678 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.813902 seconds.
-  path: Assets/VFX/Ngchipv_VFXUI/Tutorial/Animation
-  artifactKey: Guid(ff0958d1963e9fa489af3a315c0f29dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Ngchipv_VFXUI/Tutorial/Animation using Guid(ff0958d1963e9fa489af3a315c0f29dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d935a7c4fdd63970e7170e0efe5d4b') in 0.032071 seconds 
-  Import took 0.038350 seconds .
+  Time since last request: 0.000180 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBonus/God_IconUI/Textures/CardGlow.png
+  artifactKey: Guid(156117c253610344588f1bfc4e925ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBonus/God_IconUI/Textures/CardGlow.png using Guid(156117c253610344588f1bfc4e925ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4724d35f42880220fd7d2fd8da0174de') in 0.053740 seconds 
+  Import took 0.058868 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 118.885322 seconds.
-  path: Assets/VFX/Ngchipv_VFXUI/Tutorial/Source/HighlightMana.fbx
-  artifactKey: Guid(077f6204dc80c8f4d8a3da763d831681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Ngchipv_VFXUI/Tutorial/Source/HighlightMana.fbx using Guid(077f6204dc80c8f4d8a3da763d831681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a6009d49821f489217e2fa5786f304') in 0.113266 seconds 
-  Import took 0.145865 seconds .
+  Time since last request: 0.000129 seconds.
+  path: Assets/ARPG Effects/Textures/iconglowTower.png
+  artifactKey: Guid(87f20c1f7f66db1458b2912ece671b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Textures/iconglowTower.png using Guid(87f20c1f7f66db1458b2912ece671b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0695c979f14684a42cca89489a1af3e8') in 0.064627 seconds 
+  Import took 0.069599 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.742518 seconds.
-  path: Assets/VFX/Ngchipv_VFXUI/Tutorial/Animation/HighlightBlue.anim
-  artifactKey: Guid(9186407675b35e241b5d120d649e5ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Ngchipv_VFXUI/Tutorial/Animation/HighlightBlue.anim using Guid(9186407675b35e241b5d120d649e5ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed745aa0e6a096b9a6fdf00d1af8453') in 0.001985 seconds 
-  Import took 0.007506 seconds .
+  Time since last request: 0.000210 seconds.
+  path: Assets/VFX/_NgchipvVFX/SkillIConVFX/Textures/SkillGlow2Active.png
+  artifactKey: Guid(3b39b818e6fd031488e728f6989bcc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/SkillIConVFX/Textures/SkillGlow2Active.png using Guid(3b39b818e6fd031488e728f6989bcc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bfc417a2f920fa7f78fc2091ee6909') in 0.159169 seconds 
+  Import took 0.164031 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.937001 seconds.
-  path: Assets/VFX/Ngchipv_VFXUI/Tutorial/Animation/HighlightCircle.anim
-  artifactKey: Guid(9186407675b35e241b5d120d649e5ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Ngchipv_VFXUI/Tutorial/Animation/HighlightCircle.anim using Guid(9186407675b35e241b5d120d649e5ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89dcca991f7c4a5a532d7661a2fc19cf') in 0.001619 seconds 
-  Import took 0.007132 seconds .
+  Time since last request: 21.611297 seconds.
+  path: Assets/VFX/Ngchipv_VFXUI/OpenPack/Source/gem_5 1.png
+  artifactKey: Guid(4e86ce318d1620d4d815b1ee87310713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Ngchipv_VFXUI/OpenPack/Source/gem_5 1.png using Guid(4e86ce318d1620d4d815b1ee87310713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61635174b1cbc5677ec2cb2ccd976822') in 0.074288 seconds 
+  Import took 0.080294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/VFX/Nokdef_VFXPack/Textures/GhostTrail.png
+  artifactKey: Guid(98583555cbe6a1146a074496fe883021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Nokdef_VFXPack/Textures/GhostTrail.png using Guid(98583555cbe6a1146a074496fe883021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e94275ad0862cf74ab115b77f3e1dfdb') in 0.055275 seconds 
+  Import took 0.060880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/VFX/_NgchipvModel_Anim/NewMortalCard/God/GodEffect.png
+  artifactKey: Guid(836f5604d00d2ad41a0c963d979c0810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvModel_Anim/NewMortalCard/God/GodEffect.png using Guid(836f5604d00d2ad41a0c963d979c0810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cd48a6753666d2443d2a865e9618ee') in 0.069777 seconds 
+  Import took 0.075206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/VFX/_NgchipvModel_Anim/NewMortalCard/God/GodEffect_Mask.png
+  artifactKey: Guid(697dc55356bba5f4ca3bae88d8f54b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvModel_Anim/NewMortalCard/God/GodEffect_Mask.png using Guid(697dc55356bba5f4ca3bae88d8f54b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f946c088a47e2386cedabc3a06f85b') in 0.091023 seconds 
+  Import took 0.096489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBonus/God_IconUI/Textures/GodIcon_Mask.png
+  artifactKey: Guid(a9b6387751ba217429f4bce5206558d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBonus/God_IconUI/Textures/GodIcon_Mask.png using Guid(a9b6387751ba217429f4bce5206558d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114e590f61c666c7f32d45008ddb1a48') in 0.047636 seconds 
+  Import took 0.053082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/InspectorIcons/GlobalLight.png
+  artifactKey: Guid(8f5dd14b314efbe4684329d8a14bbe38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/InspectorIcons/GlobalLight.png using Guid(8f5dd14b314efbe4684329d8a14bbe38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249fb4ef88d41320f520f4583aab0659') in 0.034677 seconds 
+  Import took 0.040142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Resources/Pack/Images/CardColor/God_2.png
+  artifactKey: Guid(3c1fb7b481f407e4da61fb6af20c7d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pack/Images/CardColor/God_2.png using Guid(3c1fb7b481f407e4da61fb6af20c7d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e60fc7af4174ebb3dc4573cc00962e') in 0.106352 seconds 
+  Import took 0.112027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/VFX/Ngchipv_VFXUI/29_DragCard/Source/GOD CARD FRAME (2) 1.png
+  artifactKey: Guid(71d39f2f1e166204faef277c2e068874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Ngchipv_VFXUI/29_DragCard/Source/GOD CARD FRAME (2) 1.png using Guid(71d39f2f1e166204faef277c2e068874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6124d471f21e3158ac29e27feaef6be0') in 0.066945 seconds 
+  Import took 0.072458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/onboard_new_5-6/onboard 1 xuong/texture/god_ulti_frame.png
+  artifactKey: Guid(7da140452489d4b45b04b71befe606a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/onboard_new_5-6/onboard 1 xuong/texture/god_ulti_frame.png using Guid(7da140452489d4b45b04b71befe606a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a469996be6827e63570ef1acc0a4347') in 0.054471 seconds 
+  Import took 0.059828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBonus/GodIconSkill/Textures/GodButtonSheet.png
+  artifactKey: Guid(55056f95b83272c49abbc8792b4901b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBonus/GodIconSkill/Textures/GodButtonSheet.png using Guid(55056f95b83272c49abbc8792b4901b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7e2d7bb750b4aff184962367114f7e') in 0.063795 seconds 
+  Import took 0.069641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Models/new card/GOD NEW 6 done.png
+  artifactKey: Guid(8da7bc4b32916d7469110212fe1cc6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/new card/GOD NEW 6 done.png using Guid(8da7bc4b32916d7469110212fe1cc6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf5616c69c0748dd5b08b05e111e417') in 0.022302 seconds 
+  Import took 0.027875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/VFX/Nokdef_VFXPack/Textures/GhostTrail_Clamped2.png
+  artifactKey: Guid(93cf0dee01e196c42a80521c3898b4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Nokdef_VFXPack/Textures/GhostTrail_Clamped2.png using Guid(93cf0dee01e196c42a80521c3898b4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b810706bc08c3553b25eee61bfdc27') in 0.026812 seconds 
+  Import took 0.032460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/GlobalLight.png
+  artifactKey: Guid(7f923c32ff8dfab40b5673135ddb6cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/GlobalLight.png using Guid(7f923c32ff8dfab40b5673135ddb6cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83919b5057a929cc173732b24fb611ac') in 0.043422 seconds 
+  Import took 0.049315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.246376 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBasic/Component/Number/+1.png
+  artifactKey: Guid(01199b957ea636a4cabcc3889f6c0506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBasic/Component/Number/+1.png using Guid(01199b957ea636a4cabcc3889f6c0506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf29335ecdd63edae0cbffb05a9096d') in 0.104870 seconds 
+  Import took 0.110994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Resources/Pack/Images/Rarity/0.png
+  artifactKey: Guid(f21720df4e43d574cb08a7a9c4ecbf2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pack/Images/Rarity/0.png using Guid(f21720df4e43d574cb08a7a9c4ecbf2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671c8ea59b3f207e98eb6cb5447c9248') in 0.084986 seconds 
+  Import took 0.090723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/onboard_new_5-6/onboard 1 xuong/texture/22.png
+  artifactKey: Guid(176b8a270aa46c14e8e8cd2144e4f732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/onboard_new_5-6/onboard 1 xuong/texture/22.png using Guid(176b8a270aa46c14e8e8cd2144e4f732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47183a7a32a42bd9bf2023394c9600fb') in 0.084549 seconds 
+  Import took 0.091043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/1SwordActive.png
+  artifactKey: Guid(5fec0570c4519d84b9fa74a99960268e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/1SwordActive.png using Guid(5fec0570c4519d84b9fa74a99960268e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a3ffc24bde91414c78753a523451bc') in 0.041782 seconds 
+  Import took 0.047397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/onboard_new_5-6/onboard 1 xuong/texture/42.png
+  artifactKey: Guid(641afca7d92b77746bd5ca8132034839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/onboard_new_5-6/onboard 1 xuong/texture/42.png using Guid(641afca7d92b77746bd5ca8132034839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc5424422e0d2c7819a52140a5b29e1') in 0.035046 seconds 
+  Import took 0.040760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/2SwordNormal.png
+  artifactKey: Guid(7f638668671ff4f4bad17fe2b3776e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/2SwordNormal.png using Guid(7f638668671ff4f4bad17fe2b3776e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21e117324bb26f04d284c00ae4c7b11') in 0.060436 seconds 
+  Import took 0.065511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Resources/Pack/Images/CardOnBoard_2/202.png
+  artifactKey: Guid(6a6515bf24445e24091cc8ae9483c1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pack/Images/CardOnBoard_2/202.png using Guid(6a6515bf24445e24091cc8ae9483c1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89abbcca5b65a108a1bdd092d7afe17e') in 0.044364 seconds 
+  Import took 0.051095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Models/onhand ver 23-5/43.jpg
+  artifactKey: Guid(8be5f6994c72fd74385768856f5af9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/onhand ver 23-5/43.jpg using Guid(8be5f6994c72fd74385768856f5af9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5422968ad8ad8bd45d3819bf34562699') in 0.088900 seconds 
+  Import took 0.094426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/1SwordActive_Enemy.png
+  artifactKey: Guid(6681f298265ac104baae8c4260e76d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/1SwordActive_Enemy.png using Guid(6681f298265ac104baae8c4260e76d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856859e7269627d05d93ee2cef46b13c') in 0.071064 seconds 
+  Import took 0.076614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/2SwordActive.png
+  artifactKey: Guid(f3d145634fd886247a81d0d983b6cff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/2SwordActive.png using Guid(f3d145634fd886247a81d0d983b6cff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d1739b016b146eeb415909eb06f1c8') in 0.046646 seconds 
+  Import took 0.052634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Resources/Pack/Images/CardOnBoard_1/18.png
+  artifactKey: Guid(8cb1c246832d2e340a78067ab95231e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pack/Images/CardOnBoard_1/18.png using Guid(8cb1c246832d2e340a78067ab95231e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba97feff63c73169d9a053a062814df') in 0.042391 seconds 
+  Import took 0.048325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/onboard_new_5-6/onboard 1 xuong/texture/40.png
+  artifactKey: Guid(42b082a2512001c4eacdaa7555edd00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/onboard_new_5-6/onboard 1 xuong/texture/40.png using Guid(42b082a2512001c4eacdaa7555edd00f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94c400cc7de7d76ad3f847c67d5949f') in 0.033914 seconds 
+  Import took 0.040113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBasic/Component/Number/-1.png
+  artifactKey: Guid(00db14ff68fe40141b67ec017ea7a563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBasic/Component/Number/-1.png using Guid(00db14ff68fe40141b67ec017ea7a563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0305bd7963e0dbd632bd39227ca53de3') in 0.034292 seconds 
+  Import took 0.040977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/2SwordActive_Enemy.png
+  artifactKey: Guid(1b81709ba88d2ca4dace617f96ecdb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/2SwordActive_Enemy.png using Guid(1b81709ba88d2ca4dace617f96ecdb6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393e6aed9dc1e3f74379688766d7ba5a') in 0.040989 seconds 
+  Import took 0.046812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/VFX/Ngchipv_VFXUI/29_DragCard/Source/29.Drag Card.png
+  artifactKey: Guid(f292dd8b2cad4d442bd3a45cc44513b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Ngchipv_VFXUI/29_DragCard/Source/29.Drag Card.png using Guid(f292dd8b2cad4d442bd3a45cc44513b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e712171ca4c2bbb640b1d8980628dc0') in 0.060013 seconds 
+  Import took 0.065724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/1SwordNormal.png
+  artifactKey: Guid(9785caa5d50afa64a8f809b739821de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/1SwordNormal.png using Guid(9785caa5d50afa64a8f809b739821de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5946098c74a80fc1f39c84da3b8642f') in 0.078361 seconds 
+  Import took 0.085163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/onboard_new_5-6/onboard 1 xuong/texture/41.png
+  artifactKey: Guid(2e990dd30c6edc748b59c237da5de000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/onboard_new_5-6/onboard 1 xuong/texture/41.png using Guid(2e990dd30c6edc748b59c237da5de000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7e49dd0068b07be7d3a0fdff899103') in 0.032882 seconds 
+  Import took 0.039089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Models/onhand ver 23-5/53.jpg
+  artifactKey: Guid(ca083fb2a2207d349addf6a975a07f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/onhand ver 23-5/53.jpg using Guid(ca083fb2a2207d349addf6a975a07f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f2c8a25312f9e40e32fa4dc3e59dc5') in 0.072849 seconds 
+  Import took 0.078342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/onboard_new_5-6/onboard 1 xuong/texture/10.png
+  artifactKey: Guid(f3282fb70125dfd469c4172d4b229441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/onboard_new_5-6/onboard 1 xuong/texture/10.png using Guid(f3282fb70125dfd469c4172d4b229441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bacde2c55bf790881bb56019a7c9cbfd') in 0.017516 seconds 
+  Import took 0.024464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Resources/Pack/Images/Shard/2.png
+  artifactKey: Guid(7ef0d411b406c524ca8e18ccea76b084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pack/Images/Shard/2.png using Guid(7ef0d411b406c524ca8e18ccea76b084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c782d8f3844e77009e1aca415e04a8') in 0.024272 seconds 
+  Import took 0.029725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Resources/Pack/Images/UltimateSkill/30.jpg
+  artifactKey: Guid(c13a400d8d5e60245ac7fc6947fd4426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Pack/Images/UltimateSkill/30.jpg using Guid(c13a400d8d5e60245ac7fc6947fd4426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78f5da875a849d74f390b1c3b378fec') in 0.050739 seconds 
+  Import took 0.056826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Models/onhand ver 23-5/spell/0 Frame-spell.png
+  artifactKey: Guid(35d455b480115f64aa0fb1a3b9f3ee0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/onhand ver 23-5/spell/0 Frame-spell.png using Guid(35d455b480115f64aa0fb1a3b9f3ee0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e338d6be6b1586532ac072f9c986a876') in 0.116211 seconds 
+  Import took 0.122384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Materials/GunImpactFlare.mat
+  artifactKey: Guid(9afe3a3ddb0db2642accad446fc2a398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AllIn1VfxToolkit/Demo & Assets/Demo/Materials/GunImpactFlare.mat using Guid(9afe3a3ddb0db2642accad446fc2a398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03d67afc1974d8438d09ece6e73883f') in 0.141559 seconds 
+  Import took 0.147546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/VFX/Ngchipv_VFXUI/27_SelectDesk/Source/27.Select Decks.png
+  artifactKey: Guid(0397ca2e87351a040970d5738571aca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Ngchipv_VFXUI/27_SelectDesk/Source/27.Select Decks.png using Guid(0397ca2e87351a040970d5738571aca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee99e02bfae081d1c5ef4ba8f01c961') in 0.330217 seconds 
+  Import took 0.336664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2928.936790 seconds.
+  path: Assets/VFX/Nokdef_VFXPack/Models/Crystals/IceShards.fbx
+  artifactKey: Guid(8e8e47fd7435108459906ec2e7e9ccf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Nokdef_VFXPack/Models/Crystals/IceShards.fbx using Guid(8e8e47fd7435108459906ec2e7e9ccf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13dd3bfb892269fdd7f170e2939d93cb') in 0.101628 seconds 
+  Import took 0.144482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.980825 seconds.
+  path: Assets/VFX/_NgchipvVFX/VFXBonus/GetShard/Source/Source/Shard.fbx
+  artifactKey: Guid(c4d7a3f0e2c65424086b71c6094049b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvVFX/VFXBonus/GetShard/Source/Source/Shard.fbx using Guid(c4d7a3f0e2c65424086b71c6094049b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cee182caddf5ab3be79fc0faca41f4') in 0.857505 seconds 
+  Import took 0.863218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 222.901858 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaRock.png
+  artifactKey: Guid(cbd1413254522a54cbbfeeb407942e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaRock.png using Guid(cbd1413254522a54cbbfeeb407942e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e355ae54ee609b95c49eb3c8c229a6b3') in 0.072697 seconds 
+  Import took 0.079321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 969.630284 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaRock_Glow.png
+  artifactKey: Guid(6e7593ab69fad814bb5a70e362a8b161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaRock_Glow.png using Guid(6e7593ab69fad814bb5a70e362a8b161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc30bc219d662360a292d9a659111c6d') in 0.009170 seconds 
+  Import took 0.015915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.253033 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaRock_Glow.png
+  artifactKey: Guid(6e7593ab69fad814bb5a70e362a8b161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaRock_Glow.png using Guid(6e7593ab69fad814bb5a70e362a8b161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f3725a40879c514154cf136e2b316e') in 0.064450 seconds 
+  Import took 0.070175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 475.553362 seconds.
+  path: Assets/Hovl Studio/Black mage spells/Textures/Gradient3Repeat.png
+  artifactKey: Guid(c815ff65f7d115d49b3768f7647db1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Black mage spells/Textures/Gradient3Repeat.png using Guid(c815ff65f7d115d49b3768f7647db1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d4ca2e54ae4f264c6268d302eda8de') in 0.048686 seconds 
+  Import took 0.057357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Hovl Studio/Black mage spells/Textures/Noise84.png
+  artifactKey: Guid(ff6d0479db5058f42878d15454bd3fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Black mage spells/Textures/Noise84.png using Guid(ff6d0479db5058f42878d15454bd3fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b623bd822d35eee54f5b991b5b386ba') in 0.070729 seconds 
+  Import took 0.077982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Hovl Studio/Black mage spells/Textures/Gradient15.png
+  artifactKey: Guid(680ed321f94f60744a581c7a50bf07ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/Black mage spells/Textures/Gradient15.png using Guid(680ed321f94f60744a581c7a50bf07ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ed6da2684f73cef9f7af61bde3a150') in 0.047759 seconds 
+  Import took 0.055963 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.028907 seconds.
+Registered in 0.267063 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.45 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.437 seconds
+- Completed reload, in  1.579 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1438ms)
-		BeginReloadAssembly (266ms)
+	ReloadAssembly (1580ms)
+		BeginReloadAssembly (543ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (25ms)
+			DisableScriptedObjects (18ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (131ms)
-		EndReloadAssembly (1084ms)
-			LoadAssemblies (108ms)
+			CreateAndSetChildDomain (413ms)
+		EndReloadAssembly (982ms)
+			LoadAssemblies (113ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (404ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (316ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (195ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3730 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.3 MB.
-System memory in use after: 162.5 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4432.
-Total: 4.914200 ms (FindLiveObjects: 0.472400 ms CreateObjectMapping: 0.339300 ms MarkObjects: 4.069100 ms  DeleteObjects: 0.032100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004543 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.23 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.055 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1056ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (899ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (338ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (284ms)
+			SetupTypeCache (355ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (297ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
 Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3730 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.3 MB.
-System memory in use after: 162.5 MB.
+System memory in use before: 175.9 MB.
+System memory in use after: 176.1 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4434.
-Total: 5.247600 ms (FindLiveObjects: 0.315200 ms CreateObjectMapping: 0.237100 ms MarkObjects: 4.671100 ms  DeleteObjects: 0.023100 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 4413.
+Total: 3.311500 ms (FindLiveObjects: 0.301900 ms CreateObjectMapping: 0.179200 ms MarkObjects: 2.779000 ms  DeleteObjects: 0.050800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -618,58 +1221,66 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 814.560664 seconds.
-  path: Assets/VFX/Ngchipv_VFXUI/Tutorial/Source/HighlightPlane.fbx
-  artifactKey: Guid(97796f4c49ba9d34d9410e045fbed924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/Ngchipv_VFXUI/Tutorial/Source/HighlightPlane.fbx using Guid(97796f4c49ba9d34d9410e045fbed924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033eec24fb9f0bbb50a0e23511b02b5a') in 0.213786 seconds 
-  Import took 0.220833 seconds .
+  Time since last request: 537.775243 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaShardStone_Glow.png
+  artifactKey: Guid(572d5ccacaec27342a7f9eaf52c3dc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaShardStone_Glow.png using Guid(572d5ccacaec27342a7f9eaf52c3dc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ee89f323c01cc59b05386fbf038e9d') in 0.089891 seconds 
+  Import took 0.096421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.621148 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaShardStone_Glow.png
+  artifactKey: Guid(572d5ccacaec27342a7f9eaf52c3dc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Bathala/Textures/T_BathalaShardStone_Glow.png using Guid(572d5ccacaec27342a7f9eaf52c3dc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482963df18993437768edfa52888e6da') in 0.029573 seconds 
+  Import took 0.035228 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004565 seconds.
+Registered in 0.004925 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.16 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.040 seconds
+- Completed reload, in  1.099 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1041ms)
-		BeginReloadAssembly (127ms)
+	ReloadAssembly (1100ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (856ms)
-			LoadAssemblies (86ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (933ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (324ms)
+			SetupTypeCache (354ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (267ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (290ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (166ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
 Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.14 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3730 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 162.4 MB.
-System memory in use after: 162.7 MB.
+System memory in use before: 175.9 MB.
+System memory in use after: 176.2 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4472.
-Total: 3.139500 ms (FindLiveObjects: 0.306000 ms CreateObjectMapping: 0.218200 ms MarkObjects: 2.597000 ms  DeleteObjects: 0.017600 ms)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4416.
+Total: 4.005500 ms (FindLiveObjects: 0.352400 ms CreateObjectMapping: 0.269100 ms MarkObjects: 3.351900 ms  DeleteObjects: 0.030800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
