@@ -15,11 +15,11 @@ D:/GithubProject/Myth/MythVFX
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52042
+57146
 Successfully changed project path to: D:/GithubProject/Myth/MythVFX
 D:/GithubProject/Myth/MythVFX
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 113.67 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 114.78 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path E:/UnityEditor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -36,73 +36,73 @@ Initialize mono
 Mono path[0] = 'E:/UnityEditor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'E:/UnityEditor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/UnityEditor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/UnityEditor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002773 seconds.
+Registered in 0.001437 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 116.49 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 103.27 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.753 seconds
+- Completed reload, in  0.636 seconds
 Domain Reload Profiling:
-	ReloadAssembly (753ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (637ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (590ms)
-			LoadAssemblies (80ms)
+		EndReloadAssembly (507ms)
+			LoadAssemblies (48ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (195ms)
+			SetupTypeCache (158ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (243ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (221ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (117ms)
+				RefreshPlugins (103ms)
 				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (85ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006872 seconds.
+Registered in 0.006447 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 122.75 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 110.65 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.335 seconds
+- Completed reload, in  1.212 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1336ms)
-		BeginReloadAssembly (140ms)
+	ReloadAssembly (1213ms)
+		BeginReloadAssembly (131ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1138ms)
-			LoadAssemblies (95ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1028ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (384ms)
+			SetupTypeCache (346ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (87ms)
-			SetupLoadedEditorAssemblies (441ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (397ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (123ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (210ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -111,15 +111,15 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 3.69 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3888 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.6 MB.
-System memory in use after: 174.8 MB.
+System memory in use before: 174.8 MB.
+System memory in use after: 175.0 MB.
 
 Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4327.
-Total: 3.171300 ms (FindLiveObjects: 0.282400 ms CreateObjectMapping: 0.195500 ms MarkObjects: 2.566100 ms  DeleteObjects: 0.126100 ms)
+Total: 3.181300 ms (FindLiveObjects: 0.266200 ms CreateObjectMapping: 0.180400 ms MarkObjects: 2.606900 ms  DeleteObjects: 0.127200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,466 +133,99 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_Premium_SwitchSword.mat
-  artifactKey: Guid(1cb951faf468b0d4491c79a85f4f30d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_Premium_SwitchSword.mat using Guid(1cb951faf468b0d4491c79a85f4f30d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bf8c9e1800111de137ea0c68cde3f4') in 0.247226 seconds 
-  Import took 0.257981 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 80.843790 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_Arrow1.mat
-  artifactKey: Guid(5aaec43f1469c9247b100dcf57779379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_Arrow1.mat using Guid(5aaec43f1469c9247b100dcf57779379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e891d19f9cc301a867bbee1402a41ccd') in 0.011859 seconds 
-  Import took 0.018509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_MergeReverse.mat
-  artifactKey: Guid(cab0de9e9105f5b4fadccd2ae65b47aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_MergeReverse.mat using Guid(cab0de9e9105f5b4fadccd2ae65b47aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed62fc7eb4904ea637e7d0091e06997') in 0.010037 seconds 
-  Import took 0.021522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_Arrow2.mat
-  artifactKey: Guid(aea7ebd3f5fb5db4d8dcf38cb581c89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_Arrow2.mat using Guid(aea7ebd3f5fb5db4d8dcf38cb581c89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32346275052b9853198e5e12aa1cfb4') in 0.010373 seconds 
-  Import took 0.016742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_SwitchSword.mat
-  artifactKey: Guid(285b26e4445c91b49ad9a47d89c83fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_SwitchSword.mat using Guid(285b26e4445c91b49ad9a47d89c83fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18f49a6b3b1a4d9e33540b20422b1e4') in 0.010297 seconds 
-  Import took 0.019174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_OpponentTurn.mat
-  artifactKey: Guid(0f1dfc5016ec0354ea040b97fbbe12c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_OpponentTurn.mat using Guid(0f1dfc5016ec0354ea040b97fbbe12c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '874b30fd60e5e44b13ba7c1479ddcb1b') in 0.011813 seconds 
-  Import took 0.017989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_FloorSheet.mat
-  artifactKey: Guid(c53e4172ea3b7944b97566fcfac3f235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_FloorSheet.mat using Guid(c53e4172ea3b7944b97566fcfac3f235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4fd7a3f77294623a4d9931f68929f7') in 0.008556 seconds 
-  Import took 0.014748 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_OpponentTurnBar.mat
-  artifactKey: Guid(eec29e4984d18554295e480c2bea61a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_OpponentTurnBar.mat using Guid(eec29e4984d18554295e480c2bea61a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f4577834d40fc2e295308816c543d9') in 0.011427 seconds 
-  Import took 0.020338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_YourTurn.mat
-  artifactKey: Guid(2de808d605f29a840b65b1f67fad2a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_YourTurn.mat using Guid(2de808d605f29a840b65b1f67fad2a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f4b4236afcd78e1c9c33fd9c9ba4bc') in 0.008061 seconds 
-  Import took 0.014167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_BlueFirstSwitch.mat
-  artifactKey: Guid(a9d88c40bf2f25346bb4eb322934d656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_BlueFirstSwitch.mat using Guid(a9d88c40bf2f25346bb4eb322934d656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c21584b514bc6e8d52e6de3e3b2609') in 0.012561 seconds 
-  Import took 0.019011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_BlueFirst.mat
-  artifactKey: Guid(e89c06f71983e624992dcf32f78f0bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_BlueFirst.mat using Guid(e89c06f71983e624992dcf32f78f0bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cd6af8a2c853b22d87d5476ef43d16') in 0.007186 seconds 
-  Import took 0.014562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_SwitchSword_Ally.mat
-  artifactKey: Guid(b31aa5efaf7ee1e4ba0fb3f9db8ae224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_SwitchSword_Ally.mat using Guid(b31aa5efaf7ee1e4ba0fb3f9db8ae224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3322f37881b47793d33fe7087a4d518') in 0.008985 seconds 
-  Import took 0.016944 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.033628 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/Arrow2.png
-  artifactKey: Guid(3fb1690da2c16b244b9f4163c4ab9f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/Arrow2.png using Guid(3fb1690da2c16b244b9f4163c4ab9f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ff978fd356bd156600c041fbc0f861e') in 0.038231 seconds 
-  Import took 0.045286 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.720429 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_Premium_SwitchSword 1.mat
-  artifactKey: Guid(4f0a3cfe049c907498fc857ec701d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_Premium_SwitchSword 1.mat using Guid(4f0a3cfe049c907498fc857ec701d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edd313ba4ad0a645133ab6d9b631c70') in 0.010864 seconds 
-  Import took 0.028599 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.046062 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_M_EnemyDeactuve.mat
-  artifactKey: Guid(4f0a3cfe049c907498fc857ec701d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_M_EnemyDeactuve.mat using Guid(4f0a3cfe049c907498fc857ec701d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8669f258146470c34135c3ab3dab680') in 0.011198 seconds 
-  Import took 0.017166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.026500 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_M_EnemyDeactive.mat
-  artifactKey: Guid(4f0a3cfe049c907498fc857ec701d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_M_EnemyDeactive.mat using Guid(4f0a3cfe049c907498fc857ec701d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bceff16827342aed1f33a935043a92b1') in 0.011123 seconds 
-  Import took 0.017974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 86.581819 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_EnemyDeactive.mat
-  artifactKey: Guid(4f0a3cfe049c907498fc857ec701d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_EnemyDeactive.mat using Guid(4f0a3cfe049c907498fc857ec701d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc285cf40bfc28ce0d350add3630efea') in 0.015620 seconds 
-  Import took 0.022772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.694207 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_EnemyDeactive 1.mat
-  artifactKey: Guid(1030c94d9a73cb84fbcd024c08f59fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_EnemyDeactive 1.mat using Guid(1030c94d9a73cb84fbcd024c08f59fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7360af278272fb2664f85a2b03404351') in 0.017478 seconds 
-  Import took 0.026524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.463489 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_AllyDeactive 1.mat
-  artifactKey: Guid(1030c94d9a73cb84fbcd024c08f59fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_AllyDeactive 1.mat using Guid(1030c94d9a73cb84fbcd024c08f59fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439d2db80f32c927394b06bbbaaa1a1b') in 0.009402 seconds 
-  Import took 0.015730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 105.474283 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_S1EnemyDeactive.mat
-  artifactKey: Guid(4f0a3cfe049c907498fc857ec701d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_S1EnemyDeactive.mat using Guid(4f0a3cfe049c907498fc857ec701d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b59a1625cb9b0dc496305993edc5d7d') in 0.012475 seconds 
-  Import took 0.020042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.695006 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_S2EnemyDeactive.mat
-  artifactKey: Guid(4f0a3cfe049c907498fc857ec701d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_S2EnemyDeactive.mat using Guid(4f0a3cfe049c907498fc857ec701d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d1b15b438258f127d131af98db6f33') in 0.015797 seconds 
-  Import took 0.023508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 371.404935 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_S1AllyDeactive 1.mat
-  artifactKey: Guid(1030c94d9a73cb84fbcd024c08f59fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_S1AllyDeactive 1.mat using Guid(1030c94d9a73cb84fbcd024c08f59fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30305a7a4b1d51190de9420cae112d3') in 0.015874 seconds 
-  Import took 0.024363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.280607 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_S1AllyDeactive 2.mat
-  artifactKey: Guid(426ba7bf2db63d4468452813af2b416d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_S1AllyDeactive 2.mat using Guid(426ba7bf2db63d4468452813af2b416d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4703379df10ca7e525dd649afeea4edc') in 0.007511 seconds 
-  Import took 0.016823 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_S2EnemyDeactive.mat
-  artifactKey: Guid(4f0a3cfe049c907498fc857ec701d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_S2EnemyDeactive.mat using Guid(4f0a3cfe049c907498fc857ec701d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bf7b1ac65eaf86e666e56a18805ab2c') in 0.006227 seconds 
-  Import took 0.012479 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.275025 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_S2AllyDeactive.mat
-  artifactKey: Guid(426ba7bf2db63d4468452813af2b416d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_S2AllyDeactive.mat using Guid(426ba7bf2db63d4468452813af2b416d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120b68a9a85c06151955f9c9f07a1fe9') in 0.008934 seconds 
-  Import took 0.015078 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.439184 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_S2AllyDeactive 1.mat
-  artifactKey: Guid(40d0d27b8ad81da4c9d5a4b490c9dcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_S2AllyDeactive 1.mat using Guid(40d0d27b8ad81da4c9d5a4b490c9dcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b614311295815883e74028378f43b9') in 0.006472 seconds 
-  Import took 0.014483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_S2AllyDeactive.mat
-  artifactKey: Guid(426ba7bf2db63d4468452813af2b416d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_S2AllyDeactive.mat using Guid(426ba7bf2db63d4468452813af2b416d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4813ae860c45fd2839874b07fe1f74') in 0.008861 seconds 
-  Import took 0.014988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.975251 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_S1AllyDeactive.mat
-  artifactKey: Guid(40d0d27b8ad81da4c9d5a4b490c9dcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_S1AllyDeactive.mat using Guid(40d0d27b8ad81da4c9d5a4b490c9dcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa2c9fb2daaa14d171a9df32302d71c') in 0.010838 seconds 
-  Import took 0.017262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 227.500557 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_S1AllyDeactive.mat
-  artifactKey: Guid(40d0d27b8ad81da4c9d5a4b490c9dcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_S1AllyDeactive.mat using Guid(40d0d27b8ad81da4c9d5a4b490c9dcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75a8817cce5fb889cf0dc3db58c16c8') in 0.008087 seconds 
-  Import took 0.019112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.949464 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_RedSecondWhite 1.mat
-  artifactKey: Guid(b554af5a33e81d84190979abd533c9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_RedSecondWhite 1.mat using Guid(b554af5a33e81d84190979abd533c9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb4edfca2a92fb59185bd4d6fa77ef3') in 0.009304 seconds 
-  Import took 0.022742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.283071 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_RedSecondWhite.mat
-  artifactKey: Guid(b554af5a33e81d84190979abd533c9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_RedSecondWhite.mat using Guid(b554af5a33e81d84190979abd533c9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7bf38f02d21e7779cf328a3ebe676fa') in 0.008565 seconds 
-  Import took 0.015226 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 162.141504 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/BlueGlowS2.png
-  artifactKey: Guid(fc83812d99166f8459aa94b073ac286c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/BlueGlowS2.png using Guid(fc83812d99166f8459aa94b073ac286c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba7727384ad10ac6ad5a4188e58d2e4') in 0.006444 seconds 
-  Import took 0.018340 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/RedGlowS2.png
-  artifactKey: Guid(486376f772a2007489581f85af9eb4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/RedGlowS2.png using Guid(486376f772a2007489581f85af9eb4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62c3e6581762cd89cfe8ebddcf627cb') in 0.015338 seconds 
-  Import took 0.021677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.193122 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/BlueGlowS1.png
-  artifactKey: Guid(ee3ad84fa0299e249804543f72a2f7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/BlueGlowS1.png using Guid(ee3ad84fa0299e249804543f72a2f7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4cb09879b7dadc011570dc72162a6df') in 0.006220 seconds 
-  Import took 0.013723 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/RedGlowS1.png
-  artifactKey: Guid(6e233fff8950e5f4e9d2379d869f412e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/RedGlowS1.png using Guid(6e233fff8950e5f4e9d2379d869f412e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f810f41cb493419a17df323b587320be') in 0.009698 seconds 
-  Import took 0.016938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.238961 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/Glow_BlueS1.png
-  artifactKey: Guid(ee3ad84fa0299e249804543f72a2f7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/Glow_BlueS1.png using Guid(ee3ad84fa0299e249804543f72a2f7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ca39631bef8369c3d41e1d2cc6c731') in 0.005159 seconds 
-  Import took 0.013975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.161992 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/Glow_BlueS2.png
-  artifactKey: Guid(fc83812d99166f8459aa94b073ac286c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/Glow_BlueS2.png using Guid(fc83812d99166f8459aa94b073ac286c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c9f7df55a948501e38e45c9bec5b2c') in 0.005580 seconds 
-  Import took 0.012335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.026125 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/Glow_RedS1.png
-  artifactKey: Guid(6e233fff8950e5f4e9d2379d869f412e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/Glow_RedS1.png using Guid(6e233fff8950e5f4e9d2379d869f412e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5adc7c37be6be5420031ac9de4cd5184') in 0.007100 seconds 
-  Import took 0.018248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.901542 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/Glow_RedS2.png
-  artifactKey: Guid(486376f772a2007489581f85af9eb4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/Glow_RedS2.png using Guid(486376f772a2007489581f85af9eb4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da16c2c76987abca6d28a467871e47ad') in 0.005122 seconds 
-  Import took 0.016053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.578252 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/Glow_BlueS1.png
-  artifactKey: Guid(ee3ad84fa0299e249804543f72a2f7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/Glow_BlueS1.png using Guid(ee3ad84fa0299e249804543f72a2f7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68bbb0c472c15798926bef85854d293b') in 0.012742 seconds 
-  Import took 0.019842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/Glow_RedS2.png
-  artifactKey: Guid(486376f772a2007489581f85af9eb4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/Glow_RedS2.png using Guid(486376f772a2007489581f85af9eb4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08fd967f58fdf2a996153ec71b77810') in 0.023906 seconds 
-  Import took 0.031647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/Glow_RedS1.png
-  artifactKey: Guid(6e233fff8950e5f4e9d2379d869f412e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/Glow_RedS1.png using Guid(6e233fff8950e5f4e9d2379d869f412e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf3529999140d90f45a59d9bafb2a03') in 0.026760 seconds 
-  Import took 0.033157 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/Glow_BlueS2.png
-  artifactKey: Guid(fc83812d99166f8459aa94b073ac286c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/Glow_BlueS2.png using Guid(fc83812d99166f8459aa94b073ac286c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39476b1a41843d53444ffb3b5c17d91f') in 0.017470 seconds 
-  Import took 0.024389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.937430 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_S2EnemyDeactive 1.mat
-  artifactKey: Guid(9af4e0eb8b708024ebb542fc3e915a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_S2EnemyDeactive 1.mat using Guid(9af4e0eb8b708024ebb542fc3e915a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eecfe87b650989eb2d16036fa58d7b5') in 0.009748 seconds 
-  Import took 0.021015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.964852 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowRedS1.mat
-  artifactKey: Guid(9af4e0eb8b708024ebb542fc3e915a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowRedS1.mat using Guid(9af4e0eb8b708024ebb542fc3e915a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4042742edf1d61e86d685e494398c08') in 0.010742 seconds 
-  Import took 0.017869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.403924 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowRedS1 1.mat
-  artifactKey: Guid(acf9f17c89ec6e84d9a1b45982b61a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowRedS1 1.mat using Guid(acf9f17c89ec6e84d9a1b45982b61a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdaa39a11771d77243f5b4ce0b780eb0') in 0.018172 seconds 
-  Import took 0.027118 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowRedS1.mat
-  artifactKey: Guid(9af4e0eb8b708024ebb542fc3e915a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowRedS1.mat using Guid(9af4e0eb8b708024ebb542fc3e915a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c064fb817b2df92d17dbc271bf2989') in 0.016165 seconds 
-  Import took 0.024869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.755152 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowRedS2.mat
-  artifactKey: Guid(acf9f17c89ec6e84d9a1b45982b61a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowRedS2.mat using Guid(acf9f17c89ec6e84d9a1b45982b61a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1742ad7a0424e60b277f3529a15228') in 0.008134 seconds 
-  Import took 0.015245 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.521317 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowRedS2 1.mat
-  artifactKey: Guid(49e28a128cf61b1438263e22ae56cc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowRedS2 1.mat using Guid(49e28a128cf61b1438263e22ae56cc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905079a0bfc079d54d25311634081017') in 0.007497 seconds 
-  Import took 0.014791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowRedS2.mat
-  artifactKey: Guid(acf9f17c89ec6e84d9a1b45982b61a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowRedS2.mat using Guid(acf9f17c89ec6e84d9a1b45982b61a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ccb910330eb97a51df00897355a0e8') in 0.006926 seconds 
-  Import took 0.012443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.258998 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowBlueS1.mat
-  artifactKey: Guid(49e28a128cf61b1438263e22ae56cc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowBlueS1.mat using Guid(49e28a128cf61b1438263e22ae56cc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41dca85d3b6d58d615ac2261902d9f1a') in 0.012467 seconds 
-  Import took 0.020255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.888557 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowBlueS1 1.mat
-  artifactKey: Guid(a35f4b2200da0014abc541005f03ed06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowBlueS1 1.mat using Guid(a35f4b2200da0014abc541005f03ed06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7348d90804077cde56728a26c1b5b8c') in 0.009401 seconds 
-  Import took 0.016342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowBlueS1.mat
-  artifactKey: Guid(49e28a128cf61b1438263e22ae56cc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowBlueS1.mat using Guid(49e28a128cf61b1438263e22ae56cc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97a14e36d19a9b107c5bbedc5aae5ee3') in 0.006926 seconds 
-  Import took 0.015190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.260949 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowBlueS2.mat
-  artifactKey: Guid(a35f4b2200da0014abc541005f03ed06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowBlueS2.mat using Guid(a35f4b2200da0014abc541005f03ed06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6fb517010ecb6d3c1ce9be73a3827a3') in 0.008238 seconds 
-  Import took 0.015501 seconds .
+  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_BlueSecondSwitch_Ally.mat
+  artifactKey: Guid(6eeb85550c81bf34591af67e746c40e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_BlueSecondSwitch_Ally.mat using Guid(6eeb85550c81bf34591af67e746c40e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e0340bd9e6de0621febdac6fced9917') in 0.352914 seconds 
+  Import took 0.359391 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005914 seconds.
+Registered in 0.005988 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.59 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.318 seconds
+- Completed reload, in  1.099 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1318ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (1099ms)
+		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1119ms)
-			LoadAssemblies (108ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (920ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (423ms)
+			SetupTypeCache (344ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (97ms)
-			SetupLoadedEditorAssemblies (341ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (280ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (231ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3730 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.0 MB.
+System memory in use after: 168.2 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4408.
+Total: 3.202300 ms (FindLiveObjects: 0.295800 ms CreateObjectMapping: 0.218700 ms MarkObjects: 2.660700 ms  DeleteObjects: 0.026300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006145 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.077 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1078ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (912ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (349ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (188ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -600,14 +233,14 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3730 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 167.9 MB.
-System memory in use after: 168.2 MB.
+System memory in use before: 168.1 MB.
+System memory in use after: 168.3 MB.
 
 Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4410.
-Total: 3.478100 ms (FindLiveObjects: 0.308900 ms CreateObjectMapping: 0.188700 ms MarkObjects: 2.953700 ms  DeleteObjects: 0.025600 ms)
+Total: 3.038300 ms (FindLiveObjects: 0.265800 ms CreateObjectMapping: 0.176800 ms MarkObjects: 2.575100 ms  DeleteObjects: 0.019700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -620,164 +253,51 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 292.768432 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowBlueS1.mat
-  artifactKey: Guid(49e28a128cf61b1438263e22ae56cc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowBlueS1.mat using Guid(49e28a128cf61b1438263e22ae56cc92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7133d05fa662751ba4ea1ff22833c515') in 0.175655 seconds 
-  Import took 0.182247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowRedS1.mat
-  artifactKey: Guid(9af4e0eb8b708024ebb542fc3e915a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowRedS1.mat using Guid(9af4e0eb8b708024ebb542fc3e915a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b553d1f010ab1a97aa2a135ad22907') in 0.013323 seconds 
-  Import took 0.020495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowBlueS2.mat
-  artifactKey: Guid(a35f4b2200da0014abc541005f03ed06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowBlueS2.mat using Guid(a35f4b2200da0014abc541005f03ed06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14288c6eaecf84770528615f43110cd3') in 0.013947 seconds 
-  Import took 0.022644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowRedS2.mat
-  artifactKey: Guid(acf9f17c89ec6e84d9a1b45982b61a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GlowRedS2.mat using Guid(acf9f17c89ec6e84d9a1b45982b61a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbcd4e06c7fd0c1a0f4c73aead43d8c3') in 0.023855 seconds 
-  Import took 0.029902 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006764 seconds.
+Registered in 0.006421 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.190 seconds
+- Completed reload, in  1.052 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1190ms)
-		BeginReloadAssembly (120ms)
+	ReloadAssembly (1053ms)
+		BeginReloadAssembly (111ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (1016ms)
-			LoadAssemblies (99ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (890ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (370ms)
+			SetupTypeCache (330ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (324ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (278ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (230ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
 Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
 Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3730 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 168.1 MB.
-System memory in use after: 168.4 MB.
+System memory in use after: 168.3 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4448.
-Total: 14.571300 ms (FindLiveObjects: 0.411700 ms CreateObjectMapping: 0.678000 ms MarkObjects: 13.459100 ms  DeleteObjects: 0.021300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 369.986372 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_MiddleLine.mat
-  artifactKey: Guid(2c6ab1c3696c7ec45944b995252aef45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_MiddleLine.mat using Guid(2c6ab1c3696c7ec45944b995252aef45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a92ce74aad057c001ca07af5f373c0') in 0.169864 seconds 
-  Import took 0.177892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 409.372463 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_BlueSecondSwitch 1.mat
-  artifactKey: Guid(8e935c2fe7b0cbb468630e0a455e2f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_BlueSecondSwitch 1.mat using Guid(8e935c2fe7b0cbb468630e0a455e2f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aeeb36fa12bb94a0cdb3c7fa213f922') in 0.015433 seconds 
-  Import took 0.023000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.682852 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_BlueSecondSwitch.mat
-  artifactKey: Guid(8e935c2fe7b0cbb468630e0a455e2f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_BlueSecondSwitch.mat using Guid(8e935c2fe7b0cbb468630e0a455e2f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1e16362a6eed2edf7ba8f62a6912fd') in 0.007774 seconds 
-  Import took 0.013854 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005709 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.086 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1086ms)
-		BeginReloadAssembly (124ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (909ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (346ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (278ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (193ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3730 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.3 MB.
-System memory in use after: 168.5 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4486.
-Total: 3.135600 ms (FindLiveObjects: 0.280000 ms CreateObjectMapping: 0.178200 ms MarkObjects: 2.658800 ms  DeleteObjects: 0.018100 ms)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4412.
+Total: 3.124500 ms (FindLiveObjects: 0.280600 ms CreateObjectMapping: 0.188400 ms MarkObjects: 2.630400 ms  DeleteObjects: 0.024500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -792,219 +312,49 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007117 seconds.
+Registered in 0.005983 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.24 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.095 seconds
+- Completed reload, in  1.092 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1096ms)
-		BeginReloadAssembly (116ms)
+	ReloadAssembly (1092ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (921ms)
-			LoadAssemblies (93ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (939ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (345ms)
-			ReleaseScriptCaches (2ms)
+			SetupTypeCache (340ms)
+			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (276ms)
+			SetupLoadedEditorAssemblies (291ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (189ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3730 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.3 MB.
-System memory in use after: 168.6 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4488.
-Total: 3.138800 ms (FindLiveObjects: 0.284300 ms CreateObjectMapping: 0.178100 ms MarkObjects: 2.657900 ms  DeleteObjects: 0.017800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 447.497473 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_MergeReverse.mat
-  artifactKey: Guid(cab0de9e9105f5b4fadccd2ae65b47aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_MergeReverse.mat using Guid(cab0de9e9105f5b4fadccd2ae65b47aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc2308290a93c75148f09f88acb3270') in 0.208713 seconds 
-  Import took 0.216432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.569484 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_Merge.mat
-  artifactKey: Guid(b6170d9f5de6da940bbb216269a309ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_Merge.mat using Guid(b6170d9f5de6da940bbb216269a309ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167c9aff90b9a54b78e304eae1df480a') in 0.009063 seconds 
-  Import took 0.015754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 63.158511 seconds.
-  path: Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_GrowthSword.mat
-  artifactKey: Guid(68282b5e22d7fca4aa9724dd0d5b5ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/VFXBonus/Sword/Textures/M_GrowthSword.mat using Guid(68282b5e22d7fca4aa9724dd0d5b5ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b521ccb12742a90c906ab76950f18bc4') in 0.018615 seconds 
-  Import took 0.024994 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006213 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.152 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1152ms)
-		BeginReloadAssembly (118ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (978ms)
-			LoadAssemblies (120ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (372ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (281ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (71ms)
-				ProcessInitializeOnLoadAttributes (194ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3730 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.5 MB.
-System memory in use after: 168.7 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4526.
-Total: 3.391900 ms (FindLiveObjects: 0.300300 ms CreateObjectMapping: 0.199900 ms MarkObjects: 2.872300 ms  DeleteObjects: 0.018700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 8.139992 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_BlueSecondSwitch.mat
-  artifactKey: Guid(8e935c2fe7b0cbb468630e0a455e2f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_BlueSecondSwitch.mat using Guid(8e935c2fe7b0cbb468630e0a455e2f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e336fe49ec8a79b1be7a4db189fc5342') in 0.161763 seconds 
-  Import took 0.168590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.241302 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GrowthPremiumSword.mat
-  artifactKey: Guid(085a0aa5c9d8b534e831afe6aea661a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GrowthPremiumSword.mat using Guid(085a0aa5c9d8b534e831afe6aea661a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662b11189472eccaf083ed96ce35e76f') in 0.008466 seconds 
-  Import took 0.015042 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 55.160102 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/GrowthSword.png
-  artifactKey: Guid(7f471f0fbd377164c84a244743cf0ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/GrowthSword.png using Guid(7f471f0fbd377164c84a244743cf0ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064c04fa9ef04a71bbddc7a141f934f6') in 0.020710 seconds 
-  Import took 0.027877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.580241 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/GrowthSword.png
-  artifactKey: Guid(7f471f0fbd377164c84a244743cf0ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/GrowthSword.png using Guid(7f471f0fbd377164c84a244743cf0ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e50821d0472ae1f3f4b3331db85bc42') in 0.020209 seconds 
-  Import took 0.026377 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006349 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.060 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1060ms)
-		BeginReloadAssembly (110ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (898ms)
-			LoadAssemblies (87ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (332ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (280ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (193ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (197ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3730 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.6 MB.
-System memory in use after: 168.8 MB.
+System memory in use before: 168.1 MB.
+System memory in use after: 168.4 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4564.
-Total: 3.622700 ms (FindLiveObjects: 0.328700 ms CreateObjectMapping: 0.239700 ms MarkObjects: 3.021500 ms  DeleteObjects: 0.031400 ms)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4414.
+Total: 3.390300 ms (FindLiveObjects: 0.297600 ms CreateObjectMapping: 0.192000 ms MarkObjects: 2.878100 ms  DeleteObjects: 0.021500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1017,246 +367,51 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 421.572665 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_BlueSecondSwitch 1.mat
-  artifactKey: Guid(6eeb85550c81bf34591af67e746c40e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_BlueSecondSwitch 1.mat using Guid(6eeb85550c81bf34591af67e746c40e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9593a00197182a38d4163d089129f62e') in 0.175721 seconds 
-  Import took 0.188720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GrowthPremiumSword.mat
-  artifactKey: Guid(085a0aa5c9d8b534e831afe6aea661a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_GrowthPremiumSword.mat using Guid(085a0aa5c9d8b534e831afe6aea661a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95de1c6cd213dce368dd1cf5c201bc6') in 0.023069 seconds 
-  Import took 0.029341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.722320 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_BlueSecondSwitch_Ally.mat
-  artifactKey: Guid(6eeb85550c81bf34591af67e746c40e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/PremiumMap/PremiumSwordTextures/M_BlueSecondSwitch_Ally.mat using Guid(6eeb85550c81bf34591af67e746c40e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e1524adf658ccbc670ccb5e9026dc5') in 0.008943 seconds 
-  Import took 0.016257 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005857 seconds.
+Registered in 0.005714 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.054 seconds
+- Completed reload, in  1.046 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1054ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (1047ms)
+		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (892ms)
-			LoadAssemblies (88ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (897ms)
+			LoadAssemblies (95ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (326ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
+			SetupTypeCache (330ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
 			SetupLoadedEditorAssemblies (274ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (188ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3730 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.7 MB.
-System memory in use after: 169.0 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4602.
-Total: 4.868600 ms (FindLiveObjects: 0.444300 ms CreateObjectMapping: 0.220200 ms MarkObjects: 4.178300 ms  DeleteObjects: 0.024900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007995 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.260 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1260ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1082ms)
-			LoadAssemblies (99ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (404ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (313ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (214ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (25ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3730 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.7 MB.
-System memory in use after: 169.0 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4604.
-Total: 4.725100 ms (FindLiveObjects: 0.376700 ms CreateObjectMapping: 0.293500 ms MarkObjects: 4.024000 ms  DeleteObjects: 0.029700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005881 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.055 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1055ms)
-		BeginReloadAssembly (114ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (889ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (329ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (275ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
+				BeforeProcessingInitializeOnLoad (71ms)
 				ProcessInitializeOnLoadAttributes (187ms)
 				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
 Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3730 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.7 MB.
-System memory in use after: 169.0 MB.
+System memory in use before: 168.1 MB.
+System memory in use after: 168.4 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4606.
-Total: 3.624600 ms (FindLiveObjects: 0.394800 ms CreateObjectMapping: 0.262000 ms MarkObjects: 2.943700 ms  DeleteObjects: 0.023200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 1.483935 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  7.541 seconds
-Domain Reload Profiling:
-	ReloadAssembly (7541ms)
-		BeginReloadAssembly (3602ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (3883ms)
-			LoadAssemblies (3945ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1605ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (1436ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (385ms)
-				ProcessInitializeOnLoadMethodAttributes (967ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3730 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 168.7 MB.
-System memory in use after: 169.0 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4608.
-Total: 3.858600 ms (FindLiveObjects: 0.322700 ms CreateObjectMapping: 0.209400 ms MarkObjects: 3.300000 ms  DeleteObjects: 0.025400 ms)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 4416.
+Total: 3.303900 ms (FindLiveObjects: 0.310700 ms CreateObjectMapping: 0.218100 ms MarkObjects: 2.752800 ms  DeleteObjects: 0.021700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
