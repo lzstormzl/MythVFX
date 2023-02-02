@@ -15,11 +15,11 @@ D:/GithubProject/Myth/MythVFX
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54225
+54963
 Successfully changed project path to: D:/GithubProject/Myth/MythVFX
 D:/GithubProject/Myth/MythVFX
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 104.48 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 106.90 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path E:/UnityEditor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -36,37 +36,37 @@ Initialize mono
 Mono path[0] = 'E:/UnityEditor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'E:/UnityEditor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/UnityEditor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/UnityEditor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001113 seconds.
+Registered in 0.001039 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 103.49 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 106.75 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.606 seconds
+- Completed reload, in  0.599 seconds
 Domain Reload Profiling:
-	ReloadAssembly (606ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (599ms)
+		BeginReloadAssembly (49ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (494ms)
-			LoadAssemblies (47ms)
+		EndReloadAssembly (487ms)
+			LoadAssemblies (48ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (144ms)
+			SetupTypeCache (140ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (226ms)
+			SetupLoadedEditorAssemblies (224ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (104ms)
-				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (80ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (77ms)
 				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -74,34 +74,34 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006489 seconds.
+Registered in 0.006231 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 138.78 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 117.88 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.319 seconds
+- Completed reload, in  1.248 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1320ms)
-		BeginReloadAssembly (137ms)
+	ReloadAssembly (1249ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1126ms)
-			LoadAssemblies (96ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1067ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (374ms)
+			SetupTypeCache (361ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (87ms)
-			SetupLoadedEditorAssemblies (431ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (408ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (139ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (190ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (192ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -111,15 +111,15 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3880 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 170.7 MB.
-System memory in use after: 170.9 MB.
+Unloading 4137 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.1 MB.
+System memory in use after: 187.0 MB.
 
-Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 4314.
-Total: 4.205000 ms (FindLiveObjects: 0.308300 ms CreateObjectMapping: 0.244500 ms MarkObjects: 3.542800 ms  DeleteObjects: 0.108200 ms)
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 4557.
+Total: 4.013600 ms (FindLiveObjects: 0.284200 ms CreateObjectMapping: 0.189600 ms MarkObjects: 2.692300 ms  DeleteObjects: 0.846700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,33 +133,178 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Hovl Studio/AAA Projectiles Vol 1/Textures/HandPaintedLightning2.png
-  artifactKey: Guid(e1f5daa4611af4844a03ec5a45012456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hovl Studio/AAA Projectiles Vol 1/Textures/HandPaintedLightning2.png using Guid(e1f5daa4611af4844a03ec5a45012456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c8acc0ea403c76bef0dc486a31b3b4') in 0.070559 seconds 
-  Import took 0.076463 seconds .
+  path: Assets/VFX/Ngchipv_VFXUI/29_DragCard
+  artifactKey: Guid(25b0e28d1c0251846b8b51119d07024e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/Ngchipv_VFXUI/29_DragCard using Guid(25b0e28d1c0251846b8b51119d07024e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d56dbc8bd7a10cf27228af471c4011') in 0.010703 seconds 
+  Import took 0.017372 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/VFX/_NgchipvVFX/HandCardFireFX/Source/M_HandCardaFire.mat
-  artifactKey: Guid(265ba7a2c58839a449b8870a9684d46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvVFX/HandCardFireFX/Source/M_HandCardaFire.mat using Guid(265ba7a2c58839a449b8870a9684d46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deaacf06891b5ffd189a000bfc8989bc') in 0.178860 seconds 
-  Import took 0.184587 seconds .
+  Time since last request: 56.935383 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/T_AnthenaUlti 1.png
+  artifactKey: Guid(d5554f13253440847818e02023e44c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/T_AnthenaUlti 1.png using Guid(d5554f13253440847818e02023e44c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd544b209dd183eb6e3cea99cd198073f') in 0.155359 seconds 
+  Import took 0.161745 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.685381 seconds.
-  path: Assets/VFX/_NgchipvModel_Anim/HandCard/Textures/BG_Mortal/T_YellowBG.png
-  artifactKey: Guid(add8f016f892b194ea4860b2159eb2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvModel_Anim/HandCard/Textures/BG_Mortal/T_YellowBG.png using Guid(add8f016f892b194ea4860b2159eb2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf07f66d4969b72b2a97d11639af79f') in 0.038941 seconds 
-  Import took 0.045036 seconds .
+  Time since last request: 0.502058 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/T_AnthenaUlti 2.png
+  artifactKey: Guid(bbc48c100b250dd469d77632873910cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/T_AnthenaUlti 2.png using Guid(bbc48c100b250dd469d77632873910cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0e0eb6a72aab69d6bee0a1168960b6') in 0.032075 seconds 
+  Import took 0.038076 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Resources/Pack/Images/CardOnBoard_1/18.png
-  artifactKey: Guid(8cb1c246832d2e340a78067ab95231e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Pack/Images/CardOnBoard_1/18.png using Guid(8cb1c246832d2e340a78067ab95231e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba97feff63c73169d9a053a062814df') in 0.022888 seconds 
-  Import took 0.029090 seconds .
+  Time since last request: 1267.240637 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/T_AnthenaUlti 3.png
+  artifactKey: Guid(eef8d56b0d60db04086f941f87636e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/T_AnthenaUlti 3.png using Guid(eef8d56b0d60db04086f941f87636e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d524b678ad71792410fe2eef7e28a4b') in 0.062776 seconds 
+  Import took 0.074861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.713149 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/T_AnthenaUlti 4.png
+  artifactKey: Guid(c11d3bd5ddec7a747aa002aca54fe90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/T_AnthenaUlti 4.png using Guid(c11d3bd5ddec7a747aa002aca54fe90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1853bf70e89aeae4fb806e1e75850ec8') in 0.013655 seconds 
+  Import took 0.021567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 239.108643 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures
+  artifactKey: Guid(de9f233eee1364d4f90a06d4696eea19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures using Guid(de9f233eee1364d4f90a06d4696eea19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e209d605508a387978022ffe1a7806') in 0.010420 seconds 
+  Import took 0.018513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1143.230073 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/T_AnthenaUlti 1.png
+  artifactKey: Guid(d5554f13253440847818e02023e44c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/T_AnthenaUlti 1.png using Guid(d5554f13253440847818e02023e44c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54dc44acbee35e11d143c60b380617c7') in 0.018090 seconds 
+  Import took 0.030222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 193.416668 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Athena/Ulti/Textures/M_AnthenaUlti_BGBlack.mat
+  artifactKey: Guid(7f9614b9612b1c942a4a6580cd5694be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Athena/Ulti/Textures/M_AnthenaUlti_BGBlack.mat using Guid(7f9614b9612b1c942a4a6580cd5694be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3f1c72b7308a8b7adf024392cbff66') in 0.557442 seconds 
+  Import took 0.564952 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010691 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.467 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1468ms)
+		BeginReloadAssembly (252ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (136ms)
+		EndReloadAssembly (1147ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (442ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3959 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 179.5 MB.
+System memory in use after: 178.4 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 4640.
+Total: 4.880500 ms (FindLiveObjects: 0.325100 ms CreateObjectMapping: 0.230600 ms MarkObjects: 3.430400 ms  DeleteObjects: 0.893300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 620.747692 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/T_AnthenaUlti 4.png
+  artifactKey: Guid(c11d3bd5ddec7a747aa002aca54fe90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/T_AnthenaUlti 4.png using Guid(c11d3bd5ddec7a747aa002aca54fe90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43528c9b3ed0c19ed0bf5ff270f890f4') in 0.121123 seconds 
+  Import took 0.128092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.930769 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/T_AnthenaUlti 4.png
+  artifactKey: Guid(c11d3bd5ddec7a747aa002aca54fe90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/T_AnthenaUlti 4.png using Guid(c11d3bd5ddec7a747aa002aca54fe90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef12eb5b88ab8b1372c1ca0bb43cffee') in 0.014349 seconds 
+  Import took 0.022499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 222.111279 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/T_AnthenaUltiFX.png
+  artifactKey: Guid(1064e787f9f68954cba4e8bbff30cc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/T_AnthenaUltiFX.png using Guid(1064e787f9f68954cba4e8bbff30cc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64da8b06afe19d9ec9de830a0744b4e8') in 0.018797 seconds 
+  Import took 0.033286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.129982 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/T_AnthenaUltiFX.png
+  artifactKey: Guid(1064e787f9f68954cba4e8bbff30cc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/T_AnthenaUltiFX.png using Guid(1064e787f9f68954cba4e8bbff30cc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506900461618f5c89a229ad70a022aba') in 0.019037 seconds 
+  Import took 0.026522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 216.648177 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/M_AresUlti_BGBlack.mat
+  artifactKey: Guid(61a6f95c72efcf24a93ead25380bfafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/M_AresUlti_BGBlack.mat using Guid(61a6f95c72efcf24a93ead25380bfafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9fefc1fcdb1f1d61fe421c632141c5') in 0.199543 seconds 
+  Import took 0.208838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.675110 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/M_AresUlti_BG.mat
+  artifactKey: Guid(9b1d00ce26049e74299224362f5857ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/M_AresUlti_BG.mat using Guid(9b1d00ce26049e74299224362f5857ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89c2b8fa38c315d5628172b7102b7c7') in 0.012131 seconds 
+  Import took 0.019237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 207.923843 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/M_AresUltiParticle 2.mat
+  artifactKey: Guid(2f479b32737cdb948966d4a4e964d052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Ares/Ulti/Textures/M_AresUltiParticle 2.mat using Guid(2f479b32737cdb948966d4a4e964d052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3b331c2abc76d849a6b74eacf8e052') in 0.020150 seconds 
+  Import took 0.027590 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
