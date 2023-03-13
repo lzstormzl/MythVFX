@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16326 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32710 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ D:/GithubProject/Myth/MythVFX
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64902
+56566
 Successfully changed project path to: D:/GithubProject/Myth/MythVFX
 D:/GithubProject/Myth/MythVFX
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 123.63 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 134.29 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path E:/UnityEditor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -36,74 +36,74 @@ Initialize mono
 Mono path[0] = 'E:/UnityEditor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'E:/UnityEditor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/UnityEditor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/UnityEditor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001021 seconds.
+Registered in 0.001143 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 110.29 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 122.80 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.642 seconds
+- Completed reload, in  0.709 seconds
 Domain Reload Profiling:
-	ReloadAssembly (642ms)
-		BeginReloadAssembly (51ms)
+	ReloadAssembly (709ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (521ms)
-			LoadAssemblies (50ms)
+		EndReloadAssembly (578ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (154ms)
+			SetupTypeCache (170ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (238ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (265ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (110ms)
-				BeforeProcessingInitializeOnLoad (17ms)
-				ProcessInitializeOnLoadAttributes (78ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006926 seconds.
+Registered in 0.006800 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 135.16 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 158.64 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.374 seconds
+- Completed reload, in  1.558 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1375ms)
-		BeginReloadAssembly (148ms)
+	ReloadAssembly (1559ms)
+		BeginReloadAssembly (166ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1170ms)
-			LoadAssemblies (100ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1330ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (397ms)
+			SetupTypeCache (441ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (88ms)
-			SetupLoadedEditorAssemblies (460ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (532ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (135ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (204ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (159ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
@@ -111,15 +111,15 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.57 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.16 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4130 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.1 MB.
-System memory in use after: 188.1 MB.
+System memory in use before: 189.7 MB.
+System memory in use after: 188.6 MB.
 
 Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 4552.
-Total: 4.011900 ms (FindLiveObjects: 0.292100 ms CreateObjectMapping: 0.200300 ms MarkObjects: 2.591700 ms  DeleteObjects: 0.926800 ms)
+Total: 4.485400 ms (FindLiveObjects: 0.590100 ms CreateObjectMapping: 0.305700 ms MarkObjects: 2.744000 ms  DeleteObjects: 0.844600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,89 +133,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/VFX/_NgchipvGodVFX/Ares
-  artifactKey: Guid(bdbf5cffada407644a24972f3c33485f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/Ares using Guid(bdbf5cffada407644a24972f3c33485f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e182406f989f5042af0415d11601b03') in 0.006095 seconds 
-  Import took 0.012157 seconds .
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_SonTinh/Spine
+  artifactKey: Guid(efbb25651f9947543bca9ebd4eacb4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_SonTinh/Spine using Guid(efbb25651f9947543bca9ebd4eacb4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c95a39c0ff090e9306e7e3207ed0692') in 0.009746 seconds 
+  Import took 0.016043 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/Athena
-  artifactKey: Guid(b5c890aab4939994aaa5ac59d9623699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/Athena using Guid(b5c890aab4939994aaa5ac59d9623699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90eafd134f335a2fcfb14c7776a4270c') in 0.001098 seconds 
-  Import took 0.007065 seconds .
+  Time since last request: 61.983319 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_SonTinh/Textures/M_SonTinhUlti.mat
+  artifactKey: Guid(1c64df9c927a05849bc2b0cc7ae97d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_SonTinh/Textures/M_SonTinhUlti.mat using Guid(1c64df9c927a05849bc2b0cc7ae97d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6284dc7f8edc74d8ddac1ed0f19b3587') in 0.306921 seconds 
+  Import took 0.314019 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/Athena/Source
-  artifactKey: Guid(b3ddd4e3fab700a4babb4e3b30f3ed9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/Athena/Source using Guid(b3ddd4e3fab700a4babb4e3b30f3ed9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f430cead1cfdb9dbd0bde322706f7ce') in 0.003426 seconds 
-  Import took 0.010654 seconds .
+  Time since last request: 25.224258 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_SonTinh/Spine/Son TInh-tach_SkeletonData.asset
+  artifactKey: Guid(9f8bf91261ecfc74bb2d8a19385976c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_SonTinh/Spine/Son TInh-tach_SkeletonData.asset using Guid(9f8bf91261ecfc74bb2d8a19385976c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Problematic material setup at Spine GameObject (Son TInh-tach): 
+Warning: Premultiply-alpha atlas textures not supported in Linear color space!
 
-========================================================================
-Received Import Request.
-  Time since last request: 6.303907 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena
-  artifactKey: Guid(15be54992cd2407408d4c19cb761ea92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena using Guid(15be54992cd2407408d4c19cb761ea92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2643aa4b33ee045fb33898bef3bb907') in 0.000976 seconds 
-  Import took 0.007686 seconds .
+Please
+a) re-export atlas as straight alpha texture with 'premultiply alpha' unchecked
+   (if you have already done this, please set the 'Straight Alpha Texture' Material parameter to 'true') or
+b) switch to Gamma color space via
+Project Settings - Player - Other Settings - Color Space.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.940737 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Spine
-  artifactKey: Guid(3e23142458f06584a9cb286ee9e8b532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Spine using Guid(3e23142458f06584a9cb286ee9e8b532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8ae66484d6bf1d4eff1772d72ebd0c') in 0.000968 seconds 
-  Import took 0.007308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.938195 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Spine/AthenaBird
-  artifactKey: Guid(dc2055f424956ca4fb6d5c983947f792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Spine/AthenaBird using Guid(dc2055f424956ca4fb6d5c983947f792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65fc66b2fc86f1e9c8c21abd2d8c4b2') in 0.005439 seconds 
-  Import took 0.012159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.788742 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Spine/Athena/Athena_tachlop_Low_SkeletonData.asset
-  artifactKey: Guid(88e27bd46aa3ae94c82f6ae551d6e0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Spine/Athena/Athena_tachlop_Low_SkeletonData.asset using Guid(88e27bd46aa3ae94c82f6ae551d6e0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3559e6cdde50a7c366fa5a53f468bb3') in 0.540591 seconds 
-  Import took 0.551195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.814210 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Spine/Athena/Athena_tachlop_Low_Atlas.asset
-  artifactKey: Guid(241afbfd7f26585449e316e13c941423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Spine/Athena/Athena_tachlop_Low_Atlas.asset using Guid(241afbfd7f26585449e316e13c941423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3745159b5654dba763a7a9139821c8e') in 0.001810 seconds 
-  Import took 0.008077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 114.188733 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Spine/AthenaActiveSkill
-  artifactKey: Guid(1ff786ce8a8773e49a1955bbb260605b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Spine/AthenaActiveSkill using Guid(1ff786ce8a8773e49a1955bbb260605b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72b0603da5d271bbd23ef3a37e87fed') in 0.001009 seconds 
-  Import took 0.012202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.369877 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Spine/Athena/M_AthenaParticle.mat
-  artifactKey: Guid(b0bfda597aea0ea4fa70ea80d783b27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Spine/Athena/M_AthenaParticle.mat using Guid(b0bfda597aea0ea4fa70ea80d783b27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba4ecaee6635b00ce806fce89f2d3c3f') in 0.079489 seconds 
-  Import took 0.085938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.291467 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Spine/AthenaActiveSkill/Athena_tachlop_Low_SkeletonData.asset
-  artifactKey: Guid(5551584ef426d0d42bde6b58f6f0b3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Spine/AthenaActiveSkill/Athena_tachlop_Low_SkeletonData.asset using Guid(5551584ef426d0d42bde6b58f6f0b3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Problematic material setup at Spine GameObject (Athena_tachlop_Low): 
 Warning: Premultiply-alpha atlas textures not supported in Linear color space!
 
 Please
@@ -265,63 +209,256 @@ UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityE
 
 (Filename: Assets/Spine/Runtime/spine-unity/Components/SkeletonRenderer.cs Line: 368)
 
- -> (artifact id: 'd8f57ba5831760a26798793317fa2922') in 0.118265 seconds 
-  Import took 0.126422 seconds .
+ -> (artifact id: 'ad7fbe99c25f3ce85edf453000f2adc0') in 0.385549 seconds 
+  Import took 0.398719 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 211.463754 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Spine/Athena/M_AthenaBackground.mat
-  artifactKey: Guid(b0f8dc4b63bcfc04483e82cca417e103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Spine/Athena/M_AthenaBackground.mat using Guid(b0f8dc4b63bcfc04483e82cca417e103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fba6808eab0ba3b17c3838c0f8c9ccc') in 0.017127 seconds 
-  Import took 0.024002 seconds .
+  Time since last request: 97.217472 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Zues/Spine/M_BG.mat
+  artifactKey: Guid(8329d74bc0d130d4199390be9071fbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Zues/Spine/M_BG.mat using Guid(8329d74bc0d130d4199390be9071fbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508be08c2b0e42eccc2fe8ef3fe58963') in 0.010804 seconds 
+  Import took 0.024050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.879078 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Hades/Spine/BG.png
+  artifactKey: Guid(b791107696ed4304ebab514a04806442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Hades/Spine/BG.png using Guid(b791107696ed4304ebab514a04806442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03892b40fa7253a132772078e744297') in 0.037121 seconds 
+  Import took 0.043713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.882900 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Zues/Spine/BG2.png
+  artifactKey: Guid(45f44194b999709439c6b9cabb986d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Zues/Spine/BG2.png using Guid(45f44194b999709439c6b9cabb986d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f30f8729851cf4ff768dbef9c122a3') in 0.010473 seconds 
+  Import took 0.016996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.945468 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Zues/Spine/BG2.png
+  artifactKey: Guid(45f44194b999709439c6b9cabb986d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Zues/Spine/BG2.png using Guid(45f44194b999709439c6b9cabb986d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2d18b9806eb31b5882da1c96df8599') in 0.027743 seconds 
+  Import took 0.034126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.943980 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Textures/M_AucoUltiParticle.mat
+  artifactKey: Guid(819e7b22f5e599e469d3f65b9fe69e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Textures/M_AucoUltiParticle.mat using Guid(819e7b22f5e599e469d3f65b9fe69e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae15e379c37f0f8ec5cbe3667af06b1d') in 0.013863 seconds 
+  Import took 0.021023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.890318 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_SonTinh/Textures/M_SonTinhUltiParticle.mat
+  artifactKey: Guid(5c8ab0e5a6377c94c8ec3a7f934a66f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_SonTinh/Textures/M_SonTinhUltiParticle.mat using Guid(5c8ab0e5a6377c94c8ec3a7f934a66f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9278b9925f308d8a7230b251502c22') in 0.016529 seconds 
+  Import took 0.025113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.617830 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_SonTinh/Textures/M_SonTinhUltiFire.mat
+  artifactKey: Guid(e1e3455771958154e9f63a93bc684029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_SonTinh/Textures/M_SonTinhUltiFire.mat using Guid(e1e3455771958154e9f63a93bc684029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ffefac67081a652f9ccaf217295daa') in 0.012791 seconds 
+  Import took 0.019328 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006892 seconds.
+Registered in 0.006230 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.15 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.36 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.147 seconds
+- Completed reload, in  1.736 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1147ms)
-		BeginReloadAssembly (135ms)
+	ReloadAssembly (1738ms)
+		BeginReloadAssembly (196ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (958ms)
-			LoadAssemblies (89ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1467ms)
+			LoadAssemblies (117ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (362ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (303ms)
+			SetupTypeCache (689ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (385ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (194ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (243ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3957 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.0 MB.
+System memory in use after: 182.0 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4638.
+Total: 4.315500 ms (FindLiveObjects: 0.370400 ms CreateObjectMapping: 0.274600 ms MarkObjects: 2.851400 ms  DeleteObjects: 0.818000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3206.387928 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Spine
+  artifactKey: Guid(04dadad6c61e1c64da52442d25f6ad6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Spine using Guid(04dadad6c61e1c64da52442d25f6ad6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9eee167ea21ed2cd879dcde61b4ecc') in 0.008120 seconds 
+  Import took 0.017986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.217516 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Textures/M_AucoUlti.mat
+  artifactKey: Guid(4400026d0ba1fc94190c7d02ac142674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Textures/M_AucoUlti.mat using Guid(4400026d0ba1fc94190c7d02ac142674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338226e7f2c730220fb7f180086448e0') in 0.171020 seconds 
+  Import took 0.178782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 229.569856 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Textures/M_AucoUlti_BG.mat
+  artifactKey: Guid(7312331aa79411c4b82459a2ff9d3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Textures/M_AucoUlti_BG.mat using Guid(7312331aa79411c4b82459a2ff9d3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618f46038c08f795698b79370fbd2b50') in 0.018209 seconds 
+  Import took 0.026235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.945139 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Textures/M_AucoUlti1FX.mat
+  artifactKey: Guid(b510acb0cd5dc544b9a742baa599a8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Textures/M_AucoUlti1FX.mat using Guid(b510acb0cd5dc544b9a742baa599a8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd7d6281be2c7024d4fb2f854dcd846') in 0.016258 seconds 
+  Import took 0.023198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.338007 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Textures/M_AucoUlti4FX 1.mat
+  artifactKey: Guid(62a66b70d2478f84abf66ff00e6b2a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Textures/M_AucoUlti4FX 1.mat using Guid(62a66b70d2478f84abf66ff00e6b2a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfaf5581702fd55a3c2bca9ea3b3fca') in 0.013753 seconds 
+  Import took 0.020845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.554780 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Textures/M_AucoUlti4FX.mat
+  artifactKey: Guid(5b06abd3403e20e4f8d24de2244f65b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Textures/M_AucoUlti4FX.mat using Guid(5b06abd3403e20e4f8d24de2244f65b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac8f806a52558a549a1b53212e79fa18') in 0.019037 seconds 
+  Import took 0.026662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.794862 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Textures/M_AnthenaUltiParticle 2.mat
+  artifactKey: Guid(4c55d594bc0f12c41a7abe00afe227bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Textures/M_AnthenaUltiParticle 2.mat using Guid(4c55d594bc0f12c41a7abe00afe227bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33292c0c8d581cc74e0d4ff7456c02ba') in 0.019138 seconds 
+  Import took 0.026410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.598597 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Textures/M_AucoUlti4.mat
+  artifactKey: Guid(73ac11b6e1544474aa2baf36e6970cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Textures/M_AucoUlti4.mat using Guid(73ac11b6e1544474aa2baf36e6970cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f751788c0bebbb6cc8adbdf3eeff24') in 0.013133 seconds 
+  Import took 0.019912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.712161 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Textures/M_AucoUlti2FX.mat
+  artifactKey: Guid(23c3f33cd6ccff247b5a80441c0b48dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Textures/M_AucoUlti2FX.mat using Guid(23c3f33cd6ccff247b5a80441c0b48dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e517a1bc436ecc2002f158b412b290e9') in 0.016638 seconds 
+  Import took 0.024065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.768402 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Textures/M_AucoUlti2.mat
+  artifactKey: Guid(d639947df522b064f859f2f04d02e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Textures/M_AucoUlti2.mat using Guid(d639947df522b064f859f2f04d02e1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cffef85b979bd2c31f97ff755ce9a2a2') in 0.015866 seconds 
+  Import took 0.023671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.412378 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Textures/M_AucoUlti3.mat
+  artifactKey: Guid(ba80661a1363ce44cb1a1040990186d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_ThuyTinh/Textures/M_AucoUlti3.mat using Guid(ba80661a1363ce44cb1a1040990186d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb090ea58727f0d4189136cb37a6edc') in 0.009895 seconds 
+  Import took 0.021524 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006998 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.318 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1319ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1118ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (420ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (355ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
 Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.53 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3957 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.8 MB.
-System memory in use after: 180.8 MB.
+System memory in use before: 183.2 MB.
+System memory in use after: 182.2 MB.
 
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4634.
-Total: 3.981800 ms (FindLiveObjects: 0.293800 ms CreateObjectMapping: 0.198800 ms MarkObjects: 2.705400 ms  DeleteObjects: 0.782900 ms)
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4676.
+Total: 5.463200 ms (FindLiveObjects: 0.325500 ms CreateObjectMapping: 0.267300 ms MarkObjects: 3.786100 ms  DeleteObjects: 1.083100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -336,374 +473,49 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006053 seconds.
+Registered in 0.006623 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.30 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.41 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.186 seconds
+- Completed reload, in  1.211 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1186ms)
-		BeginReloadAssembly (121ms)
+	ReloadAssembly (1212ms)
+		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (1009ms)
-			LoadAssemblies (97ms)
+		EndReloadAssembly (1031ms)
+			LoadAssemblies (104ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (381ms)
+			SetupTypeCache (388ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (311ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (309ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (196ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3957 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.9 MB.
-System memory in use after: 180.8 MB.
-
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4636.
-Total: 4.338100 ms (FindLiveObjects: 0.323200 ms CreateObjectMapping: 0.228200 ms MarkObjects: 2.931500 ms  DeleteObjects: 0.854000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006943 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.179 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1180ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1016ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (386ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (74ms)
-			SetupLoadedEditorAssemblies (310ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (99ms)
+				BeforeProcessingInitializeOnLoad (98ms)
 				ProcessInitializeOnLoadAttributes (193ms)
 				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.15 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3957 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.9 MB.
-System memory in use after: 180.9 MB.
-
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4638.
-Total: 4.481100 ms (FindLiveObjects: 0.306800 ms CreateObjectMapping: 0.214100 ms MarkObjects: 3.034900 ms  DeleteObjects: 0.924200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007051 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.091 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1092ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (926ms)
-			LoadAssemblies (89ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (344ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (294ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (185ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3957 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 181.9 MB.
-System memory in use after: 180.9 MB.
-
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4640.
-Total: 4.268400 ms (FindLiveObjects: 0.293800 ms CreateObjectMapping: 0.195600 ms MarkObjects: 2.757600 ms  DeleteObjects: 1.020300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 975.188095 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
-  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d3bac30e0c3da08768836858914317') in 0.220202 seconds 
-  Import took 0.226911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1619.815612 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Textures/M_AnthenaUlti_BG.mat
-  artifactKey: Guid(57f48fe7ca2eb574596c979fd090cb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Textures/M_AnthenaUlti_BG.mat using Guid(57f48fe7ca2eb574596c979fd090cb19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c17678a4d95fdf72685f4f518b9509') in 0.031809 seconds 
-  Import took 0.039397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.841976 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Textures/M_AnthenaUlti2.mat
-  artifactKey: Guid(8c745a95c41679a47a1b52f2f7dee3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Textures/M_AnthenaUlti2.mat using Guid(8c745a95c41679a47a1b52f2f7dee3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184b5fe84b52f926eff5b9a654024c87') in 0.008695 seconds 
-  Import took 0.015804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.480487 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Textures/M_AnthenaUlti1.mat
-  artifactKey: Guid(f25a28c47a0cad74eae81e2885adf425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Textures/M_AnthenaUlti1.mat using Guid(f25a28c47a0cad74eae81e2885adf425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857a6252b2c2a3a0e2d2970da8ff2c2a') in 0.015211 seconds 
-  Import took 0.021969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.087920 seconds.
-  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Textures/M_AnthenaUlti_BGBlack.mat
-  artifactKey: Guid(7f9614b9612b1c942a4a6580cd5694be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Athena/Textures/M_AnthenaUlti_BGBlack.mat using Guid(7f9614b9612b1c942a4a6580cd5694be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3f1c72b7308a8b7adf024392cbff66') in 0.019260 seconds 
-  Import took 0.026081 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006183 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.120 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1121ms)
-		BeginReloadAssembly (116ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (949ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (369ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (293ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (184ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3957 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 182.1 MB.
-System memory in use after: 181.1 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4678.
-Total: 4.459800 ms (FindLiveObjects: 0.300100 ms CreateObjectMapping: 0.244100 ms MarkObjects: 2.964200 ms  DeleteObjects: 0.950300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006825 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.89 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.420 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1421ms)
-		BeginReloadAssembly (126ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1232ms)
-			LoadAssemblies (107ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (510ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (369ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (120ms)
-				ProcessInitializeOnLoadAttributes (229ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.61 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3957 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 182.1 MB.
-System memory in use after: 181.1 MB.
-
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4680.
-Total: 7.873300 ms (FindLiveObjects: 0.452700 ms CreateObjectMapping: 0.399000 ms MarkObjects: 5.780100 ms  DeleteObjects: 1.240300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008022 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.30 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.269 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1269ms)
-		BeginReloadAssembly (131ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1078ms)
-			LoadAssemblies (108ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (416ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (329ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (207ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (16ms)
 Platform modules already initialized, skipping
 Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3957 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 182.1 MB.
-System memory in use after: 181.1 MB.
+System memory in use before: 183.3 MB.
+System memory in use after: 182.3 MB.
 
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4682.
-Total: 4.943300 ms (FindLiveObjects: 0.361400 ms CreateObjectMapping: 0.317700 ms MarkObjects: 3.164100 ms  DeleteObjects: 1.098300 ms)
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4678.
+Total: 4.713900 ms (FindLiveObjects: 0.339900 ms CreateObjectMapping: 0.215600 ms MarkObjects: 3.169300 ms  DeleteObjects: 0.987900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -715,4 +527,423 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3688.271437 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Auco
+  artifactKey: Guid(c5550042a057648458e68e5a8aeb168c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Auco using Guid(c5550042a057648458e68e5a8aeb168c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086c89310e04df99743d83182952a3b9') in 0.012297 seconds 
+  Import took 0.019883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.779953 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Auco/Spine
+  artifactKey: Guid(dfe1797eb5b1deb49a58f31193059629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Auco/Spine using Guid(dfe1797eb5b1deb49a58f31193059629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7a27c06cec3d331a0855fce40737e0') in 0.000915 seconds 
+  Import took 0.007984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 224.876371 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Auco/Spine/Au Co-tach2.png
+  artifactKey: Guid(650c5113d1b13a940a07f025146b77a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Auco/Spine/Au Co-tach2.png using Guid(650c5113d1b13a940a07f025146b77a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da842b5b9b4f0ae5d53dfcdcfa4aeeb1') in 0.032673 seconds 
+  Import took 0.039747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.807365 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Auco/Textures/M_AucoUlti.mat
+  artifactKey: Guid(dcd50f854daba124fa13c3ac7643f22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Auco/Textures/M_AucoUlti.mat using Guid(dcd50f854daba124fa13c3ac7643f22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3c3c829dfa7d3059f498850c81db9bf') in 0.164851 seconds 
+  Import took 0.172505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.924225 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Auco/Spine/M_BG.mat
+  artifactKey: Guid(5beb40104f33e6b4cb886492d6f1a839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Auco/Spine/M_BG.mat using Guid(5beb40104f33e6b4cb886492d6f1a839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ff1552e7d393d583d9f22585a2b34c') in 0.011633 seconds 
+  Import took 0.020373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.523011 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Auco/Textures/M_AucoUltiParticle.mat
+  artifactKey: Guid(43c9320f9addcc146aa111dd55be46d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Auco/Textures/M_AucoUltiParticle.mat using Guid(43c9320f9addcc146aa111dd55be46d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a82c00836289c3c429322d79a05348') in 0.016019 seconds 
+  Import took 0.023547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 161.707085 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Auco/Textures/M_AucoUlti3 FX.mat
+  artifactKey: Guid(a986a6ee13df6fc49a4c334e1aa901ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Auco/Textures/M_AucoUlti3 FX.mat using Guid(a986a6ee13df6fc49a4c334e1aa901ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5e148f15898b657f30f7696625862b') in 0.016782 seconds 
+  Import took 0.024120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.966891 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Auco/Textures/M_AucoUlti4FX.mat
+  artifactKey: Guid(8bd900b3d773b584e8b2f9d5e151e170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Ulti_Auco/Textures/M_AucoUlti4FX.mat using Guid(8bd900b3d773b584e8b2f9d5e151e170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a5f940114ea1bcd1e3818562ef476e') in 0.009478 seconds 
+  Import took 0.016676 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006701 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.408 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1409ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1208ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (446ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (380ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3957 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.4 MB.
+System memory in use after: 182.4 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4717.
+Total: 5.465300 ms (FindLiveObjects: 0.380700 ms CreateObjectMapping: 0.271900 ms MarkObjects: 3.722900 ms  DeleteObjects: 1.088100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005986 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.287 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1288ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1116ms)
+			LoadAssemblies (95ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (459ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (331ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3957 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.4 MB.
+System memory in use after: 182.4 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4719.
+Total: 4.418200 ms (FindLiveObjects: 0.321500 ms CreateObjectMapping: 0.195600 ms MarkObjects: 2.920100 ms  DeleteObjects: 0.980000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007967 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.240 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1240ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1049ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (394ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (331ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3957 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 183.5 MB.
+System memory in use after: 182.4 MB.
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4721.
+Total: 5.672800 ms (FindLiveObjects: 0.352300 ms CreateObjectMapping: 0.240500 ms MarkObjects: 3.950300 ms  DeleteObjects: 1.128700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 356.654968 seconds.
+  path: Assets/VFX/_NgchipvGodVFX
+  artifactKey: Guid(76f65ef5592794a4bbda9d29d746df87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX using Guid(76f65ef5592794a4bbda9d29d746df87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1963f9284a3e4e496e10ae989878821') in 0.006124 seconds 
+  Import took 0.014733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.517501 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/Prefab
+  artifactKey: Guid(607310ebe5b7d2a4596f619f3813af38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/Prefab using Guid(607310ebe5b7d2a4596f619f3813af38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb098828a3ab1b407eea2de0cd3253c') in 0.000969 seconds 
+  Import took 0.007895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.770922 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab
+  artifactKey: Guid(c1bf36db434413844861c10bf6f1be67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab using Guid(c1bf36db434413844861c10bf6f1be67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc2de9f8ad79d822f214412fda078ba') in 0.001551 seconds 
+  Import took 0.013830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.434007 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Crest
+  artifactKey: Guid(20c313b286ecf8840bf231edb78a12a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Crest using Guid(20c313b286ecf8840bf231edb78a12a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2950c177e687a5f6aed50306daf04df') in 0.001223 seconds 
+  Import took 0.009443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.062610 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/God_AnthenaUlti_Crest.prefab
+  artifactKey: Guid(03f13a6a6634d254692378c5e8f75f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/God_AnthenaUlti_Crest.prefab using Guid(03f13a6a6634d254692378c5e8f75f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2274d5ab9454a365090360bde2773ffa') in 0.185121 seconds 
+  Import took 0.193134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.446709 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/God_PoseidonUlti_Crest.prefab
+  artifactKey: Guid(0451b9e0bd037c641ae37ee8a099ca3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/God_PoseidonUlti_Crest.prefab using Guid(0451b9e0bd037c641ae37ee8a099ca3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465827cdde0c7b562bb53bc5c197a505') in 0.027860 seconds 
+  Import took 0.037748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.139424 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Ulti
+  artifactKey: Guid(20843aaf8c708214fbb0694ad82197c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Ulti using Guid(20843aaf8c708214fbb0694ad82197c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3687afd64b058adc416d3f3479980dba') in 0.000970 seconds 
+  Import took 0.007980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.900424 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Ulti/God_Auco.prefab
+  artifactKey: Guid(86246a61cf4cc64428d96aa9d459b7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Ulti/God_Auco.prefab using Guid(86246a61cf4cc64428d96aa9d459b7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfc0d887b8414d2a11f0543ebfbc64f') in 0.032167 seconds 
+  Import took 0.039842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.690877 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Ulti/God_AresUlti.prefab
+  artifactKey: Guid(c573cb261e7b5f34f92cfc89eb77577a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Ulti/God_AresUlti.prefab using Guid(c573cb261e7b5f34f92cfc89eb77577a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501f95033bf8acee026399a7a4c810f2') in 0.021211 seconds 
+  Import took 0.032182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.048466 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Ulti/God_AnthenaUlti.prefab
+  artifactKey: Guid(e6ea1324965551a4abec111076f41cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Ulti/God_AnthenaUlti.prefab using Guid(e6ea1324965551a4abec111076f41cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51fa0af4ce40dae73a92dfa17dc6649') in 0.018446 seconds 
+  Import took 0.026398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.292886 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Ulti/God_BathalaUlti.prefab
+  artifactKey: Guid(03e61571ebaf69f49ab010e4083af776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Ulti/God_BathalaUlti.prefab using Guid(03e61571ebaf69f49ab010e4083af776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a1aadd44ec0da38926b54065ec2934') in 0.023458 seconds 
+  Import took 0.031864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.116403 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Ulti/God_HadesUlti .prefab
+  artifactKey: Guid(78a2887138bef7543afdfacfa0df88ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Ulti/God_HadesUlti .prefab using Guid(78a2887138bef7543afdfacfa0df88ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa58d314d4d274442046a2ee26c92dbd') in 0.018479 seconds 
+  Import took 0.026627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.148280 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Ulti/God_PoseidonUlti .prefab
+  artifactKey: Guid(1c66ee1d2769c7444b7da230e45b5063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Ulti/God_PoseidonUlti .prefab using Guid(1c66ee1d2769c7444b7da230e45b5063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351759aee64490fbebfef3848d5259dc') in 0.019591 seconds 
+  Import took 0.028588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.223364 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Ulti/God_ZuesUlti .prefab
+  artifactKey: Guid(a83c177c8a91f61409d1fd8e96447614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Ulti/God_ZuesUlti .prefab using Guid(a83c177c8a91f61409d1fd8e96447614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c3d615d07b5dcb4826b32a4615774c') in 0.021507 seconds 
+  Import took 0.030375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.738645 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Ulti/God_SonTinhUlti.prefab
+  artifactKey: Guid(c35c036e33b4d124ea8f81af605cd030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Ulti/God_SonTinhUlti.prefab using Guid(c35c036e33b4d124ea8f81af605cd030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cdab116ac853004db5eaf741aea3df5') in 0.021828 seconds 
+  Import took 0.034523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.300454 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Ulti/God_ThuyTinhUlti.prefab
+  artifactKey: Guid(a7b52d17ec4e3a740a26624c94a5e3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Ulti/God_ThuyTinhUlti.prefab using Guid(a7b52d17ec4e3a740a26624c94a5e3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbe785eb01a65d5ab313fb103e1b24f') in 0.020012 seconds 
+  Import took 0.028348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.900160 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Crest/God_ZuesUlti_Crest.prefab
+  artifactKey: Guid(9240258b820dedf47a46a26c3448d972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Crest/God_ZuesUlti_Crest.prefab using Guid(9240258b820dedf47a46a26c3448d972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c9b88a5da481d282feb75cf5000a15') in 0.007406 seconds 
+  Import took 0.016471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.279721 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Crest/God_ThuyTinhUlti_Crest.prefab
+  artifactKey: Guid(779990b311907644cbf123d380ca2445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Crest/God_ThuyTinhUlti_Crest.prefab using Guid(779990b311907644cbf123d380ca2445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de97cc545d2ab216b435ba79f4f5566c') in 0.060776 seconds 
+  Import took 0.068750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.220690 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Crest/God_SonTinhUlti_Crest.prefab
+  artifactKey: Guid(9ade48b85e0b93f4daea0fc5996a8b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Crest/God_SonTinhUlti_Crest.prefab using Guid(9ade48b85e0b93f4daea0fc5996a8b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2694cad8eea9f0cc82d9a9eb2f4d4d7c') in 0.052669 seconds 
+  Import took 0.061563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.591394 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Crest/God_HadesUlti_Crest .prefab
+  artifactKey: Guid(80152fcd6fd1466489c4d9a1beba63f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Crest/God_HadesUlti_Crest .prefab using Guid(80152fcd6fd1466489c4d9a1beba63f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2527ecc575415682b94c5268ba95b071') in 0.031274 seconds 
+  Import took 0.038989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.344243 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Crest/God_BathalaUlti_Crest.prefab
+  artifactKey: Guid(df6c9debec3157b49b7d4a29e3f6fd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Crest/God_BathalaUlti_Crest.prefab using Guid(df6c9debec3157b49b7d4a29e3f6fd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69fd4e848ac30c5fd1fd66d201ecb816') in 0.028811 seconds 
+  Import took 0.037531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.319098 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Crest/God_AucoUlti_Crest.prefab
+  artifactKey: Guid(016b532d2cf64584ebd87c403cf2c505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Crest/God_AucoUlti_Crest.prefab using Guid(016b532d2cf64584ebd87c403cf2c505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaea2c5003ce907f9d153d0d0833eeb0') in 0.031721 seconds 
+  Import took 0.039844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.424729 seconds.
+  path: Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Crest/God_AresUlti_Crest.prefab
+  artifactKey: Guid(e0d3f2a81f7db9241b7334f2e3390469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/_NgchipvGodVFX/_GodUlti/Prefab/Crest/God_AresUlti_Crest.prefab using Guid(e0d3f2a81f7db9241b7334f2e3390469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0194d2ba71cd51151e6b533a7d539b51') in 0.031155 seconds 
+  Import took 0.039847 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
