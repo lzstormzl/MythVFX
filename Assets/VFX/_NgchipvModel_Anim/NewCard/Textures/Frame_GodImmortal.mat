@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Frame_GodImmortal
-  m_Shader: {fileID: -6465566751694194690, guid: 7422e6da1de2b224c8818a1f65b28df5, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: d09c818198a48ef4aa441ce699db5cbf, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,8 +19,20 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_08500469d2944895a9ad392692f50c3c:
+        m_Texture: {fileID: 2800000, guid: a89fd2d9d1ee4dd479607df4961360a9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_17ff7d92927445598a03023feb129259:
+        m_Texture: {fileID: 2800000, guid: c604422875b619145abc93061398ba81, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_479d5e414ef0402b8a4a2d69cd8a2a56:
+        m_Texture: {fileID: 2800000, guid: 190cc2eb512df0b4dbe47a9895faf2e0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _print_img:
-        m_Texture: {fileID: 2800000, guid: 936b372732021ed44a4b2425553874e2, type: 3}
+        m_Texture: {fileID: 2800000, guid: a89fd2d9d1ee4dd479607df4961360a9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -36,9 +48,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - Vector1_339d0dcbffa04ecd8653a283be69f22e: 1
+    - Vector1_cd3dc268c340407ab74aaa2f027e5458: 0.3
+    - Vector1_cee448f6c04d417abbe0f33409cee904: -0.8
+    - Vector1_e98f7c484ee14bdcb59d8501640fde5f: 0.6
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors: []
+    m_Colors:
+    - Color_8b692a2d7297452f92de4622ed9fea60: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &2532831918823935960
 MonoBehaviour:
